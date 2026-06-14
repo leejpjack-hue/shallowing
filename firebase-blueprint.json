@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "ReferenceAudio": {
+      "title": "Reference Audio",
+      "description": "Stores reference audio clips for shadowing practice.",
+      "type": "object",
+      "properties": {
+        "storyId": {
+          "type": "string",
+          "description": "The ID of the story this audio belongs to."
+        },
+        "audioData": {
+          "type": "string",
+          "description": "Base64 encoded audio data."
+        },
+        "language": {
+          "type": "string",
+          "description": "The language of the audio clip."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When the audio was added."
+        }
+      },
+      "required": ["storyId", "audioData", "language", "createdAt"]
+    },
+    "User": {
+      "title": "User",
+      "description": "User profile information.",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "picture": { "type": "string" },
+        "role": { "type": "string", "enum": ["admin", "user"] }
+      },
+      "required": ["name", "email"]
+    },
+    "StoryImage": {
+      "title": "Story Image",
+      "description": "AI generated image for a story with vocabulary labels.",
+      "type": "object",
+      "properties": {
+        "storyId": { "type": "number" },
+        "imageUrl": { "type": "string" },
+        "labels": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "word": { "type": "string" },
+              "x": { "type": "number" },
+              "y": { "type": "number" }
+            }
+          }
+        }
+      },
+      "required": ["storyId", "imageUrl", "labels"]
+    }
+  },
+  "firestore": {
+    "/reference_audio/{audioId}": {
+      "schema": "ReferenceAudio",
+      "description": "Collection of reference audio clips."
+    },
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User profile documents."
+    },
+    "/story_images/{imageId}": {
+      "schema": "StoryImage",
+      "description": "Collection of generated story images."
+    }
+  }
+}

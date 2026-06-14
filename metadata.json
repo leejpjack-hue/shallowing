@@ -1,0 +1,7 @@
+{
+  "name": "Lumière French Shadowing",
+  "description": "Improve your French pronunciation with AI-powered shadowing exercises, real-time voice analysis, and immersive stories.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

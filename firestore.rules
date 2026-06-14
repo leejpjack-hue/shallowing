@@ -1,0 +1,85 @@
+// ===============================================================
+// Assumed Data Model
+// ===============================================================
+//
+// Collection: reference_audio
+// Document ID: auto-generated
+// Fields:
+//   - storyId: string (required) - Link to story
+//   - audioData: string (required) - Base64 audio
+//   - language: string (required) - Audio language
+//   - createdAt: timestamp (required) - Creation time
+//
+// Collection: users
+// Document ID: userId
+// Fields:
+//   - name: string (required)
+//   - email: string (required)
+//   - picture: string (optional)
+//   - role: string (required, 'admin' or 'user')
+//
+// ===============================================================
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+    
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() &&
+        (get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin' ||
+          (request.auth.token.email == "leejpjack@gmail.com" && request.auth.token.email_verified == true));
+    }
+
+    function isValidReferenceAudio(data) {
+      return data.keys().hasAll(['storyId', 'audioData', 'language', 'createdAt']) &&
+             data.storyId is string &&
+             data.audioData is string && data.audioData.size() < 1048576 && // Max 1MB
+             data.language is string &&
+             data.createdAt is timestamp;
+    }
+
+    function isValidUser(data) {
+      return data.keys().hasAll(['name', 'email', 'role']) &&
+             data.name is string && data.name.size() > 0 && data.name.size() < 100 &&
+             data.email is string && data.email.matches("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$") &&
+             data.role in ['admin', 'user'];
+    }
+
+    // ===============================================================
+    // Rules
+    // ===============================================================
+
+    match /users/{userId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && isOwner(userId) && isValidUser(request.resource.data) && request.resource.data.role == 'user';
+      allow update: if isAuthenticated() && (isAdmin() || (isOwner(userId) && request.resource.data.role == resource.data.role && isValidUser(request.resource.data)));
+      allow delete: if isAdmin();
+    }
+
+    match /reference_audio/{audioId} {
+      allow read: if isAuthenticated();
+      allow create: if isAdmin() && isValidReferenceAudio(request.resource.data);
+      allow update: if isAdmin() && isValidReferenceAudio(request.resource.data);
+      allow delete: if isAdmin();
+    }
+
+    match /story_images/{imageId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated(); // Allow users to generate and save images
+      allow update: if isAuthenticated();
+      allow delete: if isAdmin();
+    }
+  }
+}

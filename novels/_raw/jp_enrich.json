@@ -1,0 +1,77 @@
+{
+ "1": {
+  "day": 1,
+  "paragraphs": [
+   "「ではみなさんは、そういうふうに川だと云われたり、乳の流れたあとだと云われたりしていたこのぼんやりと白いものがほんとうは何かご承知ですか。」先生は、黒板に吊した大きな黒い星座の図の、上から下へ白くけぶった銀河帯のようなところを指しながら、みんなに問をかけました。カムパネルラが手をあげました。それから四五人手をあげました。",
+   "ジョバンニも手をあげようとして、急いでそのままやめました。たしかにあれがみんな星だと、いつか雑誌で読んだのでしたが、このごろはジョバンニはまるで毎日教室でもねむく、本を読むひまも読む本もないので、なんだかどんなこともよくわからないという気持ちがするのでした。",
+   "ところが先生は早くもそれを見附けたのでした。「ジョバンニさん。あなたはわかっているのでしょう。"
+  ],
+  "furiganaParagraphs": [
+   "「ではみなさん[みなさん]は、そういうふうに川[かわ]だと云[い]われたり、乳[ちち]の流[なが]れたあとだと云[い]われたりしていたこのぼんやりと白[しろ]いものがほんとうは何かご承知[ごしょうち]ですか。」先生[せんせい]は、黒板[こくばん]に吊[つ]した大[おお]きな黒[くろ]い星座[せいざ]の図[ず]の、上[うえ]から下[した]へ白[しろ]くけぶった銀河帯[ぎんがたい]のようなところを指[ゆび]しながら、みんなに問[と]いをかけました。カムパネルラが手[て]をあげました。それから四五人[よごにん]手[て]をあげました。",
+   "ジョバンニも手[て]をあげようとして、急[いそ]いでそのままやめました。たしかにあれがみんな星[ほし]だと、いつか雑誌[ざっし]で読[よ]んだのでしたが、このごろはジョバンニはまるで毎日[まいにち]教室[きょうしつ]でもねむく、本[ほん]を読[よ]むひまも読[よ]む本[ほん]もないので、なんだかどんなこともよくわからないという気持[きも]ちがするのでした。",
+   "ところが先生[せんせい]は早[はや]くもそれを見附[みつ]けたのでした。「ジョバンニさん。あなたはわかっているのでしょう。"
+  ],
+  "grammar": [
+   {
+    "point": "〜たり〜たりする",
+    "explanation": "Used to list two or more actions or states, implying that the list is not exhaustive. It conveys a sense of 'doing things like X and Y' or 'sometimes X, sometimes Y'."
+   },
+   {
+    "point": "〜てしまう",
+    "explanation": "Indicates the completion of an action, often with a nuance of regret, finality, or something happening unintentionally."
+   },
+   {
+    "point": "〜ので",
+    "explanation": "A conjunction meaning 'because' or 'since', used to give a reason. It's generally softer and more objective than 〜から."
+   },
+   {
+    "point": "〜という",
+    "explanation": "Used to quote or refer to a name, word, or idea. It can mean 'called', 'saying', or 'the idea that'."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "雲[くも] ",
+    "phonetic": "kumo",
+    "translation": "cloud",
+    "example": "空[そら]に綺麗[きれい]な雲[くも]が浮[う]かんでいる。",
+    "exampleTranslation": "Beautiful clouds are floating in the sky."
+   },
+   {
+    "word": "乳[ちち]",
+    "phonetic": "chichi",
+    "translation": "milk",
+    "example": "子供[こども]が乳[ちち]を飲[の]んでいる。",
+    "exampleTranslation": "The child is drinking milk."
+   },
+   {
+    "word": "承知[しょうち]",
+    "phonetic": "shouchi",
+    "translation": "knowledge, consent, awareness",
+    "example": "その件[けん]については承知[しょうち]しております。",
+    "exampleTranslation": "I am aware of that matter."
+   },
+   {
+    "word": "黒板[こくばん]",
+    "phonetic": "kokuban",
+    "translation": "blackboard",
+    "example": "先生[せんせい]が黒板[こくばん]に字[じ]を書[か]いた。",
+    "exampleTranslation": "The teacher wrote characters on the blackboard."
+   },
+   {
+    "word": "星座[せいざ]",
+    "phonetic": "seiza",
+    "translation": "constellation",
+    "example": "夏[なつ]の夜空[よぞら]には沢[たく]さん綺麗[きれい]な星座[せいざ]が見[み]える。",
+    "exampleTranslation": "Many beautiful constellations can be seen in the summer night sky."
+   },
+   {
+    "word": "雑誌[ざっし]",
+    "phonetic": "zasshi",
+    "translation": "magazine",
+    "example": "この雑誌[ざっし]は毎月[まいげつ]買[か]っている。",
+    "exampleTranslation": "I buy this magazine every month."
+   }
+  ]
+ }
+}
