@@ -954,49 +954,78 @@ export const NOVELS: Novel[] = [
       "day": 12,
       "title": "Manon's Husband Recounts His Past",
       "text": "Allez-vous-en au Lion d'Or, où je suis logé. Je vous rejoindrai dans un moment. J'y retournai en effet, plein d'impatience d'apprendre le détail de son infortune et les circonstances de son voyage d'Amérique. Je lui fis mille caresses, et j'ordonnai qu'on ne le laissât manquer de rien. Il n'attendit point que je le pressasse de me raconter l'histoire de sa vie. Monsieur, me dit-il, vous en usez si noblement avec moi, que je me reprocherais, comme une basse ingratitude, d'avoir quelque chose de réservé pour vous. Je veux vous apprendre, non seulement mes malheurs et mes peines, mais encore mes désordres et mes plus honteuses faiblesses. Je suis sûr qu'en me condamnant, vous ne pourrez pas vous empêcher de me plaindre. Je dois avertir ici le lecteur que j'écrivis son histoire presque aussitôt après l'avoir entendue, et qu'on peut s'assurer par conséquent, que rien n'est plus exact et plus fidèle que cette narration. Je dis fidèle jusque dans la relation des réflexions et des sentiments que le jeune aventurier exprimait de la meilleure grâce du monde. Voici donc son récit, auquel je ne mêlerai, jusqu'à la fin, rien qui ne soit de lui. J'avais dix-sept ans, et j'achevais mes études de philosophie à Amiens, où mes parents, qui sont d'une des meilleures maisons de P., m'avaient envoyé. Je menais une vie si sage et si réglée, que mes maîtres me proposaient pour l'exemple du collège.",
-      "paragraphs": null,
+      "paragraphs": [
+        "Allez-vous-en au Lion d'Or, où je suis logé. Je vous rejoindrai dans un moment. J'y retournai en effet, plein d'impatience d'apprendre le détail de son infortune et les circonstances de son voyage d'Amérique. Je lui fis mille caresses, et j'ordonnai qu'on ne le laissât manquer de rien.",
+        "Il n'attendit point que je le pressasse de me raconter l'histoire de sa vie. Monsieur, me dit-il, vous en usez si noblement avec moi, que je me reprocherais, comme une basse ingratitude, d'avoir quelque chose de réservé pour vous. Je veux vous apprendre, non seulement mes malheurs et mes peines, mais encore mes désordres et mes plus honteuses faiblesses. Je suis sûr qu'en me condamnant, vous ne pourrez pas vous empêcher de me plaindre.",
+        "Je dois avertir ici le lecteur que j'écrivis son histoire presque aussitôt après l'avoir entendue, et qu'on peut s'assurer par conséquent, que rien n'est plus exact et plus fidèle que cette narration. Je dis fidèle jusque dans la relation des réflexions et des sentiments que le jeune aventurier exprimait de la meilleure grâce du monde. Voici donc son récit, auquel je ne mêlerai, jusqu'à la fin, rien qui ne soit de lui. J'avais dix-sept ans, et j'achevais mes études de philosophie à Amiens, où mes parents, qui sont d'une des meilleures maisons de P., m'avaient envoyé. Je menais une vie si sage et si réglée, que mes maîtres me proposaient pour l'exemple du collège."
+      ],
       "translation": "Go to the Lion d'Or, where I am lodged. I will join you in a moment. I returned there indeed, full of impatience to learn the details of his misfortune and the circumstances of his journey to America. I gave him a thousand caresses, and ordered that he should want for nothing. He did not wait for me to urge him to tell me the story of his life. \"Sir,\" he said to me, \"you treat me so nobly, that I would reproach myself, as a base ingratitude, for keeping anything back from you. I wish to tell you, not only my misfortunes and my sorrows, but also my disorders and my most shameful weaknesses. I am sure that in condemning me, you will not be able to avoid pitying me.\" I must warn the reader here that I wrote his story almost as soon as I heard it, and that one can be assured, consequently, that nothing is more exact and more faithful than this narration. I say faithful even in the account of the reflections and sentiments that the young adventurer expressed with the utmost grace. Here then is his account, to which I will add nothing, until the end, that is not from him. I was seventeen years old, and I was finishing my philosophy studies in Amiens, where my parents, who are from one of the best families in P., had sent me. I led such a wise and regulated life that my teachers held me up as an example for the college.\"",
       "vocabulary": [
         {
-          "word": "logé",
-          "phonetic": "/lɔ.ʒe/",
-          "translation": "lodged"
-        },
-        {
-          "word": "impatience",
-          "phonetic": "/ɛ̃.pa.sjɑ̃s/",
-          "translation": "impatience"
-        },
-        {
           "word": "infortune",
-          "phonetic": "/ɛ̃.fɔʁ.tyn/",
-          "translation": "misfortune"
+          "phonetic": "ɛ̃.fɔʁ.tyn",
+          "translation": "misfortune, bad luck",
+          "example": "L'infortune a frappé sa famille de plein fouet.",
+          "exampleTranslation": "Misfortune struck his family head-on."
         },
         {
           "word": "caresses",
-          "phonetic": "/ka.ʁɛs/",
-          "translation": "caresses"
+          "phonetic": "ka.ʁɛs",
+          "translation": "caresses, affectionate touches",
+          "example": "Elle lui donna de douces caresses pour le réconforter.",
+          "exampleTranslation": "She gave him gentle caresses to comfort him."
         },
         {
-          "word": "reprocherais",
-          "phonetic": "/ʁə.pʁɔ.ʃə.ʁɛ/",
-          "translation": "would reproach myself"
+          "word": "ingratitude",
+          "phonetic": "ɛ̃.ɡʁa.ty.de",
+          "translation": "ingratitude, lack of gratitude",
+          "example": "Son ingratitude a blessé ceux qui l'ont aidé.",
+          "exampleTranslation": "His ingratitude hurt those who helped him."
         },
         {
-          "word": "faiblesses",
-          "phonetic": "/fɛ.blɛs/",
-          "translation": "weaknesses"
+          "word": "désordres",
+          "phonetic": "de.zɔʁ.dʁ",
+          "translation": "disorders, lack of order, moral failings",
+          "example": "Les désordres dans la ville ont nécessité une intervention policière.",
+          "exampleTranslation": "The disorders in the city required police intervention."
+        },
+        {
+          "word": "fidèle",
+          "phonetic": "fi.dɛl",
+          "translation": "faithful, accurate",
+          "example": "Il a fait une traduction fidèle du texte original.",
+          "exampleTranslation": "He made a faithful translation of the original text."
+        },
+        {
+          "word": "réglée",
+          "phonetic": "ʁe.ɡle",
+          "translation": "regulated, orderly",
+          "example": "Elle mène une vie bien réglée, avec des heures fixes pour chaque activité.",
+          "exampleTranslation": "She leads a well-regulated life, with fixed hours for each activity."
         }
       ],
-      "grammar": null,
+      "grammar": [
+        {
+          "point": "ordonner que + subjunctive",
+          "explanation": "When using the verb 'ordonner' (to order) followed by 'que', the subjunctive mood must be used in the following clause. In this passage, 'j'ordonnai qu'on ne le laissât manquer de rien' uses the subjunctive 'laissât' (imparfait subjunctive of 'laisser')."
+        },
+        {
+          "point": "reprocher à quelqu'un de + infinitive",
+          "explanation": "The verb 'reprocher' (to reproach) is used with the structure 'reprocher à quelqu'un de + infinitive' to indicate reproaching someone for doing something. In this passage, 'je me reprocherais d'avoir quelque chose de réservé' shows the conditional tense being used with this structure."
+        },
+        {
+          "point": "non seulement... mais encore",
+          "explanation": "This construction is used to add emphasis when presenting two related ideas, similar to 'not only... but also' in English. In this passage, 'Je veux vous apprendre, non seulement mes malheurs et mes peines, mais encore mes désordres et mes plus honteuses faiblesses' uses this structure to emphasize the full extent of what the speaker wants to reveal."
+        }
+      ],
       "furiganaParagraphs": null,
       "keywords": [
-        "logé",
-        "impatience",
         "infortune",
         "caresses",
-        "reprocherais",
-        "faiblesses"
+        "ingratitude",
+        "désordres",
+        "fidèle",
+        "réglée"
       ]
     },
     {
@@ -1651,49 +1680,83 @@ export const NOVELS: Novel[] = [
       "day": 21,
       "title": "Escape with Manon to Saint-Denis",
       "text": "J'employai la nuit à mettre ordre à mes affaires, et m'étant rendu à l'hôtellerie de Mademoiselle Manon vers la pointe du jour je la trouvai qui m'attendait. Elle était à sa fenêtre, qui donnait sur la rue, de sorte que, m'ayant aperçu, elle vint m'ouvrir elle-même. Nous sortîmes sans bruit. Elle n'avait point d'autre équipage que son linge, dont je me chargeai moi-même. La chaise était en état de partir; nous nous éloignâmes aussitôt de la ville. Je rapporterai, dans la suite, quelle fut la conduite de Tiberge, lorsqu'il s'aperçut que je l'avais trompé. Son zèle n'en devint pas moins ardent. Vous verrez à quel excès il le porta, et combien je devrais verser de larmes en songeant quelle en atoujours été la récompense. Nous nous hâtâmes tellement d'avancer que nous arrivâmes à Saint-Denis avant la nuit. J'avais couru à cheval à côté de la chaise, ce qui ne nous avait guère permis de nous entretenir qu'en changeant de chevaux; mais lorsque nous nous vîmes si proche de Paris, c'est-à-dire presque en sûreté, nous prîmes le temps de nous rafraîchir, n'ayant rien mangé depuis notre départ d'Amiens. Quelque passionné que je fusse pour Manon, elle sut me persuader qu'elle ne l'était pas moins pour moi. Nous étions si peu réservés dans nos caresses, que nous n'avions pas la patience d'attendre que nous fussions seuls.",
-      "paragraphs": null,
+      "paragraphs": [
+        "J'employai la nuit à mettre ordre à mes affaires, et m'étant rendu à l'hôtellerie de Mademoiselle Manon vers la pointe du jour je la trouvai qui m'attendait. Elle était à sa fenêtre, qui donnait sur la rue, de sorte que, m'ayant aperçu, elle vint m'ouvrir elle-même. Nous sortîmes sans bruit. Elle n'avait point d'autre équipage que son linge, dont je me chargeai moi-même. La chaise était en état de partir; nous nous éloignâmes aussitôt de la ville.",
+        "Je rapporterai, dans la suite, quelle fut la conduite de Tiberge, lorsqu'il s'aperçut que je l'avais trompé. Son zèle n'en devint pas moins ardent. Vous verrez à quel excès il le porta, et combien je devrais verser de larmes en songeant quelle en a toujours été la récompense.",
+        "Nous nous hâtions tellement d'avancer que nous arrivâmes à Saint-Denis avant la nuit. J'avais couru à cheval à côté de la chaise, ce qui ne nous avait guère permis de nous entretenir qu'en changeant de chevaux; mais lorsque nous nous vîmes si proche de Paris, c'est-à-dire presque en sûreté, nous prîmes le temps de nous rafraîchir, n'ayant rien mangé depuis notre départ d'Amiens.",
+        "Quelque passionné que je fusse pour Manon, elle sut me persuader qu'elle ne l'était pas moins pour moi. Nous étions si peu réservés dans nos caresses, que nous n'avions pas la patience d'attendre que nous fussions seuls."
+      ],
       "translation": "I spent the night putting my affairs in order, and upon reaching Mademoiselle Manon's inn towards dawn, I found her waiting for me. She was at her window, which overlooked the street, so that, having spotted me, she came to open the door herself. We left without a sound. She had no other luggage than her linen, which I took charge of myself. The carriage was ready to leave; we immediately distanced ourselves from the town. I will recount later what Tiberge's conduct was when he realized I had deceived him. His zeal did not become any less ardent. You will see to what extreme he carried it, and how much I should shed tears thinking that its reward has always been such. We hurried our advance so much that we arrived at Saint-Denis before nightfall. I had ridden on horseback beside the carriage, which had hardly allowed us to converse except when changing horses; but when we saw ourselves so close to Paris, that is to say, almost safe, we took the time to refresh ourselves, having eaten nothing since our departure from Amiens. However passionate I was for Manon, she knew how to persuade me that she was no less so for me. We were so unrestrained in our caresses that we did not have the patience to wait until we were alone.",
       "vocabulary": [
         {
-          "word": "point du jour",
-          "phonetic": "/pwɛ̃ dy ʒuʁ/",
-          "translation": "dawn"
+          "word": "l'hôtellerie",
+          "phonetic": "/o.tɛ.lə.ʁi/",
+          "translation": "inn, hotel",
+          "example": "Ils ont séjourné dans une petite hôtellerie en bord de mer.",
+          "exampleTranslation": "They stayed in a small inn by the sea."
+        },
+        {
+          "word": "la pointe du jour",
+          "phonetic": "/la pɛ̃t dy ʒuʁ/",
+          "translation": "dawn",
+          "example": "À la pointe du jour, les oiseaux commencent à chanter.",
+          "exampleTranslation": "At dawn, the birds begin to sing."
         },
         {
           "word": "équipage",
           "phonetic": "/e.ki.paʒ/",
-          "translation": "luggage, belongings"
-        },
-        {
-          "word": "se charger de",
-          "phonetic": "/sə ʃaʁ.ʒe də/",
-          "translation": "to take charge of"
-        },
-        {
-          "word": "rapporter",
-          "phonetic": "/ʁa.pɔʁ.te/",
-          "translation": "to recount, to report"
+          "translation": "luggage, baggage",
+          "example": "L'équipage du voyageur était très léger.",
+          "exampleTranslation": "The traveler's luggage was very light."
         },
         {
           "word": "zèle",
           "phonetic": "/zɛl/",
-          "translation": "zeal"
+          "translation": "zeal, ardor",
+          "example": "Il a accompli son travail avec un grand zèle.",
+          "exampleTranslation": "He accomplished his work with great zeal."
         },
         {
-          "word": "caresses",
-          "phonetic": "/ka.ʁɛs/",
-          "translation": "caresses, endearments"
+          "word": "rafraîchir",
+          "phonetic": "/ʁa.fʁɛ.ʃiʁ/",
+          "translation": "to refresh",
+          "example": "Nous nous sommes arrêtés pour nous rafraîchir avant de continuer notre route.",
+          "exampleTranslation": "We stopped to refresh ourselves before continuing our journey."
+        },
+        {
+          "word": "réservés",
+          "phonetic": "/ʁeʁ.ve/",
+          "translation": "reserved, restrained",
+          "example": "Ils étaient très réservés en public mais démontraient leur affection en privé.",
+          "exampleTranslation": "They were very reserved in public but showed their affection in private."
         }
       ],
-      "grammar": null,
+      "grammar": [
+        {
+          "point": "m'étant rendu",
+          "explanation": "Past participle used with 'étant' to form a past participle clause (participe présent), indicating an action that happened before the main clause."
+        },
+        {
+          "point": "quelque passionné que je fusse",
+          "explanation": "Subjunctive mood in a concessive clause, expressing a concession despite the passion. The subjunctive 'fusse' is used after 'quelque' in this construction."
+        },
+        {
+          "point": "n'ayant rien mangé",
+          "explanation": "Past participle used with 'ayant' to form a participle clause, indicating the reason or cause of the action in the main clause."
+        },
+        {
+          "point": "que nous fussions seuls",
+          "explanation": "Subjunctive mood after 'attendre que', expressing a desire or requirement. The subjunctive 'fussions' is used after verbs of wanting or waiting."
+        }
+      ],
       "furiganaParagraphs": null,
       "keywords": [
-        "point du jour",
+        "l'hôtellerie",
+        "la pointe du jour",
         "équipage",
-        "se charger de",
-        "rapporter",
         "zèle",
-        "caresses"
+        "rafraîchir",
+        "réservés"
       ]
     },
     {
@@ -2605,49 +2668,81 @@ export const NOVELS: Novel[] = [
       "day": 33,
       "title": "Chevalier Learns of Manon's Betrayal",
       "text": "C'est grand dommage, mon pauvre Chevalier de te faire entrer dans l'Ordre de Malte, puisque tu as tant de disposition à faire un mari patient et commode. Il ajouta mille railleries de cette force, sur ce qu'il appelait ma sottise et ma crédulité. Enfin, comme je demeurais dans le silence, il continua de me dire que, suivant le calcul qu'il pouvait faire du temps depuis mon départ d'Amiens, Manon m'avait aimé environ douze jours: car ajouta-t-il, je sais que tu partis d'Amiens le 28 de l'autre mois; nous sommes au 29 du présent; il y en a onze que Monsieur B... m'a écrit; je suppose qu'il lui en a fallu huit pour lier une parfaite connaissance avec ta maîtresse; ainsi, qui ôte onze et huit de trente-un jours qu'il y a depuis le 28 d'un mois jusqu'au 29 de l'autre, reste douze, un peu plus ou moins. Là-dessus, les éclats de rire recommencèrent. J'écoutais tout avec un saisissement de coeur auquel j'appréhendais de ne pouvoir résister jusqu'à la fin de cette triste comédie. Tu sauras donc, reprit mon père, puisque tu l'ignores, que Monsieur B... a gagné le coeur de ta princesse, car il se moque de moi, de prétendre me persuader que c'est par un zèle désintéressé pour mon service qu'il a voulu te l'enlever. C'est bien d'un homme tel que lui, de qui, d'ailleurs, je ne suis pas connu, qu'il faut attendre des sentiments si nobles!",
-      "paragraphs": null,
+      "paragraphs": [
+        "C'est grand dommage, mon pauvre Chevalier de te faire entrer dans l'Ordre de Malte, puisque tu as tant de disposition à faire un mari patient et commode. Il ajouta mille railleries de cette force, sur ce qu'il appelait ma sottise et ma crédulité. Enfin, comme je demeurais dans le silence, il continua de me dire que, suivant le calcul qu'il pouvait faire du temps depuis mon départ d'Amiens, Manon m'avait aimé environ douze jours: car ajouta-t-il, je sais que tu partis d'Amiens le 28 de l'autre mois; nous sommes au 29 du présent; il y en a onze que Monsieur B... m'a écrit; je suppose qu'il lui en a fallu huit pour lier une parfaite connaissance avec ta maîtresse; ainsi, qui ôte onze et huit de trente-un jours qu'il y a depuis le 28 d'un mois jusqu'au 29 de l'autre, reste douze, un peu plus ou moins. Là-dessus, les éclats de rire recommencèrent.",
+        "J'écoutais tout avec un saisissement de coeur auquel j'appréhendais de ne pouvoir résister jusqu'à la fin de cette triste comédie. Tu sauras donc, reprit mon père, puisque tu l'ignores, que Monsieur B... a gagné le coeur de ta princesse, car il se moque de moi, de prétendre me persuader que c'est par un zèle désintéressé pour mon service qu'il a voulu te l'enlever. C'est bien d'un homme tel que lui, de qui, d'ailleurs, je ne suis pas connu, qu'il faut attendre des sentiments si nobles!"
+      ],
       "translation": "It is a great pity, my poor Chevalier, to make you enter the Order of Malta, since you have such a disposition for being a patient and convenient husband. He added a thousand jests of this nature, concerning what he called my foolishness and credulity. Finally, as I remained silent, he continued to tell me that, by his calculation of the time since my departure from Amiens, Manon had loved me for about twelve days: for, he added, I know you left Amiens on the 28th of last month; we are on the 29th of this one; Monsieur B... wrote to me eleven days ago; I suppose it took him eight to form a perfect acquaintance with your mistress; thus, if you subtract eleven and eight from the thirty-one days between the 28th of one month and the 29th of the next, twelve remain, more or less. Thereupon, peals of laughter began again. I listened to everything with a seizing of the heart that I feared I could not resist until the end of this sad comedy. You will learn then, my father resumed, since you are ignorant of it, that Monsieur B... has won the heart of your princess, for he mocks me by pretending to persuade me that it is out of disinterested zeal for my service that he wished to take her from you. It is indeed from a man like him, whom, moreover, I do not know, that one should expect such noble sentiments!",
       "vocabulary": [
         {
-          "word": "dommage",
-          "phonetic": "/dɔ.maʒ/",
-          "translation": "pity, shame"
-        },
-        {
-          "word": "disposition",
-          "phonetic": "/dis.pɔ.zi.sjɔ̃/",
-          "translation": "tendency, inclination"
-        },
-        {
           "word": "railleries",
-          "phonetic": "/ʁa.jə.ʁi/",
-          "translation": "jests, mockery"
+          "phonetic": "/ʁa.jəʁi/",
+          "translation": "mockery, teasing",
+          "example": "Il a fait des railleries sur mon nouveau chapeau.",
+          "exampleTranslation": "He made fun of my new hat."
         },
         {
           "word": "sottise",
           "phonetic": "/sɔ.tiz/",
-          "translation": "foolishness, stupidity"
+          "translation": "foolishness, stupidity",
+          "example": "C'est une sottise de croire à cette histoire.",
+          "exampleTranslation": "It's foolish to believe this story."
         },
         {
           "word": "crédulité",
           "phonetic": "/kʁe.dy.li.te/",
-          "translation": "credulity, gullibility"
+          "translation": "credulity, gullibility",
+          "example": "Sa crédulité l'a fait tomber dans le piège.",
+          "exampleTranslation": "His credulity made him fall into the trap."
         },
         {
-          "word": "saisissement",
-          "phonetic": "/sɛz.is.mɑ̃/",
-          "translation": "numbness, shock, seizing"
+          "word": "saissement",
+          "phonetic": "/sɛs.mɑ̃/",
+          "translation": "seizure, shock",
+          "example": "Le saisissement fut si brutal qu'il tomba.",
+          "exampleTranslation": "The shock was so brutal that he fell."
+        },
+        {
+          "word": "appréhendais",
+          "phonetic": "/a.pʁɛ.ɑ̃.dɛ/",
+          "translation": "feared, apprehended",
+          "example": "J'appréhendais le pire des résultats.",
+          "exampleTranslation": "I feared the worst outcome."
+        },
+        {
+          "word": "zèle désintéressé",
+          "phonetic": "/zɛl de.zɛ̃.te.ʁɛ/",
+          "translation": "disinterested zeal",
+          "example": "Son zèle désintéressé a impressionné tout le monde.",
+          "exampleTranslation": "His disinterested zeal impressed everyone."
         }
       ],
-      "grammar": null,
+      "grammar": [
+        {
+          "point": "passé simple (ajouta, partis, suppose, etc.)",
+          "explanation": "The passé simple is a literary tense used in French to describe completed actions in the past. It's commonly found in formal writing and literature, but not typically used in spoken French."
+        },
+        {
+          "point": "il faut que + subjonctif",
+          "explanation": "This construction expresses necessity or obligation. In the text, we see 'il lui en a fallu huit' which is a variation meaning 'it took him eight days'."
+        },
+        {
+          "point": "se moquer de + gerund",
+          "explanation": "The expression 'se moquer de' means 'to make fun of' or 'to mock'. When followed by a gerund, it indicates mocking someone for doing something."
+        },
+        {
+          "point": "de qui...qu'il faut attendre",
+          "explanation": "This is a complex relative construction where 'de qui' refers back to 'un homme tel que lui' and is followed by the expression 'il faut attendre' (one should expect)."
+        }
+      ],
       "furiganaParagraphs": null,
       "keywords": [
-        "dommage",
-        "disposition",
         "railleries",
         "sottise",
         "crédulité",
-        "saisissement"
+        "saissement",
+        "appréhendais",
+        "zèle désintéressé"
       ]
     },
     {
@@ -3223,49 +3318,82 @@ export const NOVELS: Novel[] = [
       "day": 41,
       "title": "Manon's Farewell and Religious Calling",
       "text": "Je ne m'arrêtai point là, continua-t-il. J'y retournai le lendemain, pour apprendre d'elle-même ce que vous étiez devenu; elle me quitta brusquement, lorsqu'elle m'entendit parler de vous, et je fus obligé de revenir en province sans aucun autre éclaircissement. J'y appris votre aventure et la consternation extrême qu'elle vous a causée; mais je n'ai pas voulu vous voir, sans être assuré de vous trouver plus tranquille. Vous avez donc vu Manon, lui répondis-je en soupirant. Hélas! vous êtes plus heureux que moi, qui suis condamné à ne la revoir jamais. Il me fit des reproches de ce soupir qui marquait encore de la faiblesse pour elle. Il me flatta si adroitement sur la bonté de mon caractère et sur mes inclinations, qu'il me fit naître dès cette première visite, une forte envie de renoncer comme lui à tous les plaisirs du siècle pour entrer dans l'état ecclésiastique. Je goûtai tellement cette idée que, lorsque je me trouvai seul, je ne m'occupai plus d'autre chose. Je me rappelai les discours de M. l'Évêque d'Amiens, qui m'avait donné le même conseil, et les présages heureux qu'il avait formés en ma faveur, s'il m'arrivait d'embrasser ce parti. La piété se mêla aussi dans mes considérations. Je mènerai une vie sage et chrétienne, disais-je; je m'occuperai de l'étude et de la religion, qui ne me permettront point de penser aux dangereux plaisirs de l'amour.",
-      "paragraphs": null,
+      "paragraphs": [
+        "Je ne m'arrêtai point là, continua-t-il. J'y retournai le lendemain, pour apprendre d'elle-même ce que vous étiez devenu; elle me quitta brusquement, lorsqu'elle m'entendit parler de vous, et je fus obligé de revenir en province sans aucun autre éclaircissement. J'y appris votre aventure et la consternation extrême qu'elle vous a causée; mais je n'ai pas voulu vous voir, sans être assuré de vous trouver plus tranquille.",
+        "Vous avez donc vu Manon, lui répondis-je en soupirant. Hélas! vous êtes plus heureux que moi, qui suis condamné à ne la revoir jamais. Il me fit des reproches de ce soupir qui marquait encore de la faiblesse pour elle. Il me flatta si adroitement sur la bonté de mon caractère et sur mes inclinations, qu'il me fit naître dès cette première visite, une forte envie de renoncer comme lui à tous les plaisirs du siècle pour entrer dans l'état ecclésiastique.",
+        "Je goûtai tellement cette idée que, lorsque je me trouvai seul, je ne m'occupai plus d'autre chose. Je me rappelai les discours de M. l'Évêque d'Amiens, qui m'avait donné le même conseil, et les présages heureux qu'il avait formés en ma faveur, s'il m'arrivait d'embrasser ce parti. La piété se mêla aussi dans mes considérations. Je mènerai une vie sage et chrétienne, disais-je; je m'occuperai de l'étude et de la religion, qui ne me permettront point de penser aux dangereux plaisirs de l'amour."
+      ],
       "translation": "I didn't stop there, he continued. I went back the next day to learn from her what had become of you; she suddenly left when she heard me speak of you, and I had to return to the province without any further clarification. There I learned of your adventure and the extreme consternation it has caused you; but I didn't want to see you without being sure of finding you more calm. So you have seen Manon, I replied with a sigh. Alas! You are happier than me, who am condemned never to see her again. He reproached me for that sigh which still showed weakness for her. He flattered me so skillfully on the goodness of my character and my inclinations, that he made me develop, from that first visit, a strong desire to renounce like him all the pleasures of the world to enter the ecclesiastical state. I tasted this idea so much that, when I found myself alone, I didn't occupy myself with anything else. I remembered the words of the Bishop of Amiens, who had given me the same advice, and the happy omens he had formed in my favor, if I were to embrace this decision. Piety also mixed into my considerations. I will lead a wise and Christian life, I said; I will occupy myself with study and religion, which will not allow me to think of the dangerous pleasures of love.",
       "vocabulary": [
         {
           "word": "consternation",
-          "phonetic": "/ˌkɒnstəˈneɪʃən/",
-          "translation": "extreme dismay or shock"
+          "phonetic": "/kɔ̃stɛʁnasjɔ̃/",
+          "translation": "extreme dismay or shock",
+          "example": "La consternation régnait dans la salle après l'annonce des résultats.",
+          "exampleTranslation": "Extreme dismay reigned in the room after the announcement of the results."
         },
         {
-          "word": "reproaches",
-          "phonetic": "/ˈrɛprəʊtʃɪz/",
-          "translation": "expressions of disapproval or criticism"
+          "word": "éclaircissement",
+          "phonetic": "/eklɛʁsismɑ̃/",
+          "translation": "clarification",
+          "example": "J'attendais des éclaircissements sur sa décision soudaine.",
+          "exampleTranslation": "I was waiting for clarifications about his sudden decision."
         },
         {
-          "word": "inclinations",
-          "phonetic": "/ˌɪnklɪˈneɪʃənz/",
-          "translation": "tendencies or preferences"
+          "word": "reproches",
+          "phonetic": "/ʁəprɔʃ/",
+          "translation": "reproaches, criticisms",
+          "example": "Il a reçu de nombreux reproches pour son comportement.",
+          "exampleTranslation": "He received many reproaches for his behavior."
         },
         {
-          "word": "ecclesiastical",
-          "phonetic": "/ɪˌkliːziˈæstɪkəl/",
-          "translation": "relating to the Christian church"
+          "word": "adroitement",
+          "phonetic": "/adʁwajmɑ̃/",
+          "translation": "skillfully, cleverly",
+          "example": "Elle a résolu le problème adroitement.",
+          "exampleTranslation": "She skillfully solved the problem."
         },
         {
-          "word": "piety",
-          "phonetic": "/ˈpaɪəti/",
-          "translation": "religious devotion and reverence"
+          "word": "renoncer",
+          "phonetic": "/ʁənɔ̃se/",
+          "translation": "to renounce, give up",
+          "example": "Il a décidé de renoncer à ses habitudes malsaines.",
+          "exampleTranslation": "He decided to renounce his unhealthy habits."
         },
         {
-          "word": "embraced",
-          "phonetic": "/ɪmˈbreɪst/",
-          "translation": "accepted or adopted willingly"
+          "word": "piété",
+          "phonetic": "/pjete/",
+          "translation": "piety, religious devotion",
+          "example": "Sa piété était connue de tous dans le village.",
+          "exampleTranslation": "His piety was known to all in the village."
         }
       ],
-      "grammar": null,
+      "grammar": [
+        {
+          "point": "faire + infinitive",
+          "explanation": "This causative construction means 'to make/let someone do something'. In the passage, 'il me fit naître' means 'he made me develop/born' (in the sense of creating a desire)."
+        },
+        {
+          "point": "il arrive à quelqu'un de + infinitive",
+          "explanation": "This construction means 'someone happens to do something'. In the passage, 's'il m'arrivait d'embrasser' means 'if I happened to embrace'."
+        },
+        {
+          "point": "passé simple tense",
+          "explanation": "The passé simple is used in literary French to narrate completed past actions. In the passage, 'je m'occupai' (I occupied myself) and 'je goûtai' (I tasted) are examples of this tense."
+        },
+        {
+          "point": "relative clause with negation",
+          "explanation": "The passage contains 'qui ne me permettront point de penser', which is a relative clause modifying 'l'étude et la religion' with a negation ('ne...point') meaning 'which will not allow me to think'."
+        }
+      ],
       "furiganaParagraphs": null,
       "keywords": [
         "consternation",
-        "reproaches",
-        "inclinations",
-        "ecclesiastical",
-        "piety",
-        "embraced"
+        "éclaircissement",
+        "reproches",
+        "adroitement",
+        "renoncer",
+        "piété"
       ]
     },
     {
@@ -5770,49 +5898,82 @@ export const NOVELS: Novel[] = [
       "day": 73,
       "title": "The Theft and Ruin",
       "text": "On nous dit qu'ils n'avaient point été vus dans la maison depuis huit heures, et qu'ils étaient sortis après avoir fait transporter quelques caisses, suivant les ordres qu'ils disaient avoir reçus de moi. Je pressentis une partie de la vérité, mais je ne formai point de soupçons qui ne fussent surpassés par ce que j'aperçus en entrant dans ma chambre. La serrure de mon cabinet avait été forcée, et mon argent enlevé, avec tous mes habits. Dans le temps que je réfléchissais, seul, sur cet accident, Manon vint, tout effrayée, m'apprendre qu'on avait fait le même ravage dans son appartement. Le coup me parut si cruel qu'il n'y eut qu'un effort extraordinaire de raison qui m'empêcha de me livrer aux cris et aux pleurs. La crainte de communiquer mon désespoir à Manon me fit affecter de prendre un visage tranquille. Je lui dis, en badinant, que je me vengerais sur quelque dupe à l'hôtel de Transylvanie. Cependant, elle me sembla si sensible à notre malheur que sa tristesse eut bien plus de force pour m'affliger, que ma joie feinte n'en avait eu pour l'empêcher d'être trop abattue. Nous sommes perdus! me dit-elle, les larmes aux yeux. Je m'efforçai en vain de la consoler par mes caresses; mes propres pleurs trahissaient mon désespoir et ma consternation. En effet, nous étions ruinés si absolument, qu'il ne nous restait pas une chemise.",
-      "paragraphs": null,
+      "paragraphs": [
+        "On nous dit qu'ils n'avaient point été vus dans la maison depuis huit heures, et qu'ils étaient sortis après avoir fait transporter quelques caisses, suivant les ordres qu'ils disaient avoir reçus de moi. Je pressentis une partie de la vérité, mais je ne formai point de soupçons qui ne fussent surpassés par ce que j'aperçus en entrant dans ma chambre. La serrure de mon cabinet avait été forcée, et mon argent enlevé, avec tous mes habits.",
+        "Dans le temps que je réfléchissais, seul, sur cet accident, Manon vint, tout effrayée, m'apprendre qu'on avait fait le même ravage dans son appartement. Le coup me parut si cruel qu'il n'y eut qu'un effort extraordinaire de raison qui m'empêcha de me livrer aux cris et aux pleurs. La crainte de communiquer mon désespoir à Manon me fit affecter de prendre un visage tranquille. Je lui dis, en badinant, que je me vengerais sur quelque dupe à l'hôtel de Transylvanie.",
+        "Cependant, elle me sembla si sensible à notre malheur que sa tristesse eut bien plus de force pour m'affliger, que ma joie feinte n'en avait eu pour l'empêcher d'être trop abattue. Nous sommes perdus! me dit-elle, les larmes aux yeux. Je m'efforçai en vain de la consoler par mes caresses; mes propres pleurs trahissaient mon désespoir et ma consternation. En effet, nous étions ruinés si absolument, qu'il ne nous restait pas une chemise."
+      ],
       "translation": "We were told that they had not been seen in the house since eight o'clock, and that they had left after having some crates transported, according to the orders they said they had received from me. I sensed part of the truth, but I formed no suspicions that were not surpassed by what I saw upon entering my room. The lock of my study had been forced, and my money taken, along with all my clothes. While I was reflecting alone on this incident, Manon came, quite frightened, to tell me that the same devastation had been wrought in her apartment. The blow seemed so cruel that only an extraordinary effort of reason prevented me from giving way to cries and tears. The fear of communicating my despair to Manon made me affect to take on a calm face. I told her, jokingly, that I would take revenge on some dupe at the Hotel of Transylvania. However, she seemed so sensitive to our misfortune that her sadness had much more power to afflict me than my feigned joy had had to prevent her from being too dejected. We are lost! she said to me, with tears in her eyes. I tried in vain to console her with my caresses; my own tears betrayed my despair and consternation. Indeed, we were absolutely ruined, to the point that we didn't even have a shirt left.",
       "vocabulary": [
         {
+          "word": "pressentir",
+          "phonetic": "/pʁɛsɑ̃.ti/",
+          "translation": "to sense, to perceive",
+          "example": "Il a pressenti le danger avant que cela n'arrive.",
+          "exampleTranslation": "He sensed the danger before it happened."
+        },
+        {
           "word": "soupçons",
-          "phonetic": "/su.p.sɔ̃/",
-          "translation": "suspicions"
+          "phonetic": "/su.pɔ̃/",
+          "translation": "suspicions",
+          "example": "Ses actions ont provoqué des soupçons chez la police.",
+          "exampleTranslation": "His actions aroused suspicions from the police."
         },
         {
-          "word": "forcée",
-          "phonetic": "/fɔʁ.se/",
-          "translation": "forced"
-        },
-        {
-          "word": "ravagé",
+          "word": "ravager",
           "phonetic": "/ʁa.va.ʒe/",
-          "translation": "devastated/wrecked"
+          "translation": "to devastate, to plunder",
+          "example": "Le typhon a ravagé la côte entière.",
+          "exampleTranslation": "The typhoon devastated the entire coast."
+        },
+        {
+          "word": "affecter",
+          "phonetic": "/a.fɛk.te/",
+          "translation": "to affect, to feign",
+          "example": "Il affecte un air indifférent, mais on sait qu'il est triste.",
+          "exampleTranslation": "He affects an indifferent air, but we know he's sad."
+        },
+        {
+          "word": "badinant",
+          "phonetic": "/ba.di.nɑ̃/",
+          "translation": "jokingly, playfully",
+          "example": "Il a répondu en badinant, sans prendre la situation au sérieux.",
+          "exampleTranslation": "He answered jokingly, not taking the situation seriously."
         },
         {
           "word": "consternation",
           "phonetic": "/kɔ̃stɛʁ.na.sjɔ̃/",
-          "translation": "consternation/dismay"
-        },
-        {
-          "word": "ruiné",
-          "phonetic": "/ʁɥi.ne/",
-          "translation": "ruined"
-        },
-        {
-          "word": "chemise",
-          "phonetic": "/ʃə.miz/",
-          "translation": "shirt"
+          "translation": "consternation, dismay",
+          "example": "La consternation régnait dans la salle quand on a annoncé la nouvelle.",
+          "exampleTranslation": "Consternation reigned in the room when the news was announced."
         }
       ],
-      "grammar": null,
+      "grammar": [
+        {
+          "point": "il n'y eut que + noun + relative clause",
+          "explanation": "This structure emphasizes that only one specific thing prevented an action. 'Il n'y eut que' means 'there was only' and is followed by a noun and a relative clause explaining what that noun did."
+        },
+        {
+          "point": "en + present participle to describe manner",
+          "explanation": "The construction 'en + present participle' (here 'en badinant' meaning 'jokingly') is used to describe how an action was performed. It's a concise way to add information about the manner of an action."
+        },
+        {
+          "point": "si...que construction with comparative",
+          "explanation": "This is an intensified comparison structure where 'si...que' means 'so...that' and is followed by a comparative clause. Here it emphasizes how much more affected the narrator was by Manon's sadness than by his own feigned joy."
+        },
+        {
+          "point": "s'efforcer de + infinitive",
+          "explanation": "The reflexive verb 's'efforcer' means 'to try' or 'to make an effort' and is followed by 'de + infinitive' to indicate what one is trying to do. 'En vain' means 'in vain' or 'without success.'"
+        }
+      ],
       "furiganaParagraphs": null,
       "keywords": [
+        "pressentir",
         "soupçons",
-        "forcée",
-        "ravagé",
-        "consternation",
-        "ruiné",
-        "chemise"
+        "ravager",
+        "affecter",
+        "badinant",
+        "consternation"
       ]
     },
     {
@@ -6065,49 +6226,77 @@ export const NOVELS: Novel[] = [
       "day": 77,
       "title": "Lescaut's Betrayal",
       "text": "et que c'est répondre mal à ma délicatesse! Je ne l'ai pas appréhendée, moi qui m'y expose si volontiers pour elle en renonçant à ma fortune et aux douceurs de la maison de mon père; moi qui me suis retranché jusqu'au nécessaire pour satisfaire ses petites humeurs et ses caprices. Elle m'adore, dit-elle. Si tu m'adorais, ingrate, je sais bien de qui tu aurais pris des conseils; tu ne m'aurais pas quitté, du moins, sans me dire adieu. C'est à moi qu'il faut demander quelles peines cruelles on sent à se séparer de ce qu'on adore. Il faudrait avoir perdu l'esprit pour s'y exposer volontairement. Mes plaintes furent interrompues par une visite à laquelle je ne m'attendais pas. Ce fut celle de Lescaut. Bourreau! lui dis-je en mettant l'épée à la main, où est Manon? qu'en as-tu fait? Ce mouvement l'effraya; il me répondit que, si c'était ainsi que je le recevais lorsqu'il venait me rendre compte du service le plus considérable qu'il eût pu me rendre, il allait se retirer et ne remettrait jamais le pied chez moi. Je courus à la porte de la chambre, que je fermai soigneusement. Ne t'imagine pas, lui dis-je en me tournant vers lui, que tu puisses me prendre encore une fois pour dupe et me tromper par des fables. Il faut défendre ta vie, ou me faire retrouver Manon.",
-      "paragraphs": null,
+      "paragraphs": [
+        "et que c'est répondre mal à ma délicatesse! Je ne l'ai pas appréhendée, moi qui m'y expose si volontiers pour elle en renonçant à ma fortune et aux douceurs de la maison de mon père; moi qui me suis retranché jusqu'au nécessaire pour satisfaire ses petites humeurs et ses caprices. Elle m'adore, dit-elle. Si tu m'adorais, ingrate, je sais bien de qui tu aurais pris des conseils; tu ne m'aurais pas quitté, du moins, sans me dire adieu. C'est à moi qu'il faut demander quelles peines cruelles on sent à se séparer de ce qu'on adore. Il faudrait avoir perdu l'esprit pour s'y exposer volontairement.",
+        "Mes plaintes furent interrompues par une visite à laquelle je ne m'attendais pas. Ce fut celle de Lescaut. Bourreau! lui dis-je en mettant l'épée à la main, où est Manon? qu'en as-tu fait? Ce mouvement l'effraya; il me répondit que, si c'était ainsi que je le recevais lorsqu'il venait me rendre compte du service le plus considérable qu'il eût pu me rendre, il allait se retirer et ne remettrait jamais le pied chez moi. Je courus à la porte de la chambre, que je fermai soigneusement. Ne t'imagine pas, lui dis-je en me tournant vers lui, que tu puisses me prendre encore une fois pour dupe et me tromper par des fables. Il faut défendre ta vie, ou me faire retrouver Manon."
+      ],
       "translation": "and that is not responding well to my delicacy! I did not apprehend her, I who so willingly expose myself for her by renouncing my fortune and the comforts of my father's house; I who have deprived myself even of necessities to satisfy her little moods and whims. She adores me, she says. If you adored me, ungrateful woman, I know well whose advice you would have taken; you would not have left me, at least, without saying goodbye. It is I who must be asked what cruel pains one feels in separating from what one adores. One must have lost one's mind to expose oneself to that voluntarily. My complaints were interrupted by a visit I did not expect. It was that of Lescaut. Executioner! I said to him, drawing my sword, where is Manon? what have you done with her? This movement frightened him; he replied that if this was how I received him when he came to give me an account of the most considerable service he could have rendered me, he would withdraw and never set foot in my house again. I rushed to the bedroom door, which I carefully closed. Do not imagine, I said to him, turning to him, that you can take me for a fool again and deceive me with fables. You must defend your life, or restore Manon to me.",
       "vocabulary": [
         {
           "word": "délicatesse",
           "phonetic": "/de.li.ka.tɛs/",
-          "translation": "delicacy, refinement"
+          "translation": "delicacy, refinement",
+          "example": "Elle a traité la situation avec beaucoup de délicatesse.",
+          "exampleTranslation": "She handled the situation with great delicacy."
         },
         {
           "word": "appréhendée",
           "phonetic": "/a.pʁe.ɑ̃.de/",
-          "translation": "apprehended, seized"
+          "translation": "apprehended, understood",
+          "example": "J'ai bien appréhendé le sens de votre remarque.",
+          "exampleTranslation": "I fully understood the meaning of your remark."
         },
         {
-          "word": "renonçant",
-          "phonetic": "/ʁə.nɔ̃.sɑ̃/",
-          "translation": "renouncing, giving up"
+          "word": "retranché",
+          "phonetic": "/ʁə.tʁɑ̃.ʃe/",
+          "translation": "deprived, cut off",
+          "example": "Il s'est retranché de toute vie sociale.",
+          "exampleTranslation": "He has withdrawn from all social life."
         },
         {
-          "word": "humours",
-          "phonetic": "/y.mɛʁ/",
-          "translation": "moods, temperaments"
+          "word": "humeurs",
+          "phonetic": "/y.mœʁ/",
+          "translation": "moods, temperaments",
+          "example": "Il faut composer avec ses humeurs changeantes.",
+          "exampleTranslation": "One has to deal with his changeable moods."
         },
         {
-          "word": "bourreau",
-          "phonetic": "/bu.ʁo/",
-          "translation": "executioner, tormentor"
+          "word": "caprices",
+          "phonetic": "/ka.pʁis/",
+          "translation": "whims, fancies",
+          "example": "Les enfants ont souvent des caprices.",
+          "exampleTranslation": "Children often have whims."
         },
         {
-          "word": "fables",
-          "phonetic": "/fa.blə/",
-          "translation": "fables, lies, stories"
+          "word": "plaintes",
+          "phonetic": "/plɛ̃t/",
+          "translation": "complaints, lamentations",
+          "example": "Ses plaintes n'ont fait qu'aggraver la situation.",
+          "exampleTranslation": "His complaints only made the situation worse."
         }
       ],
-      "grammar": null,
+      "grammar": [
+        {
+          "point": "il faut + infinitive",
+          "explanation": "This construction expresses obligation or necessity. 'Il faut' is followed by an infinitive verb when there's no subject change. For example, 'Il faut défendre ta vie' means 'You must defend your life'."
+        },
+        {
+          "point": "si + imperfect, conditional",
+          "explanation": "This is the second conditional used for hypothetical situations. The 'si' clause is in the imperfect tense, and the main clause is in the conditional. For example, 'Si tu m'adorais... tu aurais pris des conseils' means 'If you adored me... you would have taken advice'."
+        },
+        {
+          "point": "passé simple",
+          "explanation": "The passé simple is a literary past tense used in formal writing and historical texts. It's used to describe completed actions in the past. In this passage, verbs like 'furent', 'fut', 'effraya', 'répondit' are in the passé simple."
+        }
+      ],
       "furiganaParagraphs": null,
       "keywords": [
         "délicatesse",
         "appréhendée",
-        "renonçant",
-        "humours",
-        "bourreau",
-        "fables"
+        "retranché",
+        "humeurs",
+        "caprices",
+        "plaintes"
       ]
     },
     {
@@ -6818,49 +7007,81 @@ export const NOVELS: Novel[] = [
       "day": 87,
       "title": "The Deception Unfolds",
       "text": "Je trouvai l'occasion, en soupant, de lui raconter sa propre histoire, et le mauvais sort lui le menaçait. Lescaut et Manon tremblaient pendant mon récit, surtout lorsque je faisais son portrait au naturel; mais l'amour-propre l'empêcha de s'y reconnaître, et je l'achevai si adroitement, qu'il fut le premier à le trouver fort risible. Vous verrez que ce n'est pas sans raison que je me suis étendu sur cette ridicule scène. Enfin, l'heure du sommeil étant arrivée, il parla d'amour et d'impatience. Nous nous retirâmes, Lescaut et moi; on le conduisit à sa chambre, et Manon, étant sortie sous prétexte d'un besoin, nous vint joindre à la porte. Le carrosse, qui nous attendait trois ou quatre maisons plus bas, s'avança pour nous recevoir. Nous nous éloignâmes en un instant du quartier. Quoiqu'à mes propres yeux cette action fût une véritable friponnerie, ce n'était pas la plus injuste que je crusse avoir à me reprocher J'avais plus de scrupule sur l'argent que j'avais acquis au jeu. Cependant nous profitâmes aussi peu de l'un que de l'autre, et le Ciel permit que la plus légère de ces deux injustices fût la plus rigoureusement punie. M. de G... M... ne tarda pas longtemps à s'apercevoir qu'il était dupé. Je ne sais s'il fit, dès le soir même, quelques démarches pour nous découvrir, mais il eut assez de crédit pour n'en pas faire longtemps d'inutiles, et nous assez d'imprudence pour compter trop sur la grandeur de Paris et sur l'éloignement qu'il y avait de notre quartier au sien.",
-      "paragraphs": null,
+      "paragraphs": [
+        "Je trouvai l'occasion, en soupant, de lui raconter sa propre histoire, et le mauvais sort lui le menaçait. Lescaut et Manon tremblaient pendant mon récit, surtout lorsque je faisais son portrait au naturel; mais l'amour-propre l'empêcha de s'y reconnaître, et je l'achevai si adroitement, qu'il fut le premier à le trouver fort risible. Vous verrez que ce n'est pas sans raison que je me suis étendu sur cette ridicule scène. Enfin, l'heure du sommeil étant arrivée, il parla d'amour et d'impatience. Nous nous retirâmes, Lescaut et moi; on le conduisit à sa chambre, et Manon, étant sortie sous prétexte d'un besoin, nous vint joindre à la porte. Le carrosse, qui nous attendait trois ou quatre maisons plus bas, s'avança pour nous recevoir. Nous nous éloignâmes en un instant du quartier.",
+        "Quoiqu'à mes propres yeux cette action fût une véritable friponnerie, ce n'était pas la plus injuste que je crusse avoir à me reprocher J'avais plus de scrupule sur l'argent que j'avais acquis au jeu. Cependant nous profitâmes aussi peu de l'un que de l'autre, et le Ciel permit que la plus légère de ces deux injustices fût la plus rigoureusement punie. M. de G... M... ne tarda pas longtemps à s'apercevoir qu'il était dupé. Je ne sais s'il fit, dès le soir même, quelques démarches pour nous découvrir, mais il eut assez de crédit pour n'en pas faire longtemps d'inutiles, et nous assez d'imprudence pour compter trop sur la grandeur de Paris et sur l'éloignement qu'il y avait de notre quartier au sien."
+      ],
       "translation": "I found the opportunity, during supper, to tell him his own story, and bad luck threatened him. Lescaut and Manon trembled during my narration, especially when I portrayed him naturally; but pride prevented him from recognizing himself, and I finished it so skillfully that he was the first to find it very laughable. You will see that it is not without reason that I have dwelt on this ridiculous scene. Finally, when the time for sleep arrived, he spoke of love and impatience. Lescaut and I withdrew; he was conducted to his chamber, and Manon, having gone out under the pretext of a need, came to join us at the door. The carriage, which was waiting for us three or four houses further down, advanced to receive us. We instantly left the neighborhood. Although in my own eyes this action was a genuine piece of roguery, it was not the most unjust that I believed I had to reproach myself with. I had more scruples about the money I had acquired through gambling. However, we profited as little from one as from the other, and Heaven permitted that the lesser of these two injustices be the more rigorously punished. M. de G... M... did not long delay in perceiving that he had been duped. I do not know if he made any efforts that very evening to discover us, but he had enough influence not to make long useless ones, and we enough imprudence to count too much on the greatness of Paris and on the distance there was between our neighborhood and his.",
       "vocabulary": [
         {
           "word": "friponnerie",
-          "phonetic": "/fʁi.pɔ.nə.ʁi/",
-          "translation": "roguery, trickery"
+          "phonetic": "/fʁipɔn.ʁi/",
+          "translation": "trickery, roguery",
+          "example": "Il a commis une friponnerie en volant l'argent de ses collègues.",
+          "exampleTranslation": "He committed a trickery by stealing his colleagues' money."
         },
         {
           "word": "scrupule",
           "phonetic": "/skʁy.pyl/",
-          "translation": "scruple, moral hesitation"
-        },
-        {
-          "word": "impatience",
-          "phonetic": "/ɛ̃.pa.sjɑ̃s/",
-          "translation": "impatience, eagerness"
+          "translation": "scruple, hesitation",
+          "example": "Il a agi sans scrupule, en ignorant les conséquences de ses actes.",
+          "exampleTranslation": "He acted without scruple, ignoring the consequences of his actions."
         },
         {
           "word": "démarches",
-          "phonetic": "/de.maʃ/",
-          "translation": "steps, efforts, proceedings"
+          "phonetic": "/de.maʁʃ/",
+          "translation": "efforts, steps taken",
+          "example": "Il a fait plusieurs démarches pour trouver un emploi.",
+          "exampleTranslation": "He took several steps to find a job."
         },
         {
-          "word": "dupé",
-          "phonetic": "/dy.pe/",
-          "translation": "deceived, duped"
+          "word": "crédit",
+          "phonetic": "/kʁe.di/",
+          "translation": "influence, credit",
+          "example": "Grâce à son crédit, il a réussi à obtenir un rendez-vous avec le ministre.",
+          "exampleTranslation": "Thanks to his influence, he managed to get a meeting with the minister."
         },
         {
           "word": "imprudence",
           "phonetic": "/ɛ̃.pʁy.dɑ̃s/",
-          "translation": "imprudence, rashness"
+          "translation": "imprudence",
+          "example": "Son imprudence l'a mis dans une situation difficile.",
+          "exampleTranslation": "His imprudence put him in a difficult situation."
+        },
+        {
+          "word": "éloignement",
+          "phonetic": "/e.lwa.ɲ.mɑ̃/",
+          "translation": "distance, separation",
+          "example": "L'éloignement entre les deux frères les a éloignés l'un de l'autre.",
+          "exampleTranslation": "The distance between the two brothers kept them apart."
         }
       ],
-      "grammar": null,
+      "grammar": [
+        {
+          "point": "être le premier/le dernier/le seul + à + infinitive",
+          "explanation": "This structure indicates that someone is the first/last/only to perform an action. In the passage, 'il fut le premier à le trouver' means 'he was the first to find it'."
+        },
+        {
+          "point": "s'étendre sur",
+          "explanation": "This reflexive verb phrase means to elaborate on or dwell on a topic. In the passage, 'je me suis étendu sur cette ridicule scène' means 'I dwelled on this ridiculous scene'."
+        },
+        {
+          "point": "étant + past participle",
+          "explanation": "This construction uses the present participle 'étant' followed by a past participle to indicate a simultaneous action. In the passage, 'étant sortie sous prétexte d'un besoin' means 'having gone out under the pretext of a need'."
+        },
+        {
+          "point": "quoique + subjunctive",
+          "explanation": "The concessive conjunction 'quoique' (although) is followed by the subjunctive mood. In the passage, 'quoiqu'à mes propres yeux cette action fût' uses the subjunctive 'fût' (was) to indicate 'although in my own eyes this action was'."
+        }
+      ],
       "furiganaParagraphs": null,
       "keywords": [
         "friponnerie",
         "scrupule",
-        "impatience",
         "démarches",
-        "dupé",
-        "imprudence"
+        "crédit",
+        "imprudence",
+        "éloignement"
       ]
     },
     {
@@ -7112,47 +7333,80 @@ export const NOVELS: Novel[] = [
       "day": 91,
       "title": "Shame and Nobility at Saint-Lazare",
       "text": "Le souvenir même de Manon n'ajoutait rien à ma douleur. Il n'y entrait, du moins, que comme un sentiment qui avait précédé cette nouvelle peine, et la passion dominante de mon âme était la honte et la confusion. Il y a peu de personnes qui connaissent la force de ces mouvements particuliers du coeur. Le commun des hommes n'est sensible qu'à cinq ou six passions, dans le cercle desquelles leur vie se passe, et où toutes leurs agitations se réduisent. Ôtez-leur l'amour et la haine, le plaisir et la douleur l'espérance et la crainte, ils ne sentent plus rien. Mais les personnes d'un caractère plus noble peuvent être remuées de mille façons différentes; il semble qu'elles aient plus de cinq sens, et qu'elles puissent recevoir des idées et des sensations qui passent les bornes ordinaires de la nature; et comme elles ont un sentiment de cette grandeur qui les élève au-dessus du vulgaire, il n'y a rien dont elles soient plus jalouses. De là vient qu'elles souffrent si impatiemment le mépris et la risée, et que la honte est une de leurs plus violentes passions. J'avais ce triste avantage à Saint-Lazare. Ma tristesse parut si excessive au supérieur qu'en appréhendant les suites, il crut devoir me traiter avec beaucoup de douceur et d'indulgence. Il me visitait deux ou trois fois le jour.",
-      "paragraphs": null,
+      "paragraphs": [
+        "Le souvenir même de Manon n'ajoutait rien à ma douleur. Il n'y entrait, du moins, que comme un sentiment qui avait précédé cette nouvelle peine, et la passion dominante de mon âme était la honte et la confusion.",
+        "Il y a peu de personnes qui connaissent la force de ces mouvements particuliers du coeur. Le commun des hommes n'est sensible qu'à cinq ou six passions, dans le cercle desquelles leur vie se passe, et où toutes leurs agitations se réduisent. Ôtez-leur l'amour et la haine, le plaisir et la douleur l'espérance et la crainte, ils ne sentent plus rien. Mais les personnes d'un caractère plus noble peuvent être remuées de mille façons différentes; il semble qu'elles aient plus de cinq sens, et qu'elles puissent recevoir des idées et des sensations qui passent les bornes ordinaires de la nature; et comme elles ont un sentiment de cette grandeur qui les élève au-dessus du vulgaire, il n'y a rien dont elles soient plus jalouses.",
+        "De là vient qu'elles souffrent si impatiemment le mépris et la risée, et que la honte est une de leurs plus violentes passions. J'avais ce triste avantage à Saint-Lazare. Ma tristesse parut si excessive au supérieur qu'en appréhendant les suites, il crut devoir me traiter avec beaucoup de douceur et d'indulgence. Il me visitait deux ou trois fois le jour."
+      ],
       "translation": "The very memory of Manon added nothing to my pain. It entered into it, at least, only as a sentiment that had preceded this new sorrow, and the dominant passion of my soul was shame and confusion. There are few people who know the strength of these particular movements of the heart. Most men are only sensitive to five or six passions, within the circle of which their life passes, and in which all their agitations are reduced. Take away from them love and hatred, pleasure and pain, hope and fear, and they feel nothing more. But people of a more noble character can be moved in a thousand different ways; it seems that they have more than five senses, and that they can receive ideas and sensations that pass the ordinary bounds of nature; and as they have a feeling of this greatness that elevates them above the common, there is nothing of which they are more jealous. Hence it is that they suffer so impatiently contempt and ridicule, and that shame is one of their most violent passions. I had this sad advantage at Saint-Lazare. My sadness appeared so excessive to the superior that, apprehending the consequences, he believed he ought to treat me with great gentleness and indulgence. He visited me two or three times a day.",
       "vocabulary": [
         {
-          "word": "souvenir",
-          "phonetic": "/su.vwa.nir/",
-          "translation": "memory"
+          "word": "ajoutait",
+          "phonetic": "/a.ʒu.tɛ/",
+          "translation": "added",
+          "example": "Le vin ajoutait une touche sophistiquée au repas.",
+          "exampleTranslation": "The wine added a sophisticated touch to the meal."
         },
         {
-          "word": "honte",
-          "phonetic": "/ɔ̃t/",
-          "translation": "shame"
-        },
-        {
-          "word": "passion",
-          "phonetic": "/pa.sjɔ̃/",
-          "translation": "passion"
+          "word": "appréhendant",
+          "phonetic": "/a.pʁe.ɑ̃.dɑ̃/",
+          "translation": "apprehending/dreading",
+          "example": "Il marchait avec prudence, appréhendant les dangers de la forêt.",
+          "exampleTranslation": "He walked with caution, dreading the dangers of the forest."
         },
         {
           "word": "mépris",
           "phonetic": "/me.pʁi/",
-          "translation": "contempt"
+          "translation": "contempt",
+          "example": "Son mépris pour les pauvres était évident dans ses paroles.",
+          "exampleTranslation": "His contempt for the poor was evident in his words."
+        },
+        {
+          "word": "risée",
+          "phonetic": "/ʁi.ze/",
+          "translation": "ridicule/laughter",
+          "example": "Il ne supportait pas la risée de ses camarades.",
+          "exampleTranslation": "He couldn't stand the laughter of his classmates."
         },
         {
           "word": "indulgence",
           "phonetic": "/ɛ̃.dyl.ʒɑ̃s/",
-          "translation": "indulgence"
+          "translation": "indulgence",
+          "example": "Le professeur a montré de l'indulgence envers l'élève en retard.",
+          "exampleTranslation": "The teacher showed indulgence toward the late student."
         },
         {
           "word": "supérieur",
-          "phonetic": "/sy.pe.ʁjœʁ/",
-          "translation": "superior (authority)"
+          "phonetic": "/sy.pe.ʁjɔʁ/",
+          "translation": "superior (in this context, a religious superior)",
+          "example": "Le supérieur du monastère a accordé une audience spéciale.",
+          "exampleTranslation": "The monastery's superior granted a special audience."
         }
       ],
-      "grammar": null,
+      "grammar": [
+        {
+          "point": "du moins",
+          "explanation": "An idiomatic expression used to indicate a minimum or to qualify a statement, similar to 'at least' in English."
+        },
+        {
+          "point": "desquelles (relative pronoun)",
+          "explanation": "A relative pronoun used to refer to feminine plural nouns preceded by a preposition. It's the form of 'dont' used after prepositions like 'dans,' 'avec,' 'sans,' etc."
+        },
+        {
+          "point": "Impératif form (imperative mood)",
+          "explanation": "The imperative mood is used to give commands or make requests. In this passage, 'Ôtez-leur' is the imperative form of the verb 'ôter' (to remove/take away) with the pronoun 'leur' (to them)."
+        },
+        {
+          "point": "Subjonctif after expressions of perception or opinion",
+          "explanation": "After expressions like 'il semble' (it seems), 'il faut' (it is necessary), 'il est important que' (it is important that), the subjunctive mood is used in the dependent clause."
+        }
+      ],
       "furiganaParagraphs": null,
       "keywords": [
-        "souvenir",
-        "honte",
-        "passion",
+        "ajoutait",
+        "appréhendant",
         "mépris",
+        "risée",
         "indulgence",
         "supérieur"
       ]
@@ -7408,48 +7662,80 @@ export const NOVELS: Novel[] = [
       "day": 95,
       "title": "Manon's Hospital Revelation",
       "text": "Je l'écoutai avec un air de soumission dont il parut satisfait. Je ne m'offensai pas même de lui entendre lâcher quelques railleries sur ma fraternité avec Lescaut et Manon, et sur les petites chapelles dont il supposait, me dit-il, que j'avais dû faire un grand nombre à Saint-Lazare, puisque je trouvais tant de plaisir à cette pieuse occupation. Mais il lui échappa, malheureusement pour lui et pour moi-même, de me dire que Manon en aurait fait aussi, sans doute, de fort jolies à l'Hôpital. Malgré le frémissement que le nom d'Hôpital me causa, j'eus encore le pouvoir de le prier, avec douceur de s'expliquer Hé oui! reprit-il, il y a deux mois qu'elle apprend la sagesse à l'Hôpital Général, et je souhaite qu'elle en ait tiré autant de profit que vous à Saint-Lazare. Quand j'aurais eu une prison éternelle, ou la mort même présente à mes yeux, je n'aurais pas été le maître de mon transport, à cette affreuse nouvelle. Je me jetai sur lui avec une si affreuse rage que j'en perdis la moitié de mes forces. J'en eus assez néanmoins pour le renverser par terre, et pour le prendre à la gorge. Je l'étranglais, lorsque le bruit de sa chute, et quelques cris aigus, que je lui laissais à peine la liberté de pousser attirèrent le supérieur et plusieurs religieux dans ma chambre.",
-      "paragraphs": null,
+      "paragraphs": [
+        "Je l'écoutai avec un air de soumission dont il parut satisfait. Je ne m'offensai pas même de lui entendre lâcher quelques railleries sur ma fraternité avec Lescaut et Manon, et sur les petites chapelles dont il supposait, me dit-il, que j'avais dû faire un grand nombre à Saint-Lazare, puisque je trouvais tant de plaisir à cette pieuse occupation. Mais il lui échappa, malheureusement pour lui et pour moi-même, de me dire que Manon en aurait fait aussi, sans doute, de fort jolies à l'Hôpital.",
+        "Malgré le frémissement que le nom d'Hôpital me causa, j'eus encore le pouvoir de le prier, avec douceur de s'expliquer Hé oui! reprit-il, il y a deux mois qu'elle apprend la sagesse à l'Hôpital Général, et je souhaite qu'elle en ait tiré autant de profit que vous à Saint-Lazare. Quand j'aurais eu une prison éternelle, ou la mort même présente à mes yeux, je n'aurais pas été le maître de mon transport, à cette affreuse nouvelle. Je me jetai sur lui avec une si affreuse rage que j'en perdis la moitié de mes forces. J'en eus assez néanmoins pour le renverser par terre, et pour le prendre à la gorge. Je l'étranglais, lorsque le bruit de sa chute, et quelques cris aigus, que je lui laissais à peine la liberté de pousser attirèrent le supérieur et plusieurs religieux dans ma chambre."
+      ],
       "translation": "I listened to him with an air of submission that seemed to satisfy him. I wasn't even offended when I heard him make some sarcastic remarks about my brotherhood with Lescaut and Manon, and about the little chapels he supposed, he told me, that I must have made a great number of at Saint-Lazare, since I found so much pleasure in this pious occupation. But unfortunately for him and for myself, he let slip that Manon would have surely made some very pretty ones at the Hospital too. Despite the shudder that the name of Hospital caused me, I still had the power to ask him gently to explain himself. 'Yes indeed!' he replied, 'it's two months now that she's learning wisdom at the General Hospital, and I wish she has derived as much profit from it as you did at Saint-Lazare. If I had had an eternal prison, or even death itself before my eyes, I would not have been master of my emotion at this dreadful news. I threw myself upon him with such dreadful rage that I lost half my strength. I had enough nevertheless to knock him to the ground, and to seize him by the throat. I was strangling him, when the noise of his fall, and some sharp cries that I barely allowed him the freedom to utter, attracted the superior and several religious men into my room.",
       "vocabulary": [
         {
           "word": "soumission",
-          "phonetic": "/sɔ.bmis.jɔ̃/",
-          "translation": "submission"
+          "phonetic": "/su.mi.sjɔ̃/",
+          "translation": "submission",
+          "example": "Il a accepté sa défaite avec une grande soumission.",
+          "exampleTranslation": "He accepted his defeat with great submission."
         },
         {
           "word": "railleries",
           "phonetic": "/ʁa.jə.ʁi/",
-          "translation": "sarcastic remarks"
+          "translation": "sarcastic remarks, taunts",
+          "example": "Les railleries de ses camarades le blessaient profondément.",
+          "exampleTranslation": "The sarcastic remarks of his classmates deeply hurt him."
         },
         {
           "word": "chapelles",
           "phonetic": "/ʃa.pɛl/",
-          "translation": "chapels"
+          "translation": "chapels (here used metaphorically for prayers or devotions)",
+          "example": "Les pèlerins ont visité toutes les chapelles du sanctuaire.",
+          "exampleTranslation": "The pilgrims visited all the chapels of the sanctuary."
         },
         {
           "word": "frémissement",
-          "phonetic": "/fʁe.mis.mɑ̃/",
-          "translation": "shudder"
+          "phonetic": "/fʁe.mi.mɑ̃/",
+          "translation": "shudder, tremor",
+          "example": "Un frémissement parcourut son corps quand il entendit la nouvelle.",
+          "exampleTranslation": "A shudder ran through his body when he heard the news."
         },
         {
-          "word": "étranglais",
-          "phonetic": "/e.tʁɑ̃.ɡle/",
-          "translation": "strangling (imperfect tense)"
+          "word": "sagesse",
+          "phonetic": "/sa.ʒɛs/",
+          "translation": "wisdom",
+          "example": "La sagesse vient souvent avec l'âge.",
+          "exampleTranslation": "Wisdom often comes with age."
         },
         {
           "word": "transport",
-          "phonetic": "/tʁa.pɔʁ/",
-          "translation": "emotion/outburst"
+          "phonetic": "/tʁapɔʁ/",
+          "translation": "emotion, agitation",
+          "example": "Il était dans un transport de joie après avoir reçu la lettre.",
+          "exampleTranslation": "He was in a transport of joy after receiving the letter."
         }
       ],
-      "grammar": null,
+      "grammar": [
+        {
+          "point": "il échappa à quelqu'un de + infinitive",
+          "explanation": "This is an impersonal construction where 'il' is used to indicate that something escaped someone's control or attention. The structure is 'il échappa à quelqu'un de + infinitive.'"
+        },
+        {
+          "point": "avoir le pouvoir de + infinitive",
+          "explanation": "This construction expresses the ability or capacity to do something. The structure is 'avoir le pouvoir de + infinitive.'"
+        },
+        {
+          "point": "il y a + time period + que + present tense",
+          "explanation": "This structure is used to express an action that started in the past and is still continuing in the present. The present tense after 'que' indicates the ongoing nature of the action."
+        },
+        {
+          "point": "conditionnel passé (conditional perfect)",
+          "explanation": "This is the past conditional tense used to express hypothetical situations in the past. It's formed with 'aurais/aurait + past participle.' Here it's used in a contrary-to-fact conditional statement."
+        }
+      ],
       "furiganaParagraphs": null,
       "keywords": [
         "soumission",
         "railleries",
         "chapelles",
         "frémissement",
-        "étranglais",
+        "sagesse",
         "transport"
       ]
     },
@@ -7534,49 +7820,78 @@ export const NOVELS: Novel[] = [
       "day": 97,
       "title": "Heartbreak and Betrayal",
       "text": "Il me conjura de lui apprendre promptement d'où venait ce désordre. Ô mon Père, lui dis-je, en continuant de pleurer comme un enfant, figurez-vous la plus horrible cruauté, imaginez-vous la plus détestable de toutes les barbaries, c'est l'action que l'indigne G... M... a eu la lâcheté de commettre. Oh! il m'a percé le coeur Je n'en reviendrai jamais. Je veux vous raconter tout, ajoutai-je en sanglotant. Vous êtes bon, vous aurez pitié de moi. Je lui fis un récit abrégé de la longue et insurmontable passion que j'avais pour Manon, de la situation florissante de notre fortune avant que nous eussions été dépouillés par nos propres domestiques, des offres que G... M... avait faites à ma maîtresse, de la conclusion de leur marché, et de la manière dont il avait été rompu. Je lui représentai les choses, à la vérité, du côté le plus favorable pour nous. Voilà, continuai-je, de quelle source est venu le zèle de M. de G... M... pour ma conversion. Il a eu le crédit de me faire ici renfermer par un pur motif de vengeance. Je lui pardonne, mais, mon Père, ce n'est pas tout: il a fait enlever cruellement la plus chère moitié de moi-même, il l'a fait mettre honteusement à l'Hôpital, il a eu l'impudence de me l'annoncer aujourd'hui de sa propre bouche.",
-      "paragraphs": null,
+      "paragraphs": [
+        "Il me conjura de lui apprendre promptement d'où venait ce désordre. Ô mon Père, lui dis-je, en continuant de pleurer comme un enfant, figurez-vous la plus horrible cruauté, imaginez-vous la plus détestable de toutes les barbaries, c'est l'action que l'indigne G... M... a eu la lâcheté de commettre. Oh! il m'a percé le coeur Je n'en reviendrai jamais. Je veux vous raconter tout, ajoutai-je en sanglotant. Vous êtes bon, vous aurez pitié de moi.",
+        "Je lui fis un récit abrégé de la longue et insurmontable passion que j'avais pour Manon, de la situation florissante de notre fortune avant que nous eussions été dépouillés par nos propres domestiques, des offres que G... M... avait faites à ma maîtresse, de la conclusion de leur marché, et de la manière dont il avait été rompu. Je lui représentai les choses, à la vérité, du côté le plus favorable pour nous.",
+        "Voilà, continuai-je, de quelle source est venu le zèle de M. de G... M... pour ma conversion. Il a eu le crédit de me faire ici renfermer par un pur motif de vengeance. Je lui pardonne, mais, mon Père, ce n'est pas tout: il a fait enlever cruellement la plus chère moitié de moi-même, il l'a fait mettre honteusement à l'Hôpital, il a eu l'impudence de me l'annoncer aujourd'hui de sa propre bouche."
+      ],
       "translation": "He begged me to quickly tell him where this disorder came from. 'Oh, my Father,' I said to him, continuing to cry like a child, 'imagine the most horrible cruelty, imagine the most detestable of all barbarities, it is the act that the unworthy G... M... had the cowardice to commit. Oh! He pierced my heart. I will never recover from it. I want to tell you everything,' I added, sobbing. 'You are good, you will have pity on me.' I gave him an abbreviated account of the long and insurmountable passion I had for Manon, of the flourishing state of our fortune before we had been stripped by our own servants, of the offers that G... M... had made to my mistress, of the conclusion of their bargain, and of the way it had been broken. I represented the things, in truth, from the most favorable side for us. 'That is,' I continued, 'from what source has come the zeal of Mr. G... M... for my conversion. He had the influence to have me confined here for a pure motive of revenge. I forgive him, but, my Father, that is not all: he cruelly had my dearest half carried away, he had her shamefully put in the Hospital, he had the audacity to announce it to me today from his own mouth.'",
       "vocabulary": [
         {
-          "word": "conjurer",
-          "phonetic": "/kɔ̃.ʒy.ʁe/",
-          "translation": "to beg or implore earnestly"
+          "word": "conjura",
+          "phonetic": "/kɔ̃.ʒy.ʁa/",
+          "translation": "begged, implored (past tense)",
+          "example": "Il m'a conjuré de ne pas partir.",
+          "exampleTranslation": "He begged me not to leave."
+        },
+        {
+          "word": "promptement",
+          "phonetic": "/prɔ̃.p.tə.mɑ̃/",
+          "translation": "quickly, promptly",
+          "example": "Répondez promptement à cet e-mail important.",
+          "exampleTranslation": "Respond promptly to this important email."
         },
         {
           "word": "désordre",
           "phonetic": "/de.zɔʁ.dʁ/",
-          "translation": "disorder, chaos"
+          "translation": "disorder, confusion",
+          "example": "La pièce était en grand désordre après la fête.",
+          "exampleTranslation": "The room was in great disorder after the party."
+        },
+        {
+          "word": "indigne",
+          "phonetic": "/ɛ̃.diɲ/",
+          "translation": "unworthy, disgraceful",
+          "example": "Son comportement était indigne d'un gentleman.",
+          "exampleTranslation": "His behavior was unworthy of a gentleman."
+        },
+        {
+          "word": "lâcheté",
+          "phonetic": "/la.ʃə.te/",
+          "translation": "cowardice, timidity",
+          "example": "La lâcheté est souvent plus dommageable que le courage.",
+          "exampleTranslation": "Cowardice is often more damaging than courage."
         },
         {
           "word": "percé",
           "phonetic": "/pɛʁ.se/",
-          "translation": "pierced (past participle of percer)"
-        },
-        {
-          "word": "insurmontable",
-          "phonetic": "/ɛ̃.syʁ.mɔ̃.ta.bl/",
-          "translation": "insurmountable, overwhelming"
-        },
-        {
-          "word": "vengeance",
-          "phonetic": "/vɑ̃.ʒɑ̃s/",
-          "translation": "revenge"
-        },
-        {
-          "word": "audacité",
-          "phonetic": "/o.da.si.te/",
-          "translation": "audacity, boldness"
+          "translation": "pierced (past participle)",
+          "example": "La flèche a percé le bouclier.",
+          "exampleTranslation": "The arrow pierced the shield."
         }
       ],
-      "grammar": null,
+      "grammar": [
+        {
+          "point": "avant que + subjonctif plus-que-parfait",
+          "explanation": "The construction 'avant que' (before) is followed by the subjunctive mood. In this case, it's the past perfect subjunctive (subjonctif plus-que-parfait) 'que nous eussions été dépouillés' to express an action that happened before another past action."
+        },
+        {
+          "point": "faire + infinitive (causative construction)",
+          "explanation": "The construction 'faire + infinitive' is used to express causation, meaning 'to have someone do something' or 'to make someone do something'. In this passage, we see multiple examples: 'me faire ici renfermer', 'faire enlever', and 'faire mettre'."
+        },
+        {
+          "point": "impersonal expressions with subjunctive",
+          "explanation": "Expressions like 'figurez-vous' and 'imaginez-vous' are impersonal expressions that are typically followed by the subjunctive mood. Here they introduce hypothetical or imagined situations."
+        }
+      ],
       "furiganaParagraphs": null,
       "keywords": [
-        "conjurer",
+        "conjura",
+        "promptement",
         "désordre",
-        "percé",
-        "insurmontable",
-        "vengeance",
-        "audacité"
+        "indigne",
+        "lâcheté",
+        "percé"
       ]
     },
     {
