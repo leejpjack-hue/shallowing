@@ -8,6 +8,9 @@ export default defineConfig(({ mode }) => {
       server: {
         port: 3002,
         host: '0.0.0.0',
+        proxy: {
+          '/api': 'http://localhost:3003',
+        },
       },
       preview: {
         port: 3002,
@@ -15,10 +18,8 @@ export default defineConfig(({ mode }) => {
         allowedHosts: ['app4.teqcon.uk'],
       },
       plugins: [react()],
-      define: {
-        'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
-        'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
-      },
+      // NOTE: no `define` for API_KEY — all Gemini calls go through /api (server.cjs),
+      // so no key is shipped to the browser bundle.
       resolve: {
         alias: {
           '@': path.resolve(__dirname, '.'),

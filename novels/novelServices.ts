@@ -1,88 +1,56 @@
 /**
  * Standalone services for the Novel Shadowing page.
  *
- * TTS strategy (the key requirement): Gemini TTS is primary, but when it is
- * out of quota / unavailable we fall back to the browser's speechSynthesis
- * (Web Speech API). Reference audio generated via Gemini is cached in
- * IndexedDB so repeat visits cost zero quota.
+ * All Gemini calls go through the server-side proxy (/api/novels/*) — NO API
+ * key is shipped to the browser. TTS strategy: Gemini (via server) is primary;
+ * when it is out of quota / unavailable we fall back to the browser's
+ * speechSynthesis (Web Speech API). Reference audio is cached in IndexedDB so
+ * repeat visits cost zero quota.
  */
-import { GoogleGenAI, Modality, Type } from "@google/genai";
-import { decodeBase64, pcmToWav, base64ToInt16, createSilence, concatenateBuffers, blobToBase64 } from "../utils/audioUtils";
+import { blobToBase64 } from "../utils/audioUtils";
 import { getCachedAudio, cacheAudio } from "../utils/db";
-
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
 
 export type NovelLang = "french" | "japanese";
 export type TtsEnginePref = "auto" | "gemini" | "browser";
 export type TtsEngineActual = "gemini" | "browser";
 
-const TTS_MODEL = "gemini-2.5-flash-preview-tts";
+/* --------------------------- server API helper -------------------------- */
+
+async function apiBuffer(path: string, body: unknown): Promise<Blob> {
+  const r = await fetch(path, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  if (!r.ok) {
+    const t = await r.text().catch(() => "");
+    throw new Error(`${r.status} ${t.slice(0, 160)}`);
+  }
+  return r.blob();
+}
+async function apiJson<T>(path: string, body: unknown): Promise<T> {
+  const r = await fetch(path, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  if (!r.ok) {
+    const t = await r.text().catch(() => "");
+    throw new Error(`${r.status} ${t.slice(0, 160)}`);
+  }
+  return r.json() as Promise<T>;
+}
 
 /* ----------------------------- Gemini TTS ----------------------------- */
 
-function processAudioResponse(base64Audio: string): Blob {
-  const rawBytes = decodeBase64(base64Audio);
-  const int16Data = new Int16Array(rawBytes.buffer, rawBytes.byteOffset, rawBytes.byteLength / 2);
-  return pcmToWav(int16Data, 24000);
-}
-
 /** Generate a single high-quality reference audio for a full passage. */
 export async function geminiReferenceAudio(text: string, lang: NovelLang): Promise<Blob> {
-  // Kore is multilingual and handles FR/JP well; pick a slightly different
-  // voice per language for variety.
-  const voice = lang === "french" ? "Kore" : "Puck";
-  const response = await ai.models.generateContent({
-    model: TTS_MODEL,
-    contents: [{ parts: [{ text }] }],
-    config: {
-      responseModalities: [Modality.AUDIO],
-      speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: voice } } },
-    },
-  });
-  const b64 = response.candidates?.[0]?.content?.parts?.[0]?.inlineData?.data;
-  if (!b64) throw new Error("No audio data returned from Gemini TTS.");
-  return processAudioResponse(b64);
+  return apiBuffer("/api/novels/tts-reference", { text, lang });
 }
 
-/** Break a passage into cumulative shadowing chunks and TTS each, with pauses. */
+/** Cumulative shadowing chunks with pauses (built server-side). */
 export async function geminiTeacherAudio(text: string, lang: NovelLang): Promise<Blob> {
-  const sep = lang === "japanese" ? /[。！？]/ : /[.!?]/;
-  const sentences = text.split(sep).map((s) => s.trim()).filter(Boolean);
-  // Build cumulative chunks: for each sentence, include the growing prefix up to it.
-  const SAMPLE_RATE = 24000;
-  const results: ({ audio: Int16Array; silence: Int16Array } | null)[] = [];
-  for (let i = 0; i < sentences.length; i++) {
-    const phrase = sentences.slice(0, i + 1).join(lang === "japanese" ? "" : ". ") + (lang === "japanese" ? "。" : ".");
-    try {
-      const r = await ai.models.generateContent({
-        model: TTS_MODEL,
-        contents: [{ parts: [{ text: phrase }] }],
-        config: {
-          responseModalities: [Modality.AUDIO],
-          speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: "Zephyr" } } },
-        },
-      });
-      const b64 = r.candidates?.[0]?.content?.parts?.[0]?.inlineData?.data;
-      if (b64) {
-        const audioBuffer = base64ToInt16(b64);
-        const duration = audioBuffer.length / SAMPLE_RATE;
-        const waitTime = Math.min(5, Math.max(1.4, duration * 1.3));
-        results.push({ audio: audioBuffer, silence: createSilence(waitTime, SAMPLE_RATE) });
-      } else {
-        results.push(null);
-      }
-    } catch {
-      results.push(null);
-    }
-  }
-  const valid = results.filter(Boolean) as { audio: Int16Array; silence: Int16Array }[];
-  if (valid.length === 0) throw new Error("No teacher audio generated.");
-  const all: Int16Array[] = [];
-  for (const v of valid) {
-    all.push(v.audio);
-    all.push(v.silence);
-  }
-  return pcmToWav(concatenateBuffers(all), SAMPLE_RATE);
+  return apiBuffer("/api/novels/tts-teacher", { text, lang });
 }
 
 /** Get (cache-backed) Gemini reference audio for a novel day. */
@@ -237,29 +205,9 @@ export async function analyzePronunciation(
   try {
     const base64Audio = await blobToBase64(userAudioBlob);
     const mimeType = userAudioBlob.type || "audio/webm";
-    const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash-lite",
-      contents: {
-        parts: [
-          { text: `Analyze this ${lang} learner's pronunciation of the passage:\n"""${referenceText}"""\nReturn JSON: {"score":0-100,"feedback":"concise (max 2 sentences)","wordsToImprove":["mispronounced words"]}` },
-          { inlineData: { mimeType, data: base64Audio } },
-        ],
-      },
-      config: {
-        responseMimeType: "application/json",
-        responseSchema: {
-          type: Type.OBJECT,
-          properties: {
-            score: { type: Type.INTEGER },
-            feedback: { type: Type.STRING },
-            wordsToImprove: { type: Type.ARRAY, items: { type: Type.STRING } },
-          },
-        },
-      },
+    return await apiJson<AnalysisResult>("/api/novels/analyze", {
+      audioBase64: base64Audio, mimeType, text: referenceText, lang,
     });
-    const txt = response.text;
-    if (!txt) throw new Error("No analysis received.");
-    return JSON.parse(txt) as AnalysisResult;
   } catch (e) {
     console.error("analyzePronunciation failed", e);
     return {
@@ -324,46 +272,7 @@ export async function setCachedMeta(key: string, meta: DayMeta): Promise<void> {
 export async function generateDayMeta(
   day: number, text: string, lang: NovelLang, novelTitle: string
 ): Promise<DayMeta> {
-  const isFr = lang === "french";
-  const prompt = `You are a meticulous literary translator and language teacher.
-Below is Day ${day} of the ${isFr ? "French" : "Japanese"} novel "${novelTitle}".
-Translate it into natural, faithful English, give it a short (3-6 word) English title, and pick 5-6 key vocabulary items for a learner. phonetic MUST be ${isFr ? "IPA (e.g. /ʁe.vɛj/)" : "Hepburn romaji"}.
-
-Passage:
-"""
-${text}
-"""
-Respond strictly as JSON: { "title": string, "translation": string, "vocabulary": [{ "word": string, "phonetic": string, "translation": string }] }`;
-  const resp = await ai.models.generateContent({
-    model: "gemini-2.5-flash-lite",
-    contents: [{ parts: [{ text: prompt }] }],
-    config: {
-      responseMimeType: "application/json",
-      responseSchema: {
-        type: Type.OBJECT,
-        properties: {
-          title: { type: Type.STRING },
-          translation: { type: Type.STRING },
-          vocabulary: {
-            type: Type.ARRAY,
-            items: {
-              type: Type.OBJECT,
-              properties: {
-                word: { type: Type.STRING },
-                phonetic: { type: Type.STRING },
-                translation: { type: Type.STRING },
-              },
-              required: ["word", "phonetic", "translation"],
-            },
-          },
-        },
-        required: ["title", "translation", "vocabulary"],
-      },
-    },
-  });
-  const txt = resp.text;
-  if (!txt) throw new Error("empty");
-  const parsed = JSON.parse(txt) as DayMeta;
+  const parsed = await apiJson<DayMeta>("/api/novels/meta", { day, text, lang, novelTitle });
   await setCachedMeta(`${lang}_${day}`, parsed);
   return parsed;
 }

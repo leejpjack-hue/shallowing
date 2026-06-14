@@ -805,5 +805,3180 @@
     "exampleTranslation": "He looked down at the people from above."
    }
   ]
+ },
+ "20": {
+  "day": 20,
+  "paragraphs": [
+   "「ジョバンニ、らっこの上着が来るよ。」さっきのザネリがまた叫びました。「ジョバンニ、らっこの上着が来るよ。」すぐみんなが、続いて叫びました。ジョバンニはまっ赤になって、もう歩いているかもわからず、急いで行きすぎようとしましたら、そのなかにカムパネルラが居たのです。",
+   "カムパネルラは気の毒そうに、だまって少しわらって、怒らないだろうかというようにジョバンニの方を見ていました。ジョバンニは、遁げるようにその眼を避け、そしてカムパネルラのせいの高いかたちが過ぎて行って間もなく、みんなはてんでに口笛を吹きました。",
+   "町かどを曲るとき、ふりかえって見ましたら、ザネリがやはりふりかえって見ていました。そしてカムパネルラもまた、高く口笛を吹いて向うにぼんやり見える橋の方へ歩いて行ってしまったのでした。"
+  ],
+  "furiganaParagraphs": [
+   "「ジョバンニ、らっこの上着[うわぎ]が来[く]るよ。」さっきのザネリがまた叫[さけ]びました。「ジョバンニ、らっこの上着[うわぎ]が来[く]るよ。」すぐみんなが、続[つづ]いて叫[さけ]びました。ジョバンニはまっ赤[あか]になって、もう歩[ある]いているかもわからず、急[いそ]いで行[い]きすぎようとしましたら、そのなかにカムパネルラが居[い]たのです。",
+   "カムパネルラは気[き]の毒[どく]そうに、だまって少し[すこし]わらって、怒[おこ]らないだろうかというようにジョバンニの方[ほう]を見[み]ていました。ジョバンニは、逃[に]げるようにその眼[め]を避[さ]け、そしてカムパネルラの背[せい]の高いかたちが過[す]ぎて行[い]って間[ま]もなく、みんなはてんでに口笛[くちぶえ]を吹[ふ]きました。",
+   "町[まち]かどを曲[ま]るとき、振[ふ]り返[かえ]って見[み]ましたら、ザネリがやはり振[ふ]り返[かえ]って見[み]ていました。そしてカムパネルラもまた、高[たか]く口笛[くちぶえ]を吹[ふ]いて向[む]うにぼんやり見[み]える橋[はし]の方[ほう]へ歩[ある]いて行[い]ってしまったのでした。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar point indicates the completion of an action, often with a sense of regret, disappointment, or that something has been done irreversibly. It can also emphasize that an action has been done completely."
+   },
+   {
+    "point": "〜ようとする",
+    "explanation": "This pattern indicates an attempt or effort to do something. It shows the intention or attempt to perform an action, even if it may not be successful."
+   },
+   {
+    "point": "〜てみる",
+    "explanation": "This pattern indicates trying something for the first time or doing something to see what happens. It shows an experimental or trial action."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "まっ赤",
+    "phonetic": "makka",
+    "translation": "bright red, crimson",
+    "example": "彼は怒って顔がまっ赤になった。",
+    "exampleTranslation": "He got angry and his face turned bright red."
+   },
+   {
+    "word": "気の毒",
+    "phonetic": "no dokku",
+    "translation": "pitiful, sad",
+    "example": "彼の話を聞いて、私はとても気の毒に感じた。",
+    "exampleTranslation": "After hearing his story, I felt very sorry for him."
+   },
+   {
+    "word": "逃げる",
+    "phonetic": "nigeru",
+    "translation": "to escape, to flee, to run away",
+    "example": "危ないから、早く逃げましょう。",
+    "exampleTranslation": "It's dangerous, let's escape quickly."
+   },
+   {
+    "word": "てんでに",
+    "phonetic": "tende ni",
+    "translation": "each one separately, individually, on one's own",
+    "example": "学生たちはてんでに宿題をした。",
+    "exampleTranslation": "The students each did their homework separately."
+   },
+   {
+    "word": "ぼんやり",
+    "phonetic": "bonyari",
+    "translation": "vaguely, dimly, indistinctly",
+    "example": "霧の中で遠くの山がぼんやり見える。",
+    "exampleTranslation": "In the fog, the distant mountains can be seen vaguely."
+   },
+   {
+    "word": "行きすぎる",
+    "phonetic": "ikisugiru",
+    "translation": "to pass by, to go too far",
+    "example": "駅を通りすぎて気づいた。",
+    "exampleTranslation": "I realized I had passed the station."
+   }
+  ]
+ },
+ "21": {
+  "day": 21,
+  "paragraphs": [
+   "ジョバンニは、なんとも云えずさびしくなって、いきなり走り出しました。すると耳に手をあてて、わああと云いながら片足でぴょんぴょん跳んでいた小さな子供らは、ジョバンニが面白くてかけるのだと思ってわあいと叫びました。まもなくジョバンニは黒い丘の方へ急ぎました。",
+   "牧場のうしろはゆるい丘になって、その黒い平らな頂上は、北の大熊星の下に、ぼんやりふだんよりも低く連って見えました。ジョバンニは、もう露の降りかかった小さな林のこみちを、どんどんのぼって行きました。",
+   "まっくらな草や、いろいろな形に見えるやぶのしげみの間を、その小さなみちが、一すじ白く星あかりに照らしだされてあったのです。草の中には、ぴかぴか青びかりを出す小さな虫もいて、ある葉は青くすかし出され、ジョバンニは、さっきみんなの持って行った烏瓜のあかりのようだとも思いました。"
+  ],
+  "furiganaParagraphs": [
+   "ジョバンニ[ジョバンニ]は、なんとも[なんとも]云えず[いえず]さびしく[さびしく]なって、いきなり[いきなり]走り出[はしりだ]しました。するとすると耳に[みみに]手を[てを]あてて[あてて]、わああ[わああ]と云いながら[といながら]片足[かたあし]で[で]ぴょんぴょん[ぴょんぴょん]跳んで[とんで]いたいた小さな[ちいさな]子供ら[こどもら]は、ジョバンニ[ジョバンニ]が面白く[おもしろく]て[て]かける[かける]のだ[のだ]と思って[おもって]わあい[わあい]と叫び[さけび]ました。まもなく[まもなく]ジョバンニ[ジョバンニ]は黒い[くろい]丘[おか]の[の]方へ[ほうへ]急ぎ[いそぎ]ました。",
+   "牧場[ぼくじょう]の[の]うしろ[うしろ]は[は]ゆるい[ゆるい]丘[おか]に[に]なって[なって]、その[その]黒い[くろい]平ら[たいら]な[な]頂上[ちょうじょう]は[は]、北[きた]の[の]大熊星[だいぐせい]の[の]下[した]に[に]、ぼんやり[ぼんやり]ふだん[ふだん]より[より]低く[ひくく]連って[つれて]見え[みえ]ました。ジョバンニ[ジョバンニ]は[は]、もう[もう]露[つゆ]の[の]降り[ふり]かかった[かかった]小さな[ちいさな]林[はやし]の[の]こみち[こみち]を[を]、どんどん[どんどん]のぼ[のぼ]って[って]行き[いき]ました。",
+   "まっくら[まっくら]な[な]草[くさ]や[や]、いろいろ[いろいろ]な[な]形[かたち]に[に]見え[みえ]る[る]やぶ[やぶ]の[の]しげみ[しげみ]の[の]間[あいだ]を[を]、その[その]小さな[ちいさな]みち[みち]が[が]、一すじ[ひとすじ]白く[しろく]星あかり[ほしあかり]に[に]照らしだ[てらしだ]されて[されて]あった[あった]のです[のです]。草[くさ]の[の]中[なか]には[には]、ぴかぴか[ぴかぴか]青びかり[あおびかり]を[を]出す[だす]小さな[ちいさな]虫[むし]も[も]いて[いて]、ある[ある]葉[は]は[は]青く[あおく]すかし[すかし]出され[だされ]、ジョバンニ[ジョバンニ]は[は]、さっき[さっき]みんな[みんな]の[の]持って[もって]行っ[いっ]た[た]烏瓜[うり]の[の]あかり[あかり]の[の]ようだ[ようだ]とも[とも]思い[おもい]ました。"
+  ],
+  "grammar": [
+   {
+    "point": "〜ながら",
+    "explanation": "This pattern means 'while' or 'at the same time,' indicating that two actions are happening simultaneously. In the passage, we see '云いながら' (saying while doing something)."
+   },
+   {
+    "point": "〜ていく",
+    "explanation": "This pattern indicates the continuation of an action from the present into the future. In the passage, we see 'のぼって行きました' (climbed and went on)."
+   },
+   {
+    "point": "〜ようだ",
+    "explanation": "This pattern means 'it seems' or 'it looks like,' used to express speculation or resemblance based on what one observes. In the passage, we see '烏瓜のあかりのようだ' (like the light from the gourds)."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "云えず",
+    "phonetic": "iezu",
+    "translation": "unable to say",
+    "example": "彼の気持ちを言葉で云えず、黙ってしまった。",
+    "exampleTranslation": "I couldn't put his feelings into words and remained silent."
+   },
+   {
+    "word": "ぴょんぴょん",
+    "phonetic": "pyonpyon",
+    "translation": "hopping lightly",
+    "example": "子供はぴょんぴょんと跳ねながら遊んでいる。",
+    "exampleTranslation": "The child is playing while hopping lightly."
+   },
+   {
+    "word": "連って",
+    "phonetic": "tsurete",
+    "translation": "appearing together with",
+    "example": "星と月が連って空に浮かんでいた。",
+    "exampleTranslation": "Stars and the moon appeared together in the sky."
+   },
+   {
+    "word": "こみち",
+    "phonetic": "komichi",
+    "translation": "small path, narrow path",
+    "example": "森の中の小道を歩いた。",
+    "exampleTranslation": "I walked along the small path in the forest."
+   },
+   {
+    "word": "照らしだされて",
+    "phonetic": "terashidasarete",
+    "translation": "being illuminated",
+    "example": "月の光が道を照らしだしている。",
+    "exampleTranslation": "The moonlight is illuminating the path."
+   },
+   {
+    "word": "烏瓜",
+    "phonetic": "uri",
+    "translation": "gourd",
+    "example": "彼は烏瓜を作って、それから器にした。",
+    "exampleTranslation": "He grew gourds and made them into containers."
+   }
+  ]
+ },
+ "23": {
+  "day": 23,
+  "paragraphs": [
+   "そこから汽車の音が聞えてきました。その小さな列車の窓は一列小さく赤く見え、その中にはたくさんの旅人が、苹果を剥いたり、わらったり、いろいろな風にしていると考えますと、ジョバンニは、もう何とも云えずかなしくなって、また眼をそらに挙げました。あああの白いそらの帯がみんな星だというぞ。",
+   "ところがいくら見ていても、そのそらはひる先生の云ったような、がらんとした冷いとこだとは思われませんでした。それどころでなく、見れば見るほど、そこは小さな林や牧場やらある野原のように考えられて仕方なかったのです。",
+   "そしてジョバンニは青い琴の星が、三つにも四つにもなって、ちらちら瞬き、脚が何べんも出たり引っ込んだりして、とうとう蕈のように長く延びるのを見ました。またすぐ眼の下のまちまでがやっぱりぼんやりしたたくさんの星の集りか一つの大きなけむりかのように見えるように思いました。"
+  ],
+  "furiganaParagraphs": [
+   "そこから汽車[きしゃ]の音[おと]が聞[き]えてきました。その小さな列車[れっしゃ]の窓[まど]は一列[いちれつ]小さく赤[あか]く見[み]え、その中[なか]にはたくさんの旅人[たびびと]が、苹果[りんご]を剥[む]いたり、わらったり、いろいろな風[ふう]にしていると考え[かんが]ますと、ジョバンニは、もう何[なに]とも云[い]えずかなしくなって、また眼[め]をそらに挙[あ]げました。あああの白[しろ]いそらの帯[おび]がみんな星[ほし]だというぞ。",
+   "ところがいくら見[み]ていても、そのそらはひる先生[せんせい]の云[い]ったような、がらんとした冷[つめ]いとこだとは思[おも]われませんでした。それどころでなく、見[み]れば見[み]るほど、そこは小[ちい]さな林[はやし]や牧場[ぼくじょう]やらある野原[のはら]のように考え[かんが]られて仕[し]方[かた]なかったのです。",
+   "そしてジョバンニは青[あお]い琴[こと]の星[ほし]が、三[さん]つにも四[よん]つにもなって、ちらちら瞬[またた]き、脚[あし]が何[なん]べんも出[で]たり引[ひっ]っ込[こ]んだりして、とうとう蕈[きのこ]のように長[なが]く延[の]びるのを見[み]ました。またすぐ眼[め]の下[した]のまちまでがやっぱりぼんやりしたたくさんの星[ほし]の集[あつ]りか一[いち]つの大[おお]きなけむりかのように見[み]えるように思[おも]いました。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates the completion of an action, often with a sense of regret, disappointment, or that something has gone beyond expectation. It can imply that an action was done completely, sometimes unintentionally or to excess."
+   },
+   {
+    "point": "〜たり〜たりする",
+    "explanation": "This pattern is used to list examples of actions or states, indicating that there are more actions than those explicitly mentioned. It translates to 'things like doing X, doing Y, etc.' or 'doing X and Y'."
+   },
+   {
+    "point": "〜ように思う",
+    "explanation": "This expression means 'to think that something seems like...' or 'to feel as if...' It's used to express one's perception or impression of something."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "汽車",
+    "phonetic": "kisha",
+    "translation": "train",
+    "example": "古い汽車に乗って田舎へ行きました。",
+    "exampleTranslation": "I took an old train to the countryside."
+   },
+   {
+    "word": "剥く",
+    "phonetic": "muku",
+    "translation": "to peel",
+    "example": "私はりんごを丁寧に剥きます。",
+    "exampleTranslation": "I carefully peel the apple."
+   },
+   {
+    "word": "がらんとした",
+    "phonetic": "garan to shita",
+    "translation": "empty, vacant",
+    "example": "がらんとした部屋には何もありませんでした。",
+    "exampleTranslation": "The empty room had nothing in it."
+   },
+   {
+    "word": "牧場",
+    "phonetic": "bokujou",
+    "translation": "pasture, ranch",
+    "example": "広大な牧場で牛が草を食べています。",
+    "exampleTranslation": "Cows are grazing in the vast pasture."
+   },
+   {
+    "word": "蕈",
+    "phonetic": "kinoko",
+    "translation": "mushroom",
+    "example": "雨の後、森にはたくさんの蕈が生えました。",
+    "exampleTranslation": "After the rain, many mushrooms grew in the forest."
+   },
+   {
+    "word": "ぼんやり",
+    "phonetic": "bonyari",
+    "translation": "vaguely, dimly, hazily",
+    "example": "朝のぼんやりとした光の中で目を覚ました。",
+    "exampleTranslation": "I woke up in the dim morning light."
+   }
+  ]
+ },
+ "25": {
+  "day": 25,
+  "paragraphs": [
+   "気がついてみると、さっきから、ごとごとごとごと、ジョバンニの乗っている小さな列車が走りつづけていたのでした。ほんとうにジョバンニは、夜の軽便鉄道の、小さな黄いろの電燈のならんだ車室に、窓から外を見ながら座っていたのです。",
+   "車室の中は、青い天蚕絨を張った腰掛けが、まるでがら明きで、向うの鼠いろのワニスを塗った壁には、真鍮の大きなぼたんが二つ光っているのでした。",
+   "すぐ前の席に、ぬれたようにまっ黒な上着を着た、せいの高い子供が、窓から頭を出して外を見ているのに気が付きました。そしてそのこどもの肩のあたりが、どうも見たことのあるような気がして、そう思うと、もうどうしても誰だかわかりたくて、たまらなくなりました。",
+   "いきなりこっちも窓から顔を出そうとしたとき、俄かにその子供が頭を引っ込めて、こっちを見ました。"
+  ],
+  "furiganaParagraphs": [
+   "気[き]がついてみると、さっきから、ごとごとごとごと、ジョバンニの乗[の]っている小[ちい]さな列車[れっしゃ]が走[はし]りつづけていたのでした。ほんとうにジョバンニは、夜[よる]の軽便鉄道[けいべんてつどう]の、小[ちい]さな黄[きいろ]の電燈[でんとう]のならんだ車室[しゃしつ]に、窓[まど]から外[そと]を見[み]ながら座[すわ]っていたのです。",
+   "車室[しゃしつ]の中[なか]は、青[あお]い天蚕絨[てんさんじゅう]を張[は]った腰掛[こしか]けが、まるでがら明[あ]きで、向[むこう]の鼠[ねずみ]いろのワニスを塗[ぬ]った壁[かべ]には、真鍮[しゅう]の大[おお]きなぼたんが二[ふた]つ光[ひ]っているのでした。",
+   "すぐ前[まえ]の席[せき]に、ぬれたようにまっ黒[くろ]な上着[うわぎ]を着[き]た、せいの高[たか]い子供[こども]が、窓[まど]から頭[あたま]を出[だ]して外[そと]を見[み]ているのに気[き]が付[つ]きました。そしてそのこどもの肩[かた]のあたりが、どうも見[み]たことのあるような気[き]がして、そう思[おも]うと、もうどうしても誰[だれ]だかわかりたくて、たまらなくなりました。",
+   "いきなりこっちも窓[まど]から顔[かお]を出[だ]そうとしたとき、俄[にわ]かにその子供[こども]が頭[あたま]を引[ひっ]っ込[こ]めて、こっちを見[み]ました。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てみる",
+    "explanation": "This grammar point indicates trying something for the first time or doing something to see the result. In this passage, '気がついてみると' means 'when he tried to notice/realize' or 'when he came to his senses.'"
+   },
+   {
+    "point": "〜ている",
+    "explanation": "This is the continuous/progressive form, indicating an ongoing action or state. In this passage, '走りつづけていたのでした' means 'had been continuing to run,' and '座っていたのです' means 'was sitting.'"
+   },
+   {
+    "point": "〜ながら",
+    "explanation": "This grammar point means 'while' or 'during,' indicating that two actions are happening simultaneously. In this passage, '窓から外を見ながら座っていたのです' means 'was sitting while looking out the window.'"
+   },
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar point indicates completion of an action, often with a sense of irreversibility or unexpectedness. In this passage, 'たまらなくなりました' implies that Giovanni became extremely eager to know who the child was, beyond his control."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "気がつく",
+    "phonetic": "ga tsuku",
+    "translation": "to notice, to realize",
+    "example": "彼は私の変化にすぐ気がつきました。",
+    "exampleTranslation": "He immediately noticed my change."
+   },
+   {
+    "word": "軽便鉄道",
+    "phonetic": "keiben tetudou",
+    "translation": "light railway, tramway",
+    "example": "この町には昔、軽便鉄道が走っていました。",
+    "exampleTranslation": "In the past, there was a light railway running through this town."
+   },
+   {
+    "word": "天蚕絨",
+    "phonetic": "tensanjuu",
+    "translation": "velvet (specifically made from silk)",
+    "example": "彼女は天蚕絨のドレスを着てパーティーに出席しました。",
+    "exampleTranslation": "She wore a velvet dress to the party."
+   },
+   {
+    "word": "がら明き",
+    "phonetic": "garaaki",
+    "translation": "completely empty, deserted",
+    "example": "長い休みの後、オフィスはがら明きでした。",
+    "exampleTranslation": "After the long holiday, the office was completely empty."
+   },
+   {
+    "word": "俄かに",
+    "phonetic": "niwaka ni",
+    "translation": "suddenly, abruptly",
+    "example": "俄かに雨が降り出しました。",
+    "exampleTranslation": "It suddenly started to rain."
+   },
+   {
+    "word": "たまらない",
+    "phonetic": "tamaranai",
+    "translation": "unbearable, extremely",
+    "example": "待ち合わせに遅れてしまって、たまらない気持ちでした。",
+    "exampleTranslation": "I was extremely upset about being late for our meeting."
+   }
+  ]
+ },
+ "26": {
+  "day": 26,
+  "paragraphs": [
+   "それはカムパネルラだったのです。ジョバンニが、カムパネルラ、きみは前からここに居たのと云おうと思ったとき、カムパネルラが「みんなはねずいぶん走ったけれども遅れてしまったよ。ザネリもね、ずいぶん走ったけれども追いつかなかった。」と云いました。",
+   "ジョバンニは、（そうだ、ぼくたちはいま、いっしょにさそって出掛けたのだ。）とおもいながら、「どこかで待っていようか」と云いました。するとカムパネルラは「ザネリはもう帰ったよ。お父さんが迎いにきたんだ。」カムパネルラは、なぜかそう云いながら、少し顔いろが青ざめて、どこか苦しいというふうでした。",
+   "するとジョバンニも、なんだかどこかに、何か忘れたものがあるというような、おかしな気持ちがしてだまってしまいました。ところがカムパネルラは、窓から外をのぞきながら、もうすっかり元気が直って、勢よく云いました。"
+  ],
+  "furiganaParagraphs": [
+   "それ[それ]はカムパネルラだったのです。ジョバンニ[じょばんに]が、カムパネルラ[かむぱねら]、きみ[きみ]は前[まえ]からここに居[い]たのと云[い]おうと思[おも]ったとき、カムパネルラ[かむぱねら]が「みんな[みんな]はねずいぶん[ずいぶん]走[はし]ったけれども遅[おそ]れてしまったよ。ザネリ[ざねり]もね、ずいぶん[ずいぶん]走[はし]ったけれども追[お]いつかなかった。」と云[い]いました。",
+   "ジョバンニ[じょばんに]は、（そうだ、ぼく[ぼく]たちはいま、一[いっ]緒[しょ]にさそって出[で]掛[か]けたのだ。）と思[おも]いながら、「どこかで待[ま]っていようか」と云[い]いました。するとカムパネルラ[かむぱねら]は「ザネリ[ざねり]はもう帰[かえ]ったよ。お父[おとう]さんが迎[むか]いにきたんだ。」カムパネルラ[かむぱねら]は、なぜかそう云[い]いながら、少し[すこし]顔[かお]色[いろ]が青[あお]ざめて、どこか苦[くる]しいというふうでした。",
+   "するとジョバンニ[じょばんに]も、なんだかどこかに、何[なに]か忘[わす]れたものがあるというような、おか[おか]しい気[き]持[も]ちがしてだまってしまいました。ところがカムパネルラ[かむぱねら]は、窓[まど]から外[そと]をのぞきながら、もうすっかり元気[げんき]が直[なお]って、勢[いきお]よく云[い]いました。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar indicates that something has been completed, often with a sense of regret, disappointment, or that something couldn't be helped."
+   },
+   {
+    "point": "〜ながら",
+    "explanation": "This grammar means 'while doing' or 'although', indicating that two actions are happening simultaneously."
+   },
+   {
+    "point": "〜というふう",
+    "explanation": "This grammar means 'in a way that...' or 'it seemed that...', used to describe how something appeared or seemed to be."
+   },
+   {
+    "point": "〜というような",
+    "explanation": "This grammar means 'something like...' or 'as if...', used to express uncertainty or approximation."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "青ざめる",
+    "phonetic": "aozameru",
+    "translation": "to turn pale",
+    "example": "彼は恐怖で顔が青ざめた。",
+    "exampleTranslation": "His face turned pale with fear."
+   },
+   {
+    "word": "苦しい",
+    "phonetic": "kurushii",
+    "translation": "painful, distressing",
+    "example": "彼は胸が苦しいと言った。",
+    "exampleTranslation": "He said his chest was painful."
+   },
+   {
+    "word": "勢いよく",
+    "phonetic": "ikioyoku",
+    "translation": "vigorously, energetically",
+    "example": "彼は勢いよくドアを開けた。",
+    "exampleTranslation": "He energetically opened the door."
+   },
+   {
+    "word": "迎いに",
+    "phonetic": "mukai ni",
+    "translation": "to come to pick up/escort",
+    "example": "父が学校に迎えに来た。",
+    "exampleTranslation": "My father came to school to pick me up."
+   },
+   {
+    "word": "だまって",
+    "phonetic": "damatte",
+    "translation": "silently, without speaking",
+    "example": "彼は怒ってだまっていた。",
+    "exampleTranslation": "He was angry and stayed silent."
+   },
+   {
+    "word": "どこか",
+    "phonetic": "dokoka",
+    "translation": "somewhere, somehow",
+    "example": "どこかで会ったことがある。",
+    "exampleTranslation": "I think I've met him somewhere before."
+   }
+  ]
+ },
+ "28": {
+  "day": 28,
+  "paragraphs": [
+   "「銀河ステーションで、もらったんだ。君もらわなかったの。」「ああ、ぼく銀河ステーションを通ったろうか。いまぼくたちの居るとこ、ここだろう。」ジョバンニは、白鳥と書いてある停車場のしるしの、すぐ北を指しました。「そうだ。おや、あの河原は月夜だろうか。」",
+   "そっちを見ますと、青白く光る銀河の岸に、銀いろの空のすすきが、もうまるでいちめん、風にさらさらさらさら、ゆられてうごいて、波を立てているのでした。",
+   "「月夜でないよ。銀河だから光るんだよ。」ジョバンニは云いながら、まるではね上りたいくらい愉快になって、足をこつこつ鳴らし、窓から顔を出して、高く高く星めぐりの口笛を吹きながら一生けん命延びあがって、その天の川の水を、見きわめようとしましたが、はじめはどうしてもそれが、はっきりしませんでした。"
+  ],
+  "furiganaParagraphs": [
+   "「銀河[ぎんが]ステーションで、もらったんだ。君[きみ]もらわなかったの。」「ああ、ぼく銀河[ぎんが]ステーションを通[とお]ったろうか。いまぼくたちの居[い]るとこ、ここだろう。」ジョバンニは、白鳥[はくちょう]と書[か]いてある停車場[ていしゃじょう]のしるしの、すぐ北[きた]を指[さ]しました。「そうだ。おや、あの河原[かわはら]は月夜[げつや]だろうか。」",
+   "そっちを見[み]ますと、青白[あおじろ]く光[ひか]る銀河[ぎんが]の岸[きし]に、銀色[ぎいろ]の空[そら]のすすきが、もうまるで一畑[いちばた]、風[かぜ]にさらさらさらさら、揺[ゆ]られて動[うご]いて、波[なみ]を立てているのでした。",
+   "「月夜[げつや]でないよ。銀河[ぎんが]だから光[ひか]るんだよ。」ジョバンニは言[い]いながら、まるではね上[あ]げたいくらい愉快[ゆかい]になって、足[あし]をこつこつ鳴[な]らし、窓[まど]から顔[かお]を出[だ]して、高[たか]く高[たか]く星[ほし]めぐりの口笛[くちぶえ]を吹[ふ]きながら一生懸命[いっしょうけんめい]延[の]び上[あ]がって、その天の川[あまのがわ]の水[みず]を、見[み]きわめようとしましたが、はじめはどうしてもそれが、はっきりしませんでした。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar point indicates the completion of an action, often with a sense of regret, surprise, or that the action is irreversible. It can also emphasize that an action has been done completely."
+   },
+   {
+    "point": "〜ながら",
+    "explanation": "This grammar point means 'while' or 'as', connecting two actions that happen simultaneously. It indicates that the second action occurs while the first action is being performed."
+   },
+   {
+    "point": "〜だろうか",
+    "explanation": "This is a tentative question form, expressing uncertainty or doubt. It's often used when the speaker is not sure about something and is seeking confirmation or expressing wonder."
+   },
+   {
+    "point": "〜ようとしましたが",
+    "explanation": "This pattern means 'tried to do something, but...' It indicates an attempt to do something that was not successful or was interrupted."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "銀河",
+    "phonetic": "ginga",
+    "translation": "galaxy",
+    "example": "銀河には多くの星があります。",
+    "exampleTranslation": "There are many stars in the galaxy."
+   },
+   {
+    "word": "停車場",
+    "phonetic": "teishajou",
+    "translation": "station",
+    "example": "彼は停車場で友達を待ちました。",
+    "exampleTranslation": "He waited for his friend at the station."
+   },
+   {
+    "word": "河原",
+    "phonetic": "kawara",
+    "translation": "riverbank",
+    "example": "子供たちは河原で石を投げて遊びました。",
+    "exampleTranslation": "The children played by throwing stones on the riverbank."
+   },
+   {
+    "word": "さらさら",
+    "phonetic": "sarara",
+    "translation": "rustling sound/movement",
+    "example": "風にさらさらと揺れる木の葉。",
+    "exampleTranslation": "Leaves rustling in the wind."
+   },
+   {
+    "word": "一生懸命",
+    "phonetic": "isshoukenmei",
+    "translation": "with all one's might",
+    "example": "彼は一生懸命勉強して試験に合格しました。",
+    "exampleTranslation": "He studied with all his might and passed the exam."
+   },
+   {
+    "word": "天の川",
+    "phonetic": "amanogawa",
+    "translation": "Milky Way",
+    "example": "夜空に天の川が見えます。",
+    "exampleTranslation": "You can see the Milky Way in the night sky."
+   }
+  ]
+ },
+ "29": {
+  "day": 29,
+  "paragraphs": [
+   "けれどもだんだん気をつけて見ると、そのきれいな水は、ガラスよりも水素よりもすきとおって、ときどき眼の加減か、ちらちら紫いろのこまかな波をたてたり、虹のようにぎらっと光たりしながら、声もなくどんどん流れて行き、野原にはあっちにもこっちにも、燐光の三角標が、うつくしく立っていたのです。",
+   "遠いものは小さく、近いものは大きく、遠いものは橙や黄いろではっきりし、近いものは青白く少しかすんで、或いは三角形、或いは四辺形、あるいは電や鎖の形、さまざまにならんで、野原いっぱい光っているのでした。",
+   "ジョバンニは、まるでどきどきして、頭をやけに振りました。するとほんとうに、そのきれいな野原中の青や橙や、いろいろかがやく三角標も、てんでに息をつくように、ちらちらゆれたり顫えたりしました。"
+  ],
+  "furiganaParagraphs": [
+   "けれどもだんだん気[き]を[を]つ[つ]けて[けて]見[み]る[る]と[と]、そのき[き]れ[れ]い[い]な[な]水[みず]は[は]、ガラス[ガラス]より[より]水素[すいそ]より[より]すき[すき]と[と]お[お]って[って]、とき[とき]ど[ど]き[き]眼[め]の[の]加[か]減[げ]か[か]、ち[ち]ら[ら]ち[ち]ら[ら]紫[むら]い[い]ろ[ろ]の[の]こ[こ]ま[ま]な[な]波[なみ]を[を]た[た]て[て]た[た]り[り]、虹[にじ]の[の]よ[よ]う[う]に[に]ぎ[ぎ]ら[ら]っ[っ]と[と]光[ひか]っ[っ]た[た]り[り]し[し]な[な]が[が]ら[ら]、声[こえ]も[も]な[な]く[く]ど[ど]ん[ん]ど[ど]ん[ん]流[なが]れ[れ]て[て]行[い]き[き]、野[の]原[は]に[に]は[は]あ[あ]っ[っ]ち[ち]に[に]も[も]こ[こ]っ[っ]ち[ち]に[に]も[も]、燐[りん]光[こう]の[の]三[さん]角[かく]標[ひょう]が[が]、う[う]つ[つ]く[く]し[し]く[く]立[た]っ[っ]て[て]い[い]た[た]の[の]で[で]す[す]。",
+   "遠[とお]い[い]も[も]の[の]は[は]小[ちい]さ[さ]く[く]、近[ちか]い[い]も[も]の[は]大[おお]き[き]く[く]、遠[とお]い[い]も[も]の[は]橙[だ]や[や]黄[き]い[い]ろ[ろ]で[で]は[は]っ[っ]き[き]り[り]し[し]、近[ちか]い[い]も[も]の[は]青[あお]白[じろ]く[く]少[すこ]し[し]か[か]す[す]ん[ん]で[で]、或[あ]い[い]は[は]三[さん]角[かく]形[けい]、或[あ]い[い]は[は]四[し]辺[へん]形[けい]、あ[あ]る[る]い[い]は[は]電[でん]や[や]鎖[さ]の[の]形[かた]、さ[さ]ま[ま]ざ[ざ]ま[ま]に[に]な[な]ら[ら]ん[ん]で[で]、野[の]原[は]い[い]っ[っ]ぱ[ぱ]い[い]光[ひか]っ[っ]て[て]い[い]る[る]の[で]し[し]た[た]。",
+   "ジョバンニ[ジョバンニ]は[は]、ま[ま]る[る]で[で]ど[ど]き[き]ど[ど]き[き]し[し]て[て]、頭[あたま]を[を]や[や]け[け]に[に]振[ふ]っ[っ]た[た]り[り]。す[す]る[と]ほ[ほ]ん[ん]と[と]う[う]に[に]、そ[そ]の[の]き[き]れ[れ]い[い]な[な]野[の]原[は]中[ちゅう]の[の]青[あお]や[や]橙[だ]や[や]、い[い]ろ[ろ]ろ[ろ]か[か]が[が]や[や]く[く]三[さん]角[かく]標[ひょう]も[も]、て[て]ん[ん]で[で]に[に]息[いき]を[を]つ[つ]く[く]よ[よ]う[う]に[に]、ち[ち]ら[ら]ち[ち]ら[ら]ゆ[ゆ]れ[れ]た[た]り[り]顫[ふる]え[え]た[た]り[り]し[し]ま[ま]し[し]た[た]。"
+  ],
+  "grammar": [
+   {
+    "point": "〜たり〜たりする",
+    "explanation": "This pattern is used to list examples of actions or states, implying 'things like A, B, and so on.' In the passage, it appears as '波をたてたり、虹のようにぎらっと光たりしながら' (creating waves, sparkling like a rainbow, etc.)."
+   },
+   {
+    "point": "〜ながら",
+    "explanation": "This pattern means 'while' or 'as,' indicating that two actions are happening simultaneously. In the passage, it appears as '光たりしながら' (while sparkling)."
+   },
+   {
+    "point": "〜のでした",
+    "explanation": "This is the past tense form of 〜のです, used to explain or emphasize information. In the passage, it appears at the end of sentences to provide explanations about the scene."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "気をつけて",
+    "phonetic": "ki o tsukete",
+    "translation": "to pay attention, to be careful",
+    "example": "道路[どうろ]を[を]横[よこ]切[き]る[る]時[とき]は[は]気[き]を[を]つ[つ]けて[けて]ください[ください]。",
+    "exampleTranslation": "Please be careful when crossing the road."
+   },
+   {
+    "word": "すきとおって",
+    "phonetic": "suki tootte",
+    "translation": "transparent, clear",
+    "example": "この[この]ガラス[ガラス]は[は]水[みず]の[の]よう[よう]に[に]すき[すき]と[と]お[お]って[って]い[い]ます[ます]。",
+    "exampleTranslation": "This glass is as transparent as water."
+   },
+   {
+    "word": "燐光",
+    "phonetic": "rinkou",
+    "translation": "phosphorescence, phosphorescent light",
+    "example": "海[うみ]の[の]中[なか]で[で]魚[さかな]たち[たち]が[が]発[はつ]する[する]燐[りん]光[こう]は[は]美[うつく]しい[しい]です[です]。",
+    "exampleTranslation": "The phosphorescence emitted by fish in the sea is beautiful."
+   },
+   {
+    "word": "三角標",
+    "phonetic": "sankakuhyou",
+    "translation": "triangular marker, signpost",
+    "example": "登山[とうざん]道[どう]の[の]脇[わき]に[に]三[さん]角[かく]標[ひょう]が[が]立[た]っ[っ]て[て]い[い]ます[ます]。",
+    "exampleTranslation": "There are triangular markers beside the hiking trail."
+   },
+   {
+    "word": "かすんで",
+    "phonetic": "kasunde",
+    "translation": "to be indistinct, to blur, to fade",
+    "example": "霧[きり]が[が]か[か]す[す]ん[ん]で[で]遠[とお]く[く]の[の]山[やま]が[が]見[み]え[え]なくな[な]り[り]ま[ま]し[し]た[た]。",
+    "exampleTranslation": "The fog made the distant mountains disappear."
+   },
+   {
+    "word": "顫えたり",
+    "phonetic": "furuetari",
+    "translation": "to tremble, to shake",
+    "example": "寒[さむ]さ[さ]で[で]体[からだ]が[が]顫[ふる]え[え]て[て]仕[し]方[かた]が[が]な[な]い[い]です[です]。",
+    "exampleTranslation": "I'm trembling from the cold and can't stop."
+   }
+  ]
+ },
+ "30": {
+  "day": 30,
+  "paragraphs": [
+   "「ぼくはもう、すっかり天の野原に来た。」ジョバンニは云いました。「それにこの汽車石炭をたいていないねえ。」ジョバンニが左手をつき出して窓から前の方を見ながら云いました。「アルコールか電気だろう。」カムパネルラが云いました。",
+   "ごとごとごとごと、その小さなきれいな汽車は、そらのすすきの風にひるがえる中を、天の川の水や、三角点の青じろい微光の中を、どこまでもどこまでもと、走って行くのでした。",
+   "「ああ、りんどうの花が咲いている。もうすっかり秋だねえ。」カムパネルラが、窓の外を指さして云いました。線路のへりになったみじかい芝草の中に、月長石ででも刻まれたような、すばらしい紫のりんどうの花が咲いていました。",
+   "「ぼく、飛び下りて、あいつをとって、また飛び乗ってみせようか。"
+  ],
+  "furiganaParagraphs": [
+   "「ぼくはもう、すっかり天[てん]の野[の]原[はら]に来[きた]。」ジョバンニは云[い]いました。「それにこの汽車[きしゃ]石炭[せきたん]を焚[た]いていないねえ。」ジョバンニが左手[ひだりて]を突[つ]き出[だ]して窓[まど]から前[まえ]の方[ほう]を見[み]ながら云[い]いました。「アルコールか電気[でんき]だろう。」カムパネルラが云[い]いました。",
+   "ごとごとごとごと、その小[ちい]さなきれいな汽車[きしゃ]は、そらのすすきの風[かぜ]にひるがえる中[なか]を、天[てん]の川[かわ]の水[みず]や、三角点[さんかくてん]の青[あお]じろい微光[びこう]の中[なか]を、どこまでもどこまでもと、走[はし]って行[い]くのでした。",
+   "「ああ、りんどうの花[はな]が咲[さ]いている。もうすっかり秋[あき]だねえ。」カムパネルラが、窓[まど]の外[そと]を指[ゆび]さして云[い]いました。線路[せんろ]のへりになったみじかい芝草[しばくさ]の中[なか]に、月長石[げっちょうせき]ででも刻[きざ]まれたような、すばらしい紫[むらさき]のりんどうの花[はな]が咲[さ]いていました。",
+   "「ぼく、飛[と]び下[お]りて、あいつを取[と]って、また飛[と]び乗[の]ってみせようか。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates the completion of an action, often with a sense of irreversibility or that something has been done completely. It can also imply regret or that something was done unintentionally."
+   },
+   {
+    "point": "〜ながら",
+    "explanation": "This pattern means 'while' or 'as' and is used to describe two actions happening simultaneously. The verb in 〜ながら form is the background action while the main action occurs."
+   },
+   {
+    "point": "〜てみる",
+    "explanation": "This pattern means 'to try doing something' or 'to do something as an experiment.' It indicates attempting an action to see what happens or to gain experience."
+   },
+   {
+    "point": "〜だろう",
+    "explanation": "This is a sentence ender used to express speculation or assumption. It's equivalent to 'probably,' 'I guess,' or 'I suppose' in English."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "天の野原",
+    "phonetic": "ten no hara",
+    "translation": "heavenly field/heavenly plain",
+    "example": "夜空を見上げると、星が天の野原を散らばっているようだ。",
+    "exampleTranslation": "Looking up at the night sky, it seems as if stars are scattered across the heavenly plain."
+   },
+   {
+    "word": "汽車",
+    "phonetic": "kisha",
+    "translation": "steam train",
+    "example": "古い汽車に乗って、田舎の風景を楽しんだ。",
+    "exampleTranslation": "I rode an old steam train and enjoyed the countryside scenery."
+   },
+   {
+    "word": "微光",
+    "phonetic": "hikari",
+    "translation": "faint light/glimmer",
+    "example": "月明かりの下で、湖面に微光が揺れている。",
+    "exampleTranslation": "Under the moonlight, a faint light is shimmering on the lake surface."
+   },
+   {
+    "word": "りんどう",
+    "phonetic": "rindou",
+    "translation": "lupine flower",
+    "example": "山の斜面には紫色のりんどうが咲き誇っている。",
+    "exampleTranslation": "Purple lupine flowers are proudly blooming on the mountainside."
+   },
+   {
+    "word": "飛び乗る",
+    "phonetic": "tobinoru",
+    "translation": "to jump onto",
+    "example": "子供はバスに飛び乗るのが好きだ。",
+    "exampleTranslation": "Children like to jump onto the bus."
+   },
+   {
+    "word": "石炭",
+    "phonetic": "sekitan",
+    "translation": "coal",
+    "example": "この工場では石炭を使って発電している。",
+    "exampleTranslation": "This factory uses coal to generate electricity."
+   }
+  ]
+ },
+ "32": {
+  "day": 32,
+  "paragraphs": [
+   ")と思いながら、ぼんやりしてだまっていました。「ぼくはおっかさんが、ほんとうに幸になるなら、どんなことでもする。けれども、いったいどんなことが、おっかさんのいちばんの幸なんだろう。」カムパネルラは、なんだか、泣きだしたいのを、一生けん命こらえているようでした。",
+   "「きみのおっかさんは、なんにもひどいことないじゃないの。」ジョバンニはびっくりして叫びました。「ぼくわからない。けれども、誰だって、ほんとうにいいことをしたら、いちばん幸なんだねえ。だから、おっかさんは、ぼくをゆるして下さると思う。」カムパネルラは、なにかほんとうに決心しているように見えました。",
+   "俄かに、車のなかが、ぱっと白く明るくなりました。見ると、もうじつに、金剛石や草の露やあらゆる立派さをあつめたような、きらびやかな銀河の河床の上を水は声もなくかたちもなく流れ、その流れのまん中に、ぼうっと青白く後光の射した一つの島が見えるのでした。"
+  ],
+  "furiganaParagraphs": [
+   ")と思いながら[おもいながら]、ぼんやりしてだまっていました。「ぼく[ぼく]はおっかさん[おっかさん]が、ほんとう[ほんとう]に幸[しあわ]になるなら、どんなことでもする。けれども[けれども]、いったい[いったい]どんなことが、おっかさん[おっかさん]のいちばん[いちばん]の幸[しあわ]なんだろう[なんだろう]。」カムパネルラ[かむぱねっら]は、なんだか[なんだか]、泣きだしたい[なきだしたい]のを、一生けん命[いっしょうけんめい]こらえて[こらえて]いるようでした[ようでした]。",
+   "「きみ[きみ]のおっかさん[おっかさん]は、なんにも[なんにも]ひどい[ひどい]ことない[ことない]じゃないの[じゃないの]。」ジョバンニ[じょばんに]はびっくり[びっくり]して叫びました[さけびました]。「ぼく[ぼく]わからない[わからない]。けれども[けれども]、誰だって[だれだって]、ほんとう[ほんとう]にいいこと[いいこと]をしたら、いちばん[いちばん]幸[しあわ]なんだねえ[なんだねえ]。だから[だから]、おっかさん[おっかさん]は、ぼく[ぼく]をゆるして[ゆるして]下さる[くださる]と思う[と思う]。」カムパネルラ[かむぱねっら]は、なにか[なにか]ほんとう[ほんとう]に決心[けしん]しているように[しているように]見えました[みえました]。",
+   "俄かに[にわかに]、車[くるま]のなかが[なかが]、ぱっと[ぱっと]白[しろ]く明[あか]るくなりました[あかるくなりました]。見ると[みると]、もうじつに[もうじつに]、金剛石[こんごうせき]や草[くさ]の露[つゆ]やあらゆる[あらゆる]立派[りっぱ]さをあつめた[あつめた]ような[ような]、きらびやか[きらびやか]な銀河[ぎんが]の河床[かしょう]の上[うえ]を水[みず]は声[こえ]もなく[もなく]かたちもなく[かたちもなく]流[なが]れ、その流れ[ながれ]のまん中[まんなか]に、ぼうっと[ぼうっと]青白[あおじろ]く後光[こうこう]の射した[しゃした]一つ[ひとつ]の島[しま]が見える[みえる]のでした[のでした]。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar indicates that an action is completed, often with a sense of regret or that something couldn't be helped. In this passage, it's used in the negative form 'こらえている' (holding back), indicating the effort to prevent an action (crying) from being completed."
+   },
+   {
+    "point": "〜て下さる",
+    "explanation": "This is a respectful form of 〜てくれる, indicating that someone does something for the speaker. It shows that the speaker is receiving a favor from someone of higher status. In this passage, 'ゆるして下さる' means 'will forgive me' (with respect to the mother)."
+   },
+   {
+    "point": "〜ようだ/〜ようです",
+    "explanation": "This indicates that something appears to be a certain way based on observation. It expresses inference or appearance rather than certainty. In this passage, it's used to describe how Campenella appeared to be holding back tears and seemed to have made a decision."
+   },
+   {
+    "point": "〜たら",
+    "explanation": "This indicates a conditional 'if/when' clause. It expresses a condition and its likely result. In this passage, 'したら' is used to mean 'when someone does something truly good, that's their greatest happiness'."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "ぼんやり",
+    "phonetic": "bonyari",
+    "translation": "blankly, vaguely, indistinctly",
+    "example": "彼はぼんやりと空を眺めていた。",
+    "exampleTranslation": "He was staring blankly at the sky."
+   },
+   {
+    "word": "おっかさん",
+    "phonetic": "okāsan",
+    "translation": "mother (colloquial term)",
+    "example": "おっかさんの作った料理が一番好きだ。",
+    "exampleTranslation": "I like the food my mother makes the most."
+   },
+   {
+    "word": "ひどい",
+    "phonetic": "hidoi",
+    "translation": "terrible, awful, severe",
+    "example": "交通事故でひどい怪我をした。",
+    "exampleTranslation": "I was badly injured in a traffic accident."
+   },
+   {
+    "word": "決心",
+    "phonetic": "kesshin",
+    "translation": "decision, determination",
+    "example": "彼は新しい仕事に挑戦する決心をした。",
+    "exampleTranslation": "He decided to challenge himself with a new job."
+   },
+   {
+    "word": "俄かに",
+    "phonetic": "niwaka ni",
+    "translation": "suddenly, abruptly",
+    "example": "俄かに雨が降り出した。",
+    "exampleTranslation": "It suddenly started to rain."
+   },
+   {
+    "word": "金剛石",
+    "phonetic": "kongōseki",
+    "translation": "diamond",
+    "example": "金剛石は自然界で最も硬い鉱物だ。",
+    "exampleTranslation": "Diamond is the hardest mineral in nature."
+   }
+  ]
+ },
+ "33": {
+  "day": 33,
+  "paragraphs": [
+   "その島の平らないただきに、立派な眼もさめるような、白い十字架がたって、それはもう凍った北極の雲で鋳たといったらいいか、すきっとした金いろの円光をいただいて、しずかに永久に立っているのででした。",
+   "「ハルレヤ、ハルレヤ。」前からもうしろからも声が起りました。ふりかえって見ると、車室の中の旅人たちは、みなまっすぐにきもののひだを垂れ、黒いバイブルを胸にあてたり、水晶の珠数をかけたり、どの人もつつましく指を組み合せて、そっちに祈っているのでした。",
+   "思わず二人もまっすぐに立ちあがりました。カムパネルラの頬は、まるで熟した苹果のあかしのようにうつくしくかがやいて見えました。そして島と十字架とは、だんだんうしろの方へうつって行きました。",
+   "向う岸も、青じろくぽうっと光ってけむり、時々、やっぱりすすきが風にひるがえるらしく、さっとその銀いろがけむって、息でもかけたように見え、また、たくさんのりんどうの花が、草をかくれたり出たりするのは、やさしい狐火のように思われました。"
+  ],
+  "furiganaParagraphs": [
+   "その島[しま]の平[たいら]ら[ない]ただきに、立派[りっぱ]な眼[め]もさめるような、白[しろ]い十字架[じゅうじか]がたって、それはもう凍[こお]った北極[ほっきょく]の雲[くも]で鋳[い]たといったらいいか、すきっとした金[きん]いろの円光[えんこう]をいただいて、し[ず]かに永久[えいきゅう]に立[た]っているのででした。",
+   "「ハルレヤ、ハルレヤ。」前[まえ]からもうし[ろ]からも声[こえ]が起[お]りました。ふりかえって見[み]ると、車[しゃ]室[しつ]の中[なか]の旅人[たびびと]たちは、みなまっすぐにきもののひだを垂[た]れ、黒[くろ]いバイブルを胸[むね]にあてたり、水晶[すいしょう]の珠数[たまかず]をかけたり、どの人[ひと]もつつましく指[ゆび]を組[く]み合[あ]せて、そっちに祈[いの]っているのでした。",
+   "思[おも]わず二人[ふたり]もまっすぐに立ち[た]あがりました。カムパネルラの頬[ほお]は、まるで熟[じゅく]した苹果[りんご]のあかしのようにうつくしくかがやいて見[み]えました。そして島[しま]と十字架[じゅうじか]とは、だんだんうしろの方[ほう]へうつって行[い]きました。",
+   "向[む]う岸[きし]も、青[あお]じろくぽうっと光[ひか]ってけむり、時[とき]々[どき]、やっぱりすすきが風[かぜ]にひるがえるらしく、さっとその銀[ぎん]いろがけむって、息[いき]でもかけたように見[み]え、また、たくさんのりんどうの花[はな]が、草[くさ]をかくれたり出[で]たりするのは、やさしい狐火[きつちび]のように思[おも]われました。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates the completion of an action, often with a nuance that the action was done completely, sometimes with a sense of regret or that it couldn't be helped."
+   },
+   {
+    "point": "〜たり〜たりする",
+    "explanation": "This pattern is used to list examples of actions, indicating that there are other similar actions not mentioned. It translates to 'things like doing X, doing Y, etc.'"
+   },
+   {
+    "point": "〜ように思われる",
+    "explanation": "This pattern expresses that something appears or seems a certain way from the speaker's perspective. It indicates a subjective observation rather than a fact."
+   },
+   {
+    "point": "〜といったらいいか",
+    "explanation": "This is a rhetorical expression used when the speaker is trying to find the right words to describe something. It's similar to saying 'How should I put it...' or 'It's like saying...' in English."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "平らない",
+    "phonetic": "tairanai",
+    "translation": "uneven, not flat",
+    "example": "道が平らないので、歩きにくいです。",
+    "exampleTranslation": "The road is uneven, so it's difficult to walk on."
+   },
+   {
+    "word": "眼もさめるような",
+    "phonetic": "me mo sameru you na",
+    "translation": "something that makes one's eyes open wide in awe",
+    "example": "その景色は眼もさめるほど美しかった。",
+    "exampleTranslation": "The view was so beautiful it made my eyes open wide in awe."
+   },
+   {
+    "word": "鋳た",
+    "phonetic": "ita",
+    "translation": "cast (metal)",
+    "example": "この像は青銅で鋳られたものです。",
+    "exampleTranslation": "This statue is cast from bronze."
+   },
+   {
+    "word": "すきっとした",
+    "phonetic": "sukitto shita",
+    "translation": "clear, bright, vivid",
+    "example": "すきっとした青空の下でピクニックを楽しみました。",
+    "exampleTranslation": "I enjoyed a picnic under the clear blue sky."
+   },
+   {
+    "word": "珠数",
+    "phonetic": "tamakazu",
+    "translation": "prayer beads",
+    "example": "お寺で珠数を数えながら祈りました。",
+    "exampleTranslation": "I prayed while counting prayer beads at the temple."
+   },
+   {
+    "word": "狐火",
+    "phonetic": "kitsubi",
+    "translation": "will-o'-the-wisp, ignis fatuus",
+    "example": "夜の森で狐火が見えることがあります。",
+    "exampleTranslation": "Sometimes you can see will-o'-the-wisps in the forest at night."
+   }
+  ]
+ },
+ "36": {
+  "day": 36,
+  "paragraphs": [
+   "ところが改札口には、明るい紫がかった電燈が、一つ点いているばかり、誰も居ませんでした。そこら中を見ても、駅長や赤帽らしい人の、影もなかったのです。二人は、停車場の前の、水晶細工のように見える銀杏の木に囲まれた、小さな広場に出ました。",
+   "そこから幅の広いみちが、まっすぐに銀河の青光の中へ通っていました。さきに降りた人たちは、もうどこへ行ったか一人も見えませんでした。二人がその白い道を、肩をならべて行きますと、二人の影は、ちょうど四方に窓のある室の中の、二本の柱の影のように、また二つの車輪の輻のように幾本も幾本も四方へ出るのでした。",
+   "そして間もなく、あの汽車から見えたきれいな河原に来ました。カムパネルラは、そのきれいな砂を一つまみ、掌にひろげ、指できしきしさせながら、夢のように云っているのでした。"
+  ],
+  "furiganaParagraphs": [
+   "ところが改札[かいさつ]口[ぐち]には、明[あか]るい紫[むらさき]がかった電燈[でんとう]が、一つ[ひとつ]点[つ]いているばかり、誰[だれ]も居[い]ませんでした。そこら中[なか]を見[み]ても、駅長[えきちょう]や赤帽[あかぼう]らしい人[ひと]の、影[かげ]もなかったのです。二人[ふたり]は、停車場[ていじょう]の前[まえ]の、水晶[すいしょう]細工[さいく]のように見[み]える銀杏[いちょう]の木[き]に囲[かこ]まれた、小[ちい]さな広場[ひろば]に出[で]ました。",
+   "そこから幅[はば]の広[ひろ]いみちが、まっすぐに銀河[ぎんが]の青[あお]光[ひかり]の中[なか]へ通[とお]っていました。さきに降[お]りた人[ひと]たちは、もうどこへ行[い]ったか一人[ひとり]も見[み]えませんでした。二人[ふたり]がその白[しろ]い道[みち]を、肩[かた]を並[なら]べて行[い]きますと、二人[ふたり]の影[かげ]は、ちょうど四方[しほう]に窓[まど]のある室[しつ]の中[なか]の、二本[にほん]の柱[はしら]の影[かげ]のように、また二[ふた]つの車輪[しゃりん]の輻[ふく]のように幾本[いくほん]も幾本[いくほん]も四方[しほう]へ出[で]るのでした。",
+   "そして間[ま]もなく、あの汽車[きしゃ]から見[み]えたきれいな河原[かわはら]に来[き]ました。カムパネルラは、そのきれいな砂[すな]を一つ[ひとつ]まみ、掌[てのひら]に広[ひろ]げ、指[ゆび]できしきしさせながら、夢[ゆめ]のように云[い]っているのでした。"
+  ],
+  "grammar": [
+   {
+    "point": "〜ばかり",
+    "explanation": "This grammar pattern indicates 'only', 'just', or 'nothing but'. It emphasizes that something is the only thing happening or present."
+   },
+   {
+    "point": "〜ように",
+    "explanation": "This pattern is used for comparison, meaning 'like', 'as if', or 'as though'. It's often used to describe how something appears or seems."
+   },
+   {
+    "point": "〜ながら",
+    "explanation": "This pattern indicates that two actions are happening simultaneously. It translates to 'while' doing something, you're also doing something else."
+   },
+   {
+    "point": "〜て出る",
+    "explanation": "This pattern combines the te-form of a verb with 出る (to exit, to come out) to indicate that something starts coming out or extending from something else."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "改札口",
+    "phonetic": "kaitsutsuguchi",
+    "translation": "ticket gate",
+    "example": "駅の改札口で切符を提示してください。",
+    "exampleTranslation": "Please show your ticket at the station gate."
+   },
+   {
+    "word": "銀杏",
+    "phonetic": "ichou",
+    "translation": "ginkgo tree",
+    "example": "秋になると、銀杏の葉が黄色くなります。",
+    "exampleTranslation": "In autumn, ginkgo leaves turn yellow."
+   },
+   {
+    "word": "赤帽",
+    "phonetic": "akabou",
+    "translation": "porter (train station staff)",
+    "example": "駅の赤帽が荷物を運んでくれました。",
+    "exampleTranslation": "The station porter carried my luggage for me."
+   },
+   {
+    "word": "車輪の輻",
+    "phonetic": "sharinfuku",
+    "translation": "spokes of a wheel",
+    "example": "自転車の車輪の輻が壊れてしまいました。",
+    "exampleTranslation": "The spokes of my bicycle wheel broke."
+   },
+   {
+    "word": "掌",
+    "phonetic": "tenohira",
+    "translation": "palm of the hand",
+    "example": "掌に小鳥を乗せてあげました。",
+    "exampleTranslation": "I held a small bird in my palm."
+   },
+   {
+    "word": "きしきしさせる",
+    "phonetic": "kishikishisaseru",
+    "translation": "to rub between fingers",
+    "example": "コーヒー豆をきしきしさせて香りを楽しみます。",
+    "exampleTranslation": "I rub coffee beans between my fingers to enjoy the aroma."
+   }
+  ]
+ },
+ "37": {
+  "day": 37,
+  "paragraphs": [
+   "「この砂はみんな水晶だ。中で小さな火が燃えている。」「そうだ。」どこでぼくは、そんなこと習ったろうと思いながら、ジョバンニもぼんやり答えていました。河原の礫は、みんなすきとおって、たしかに水晶や黄玉や、またくしゃくしゃの皺曲をあらわしたのや、また稜から霧のような青白い光を出す鋼玉やらでした。",
+   "ジョバンニは、走ってその渚に行って、水に手をひたしました。けれどもあやしいその銀河の水は、水素よりももっとすきとおっていたのです。それでもたしかに流れていたことは、二人の手首の、水にひたったとこが、少し水銀いろに浮いたように見え、その手首にぶっつかってできた波は、うつくしい燐光をあげて、ちらちらと燃えるように見えたのでもわかりました。",
+   "川上の方を見ると、すすきのいっぱいに生えている崖の下に、白い岩が、まるで運動場のように平らに川に沿って出ているのでした。"
+  ],
+  "furiganaParagraphs": [
+   "「この砂[さ]はみんな水晶[すいしょう]だ。中[なか]で小[ちい]さな火[ひ]が燃[も]えている。」「そうだ。」どこでぼくは、そんなこと習[なら]ったろうと思[おも]いながら、ジョバンニもぼんやり答[こた]えていました。河原[かわら]の礫[いし]は、みんなすきとおって、たしかに水晶[すいしょう]や黄玉[こうぎょく]や、またくしゃくしゃの皺曲[しわまが]をあらわしたのや、また稜[さか]から霧[きり]のような青白[あおじろ]い光[ひかり]を出[だ]す鋼玉[こうぎょく]やらでした。",
+   "ジョバンニは、走[はし]ってその渚[なぎさ]に行[い]って、水[みず]に手[て]をひたしました。けれどもあやしいその銀河[ぎんが]の水[みず]は、水素[すいそ]よりももっとすきとおっていたのです。それでもたしかに流[なが]れていたことは、二人[ふたり]の手首[てうで]の、水[みず]にひたったとこが、少し[すこし]水銀[すいぎん]いろに浮[う]いたように見[み]え、その手首[てうで]にぶっつかってできた波[なみ]は、うつくしい燐光[りんこう]をあげて、ちらちらと燃[も]えるように見[み]えたのでもわかりました。",
+   "川上[かわかみ]の方[ほう]を見[み]ると、すすきのいっぱいに生[う]えている崖[がけ]の下[した]に、白[しろ]い岩[いわ]が、まるで運動場[うんどうじょう]のように平[たい]らに川[かわ]に沿[そ]って出[で]ているのでした。"
+  ],
+  "grammar": [
+   {
+    "point": "〜ながら",
+    "explanation": "This grammar point indicates doing two actions simultaneously, or describes a state while another action is ongoing. It translates to 'while' or 'as' in English."
+   },
+   {
+    "point": "〜や〜や",
+    "explanation": "This pattern is used to list non-exhaustive examples of items or actions. It's similar to 'and' or 'such as' in English, but implies there are more items not mentioned."
+   },
+   {
+    "point": "〜ように見える",
+    "explanation": "This pattern means 'appears as if' or 'looks like' in English. It's used to describe how something appears to be based on observation."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "水晶",
+    "phonetic": "suishō",
+    "translation": "crystal",
+    "example": "彼女は水晶のネックレスを身につけている。",
+    "exampleTranslation": "She is wearing a crystal necklace."
+   },
+   {
+    "word": "ぼんやり",
+    "phonetic": "bonyari",
+    "translation": "vaguely, indistinctly",
+    "example": "ぼんやりと夢を見ていた。",
+    "exampleTranslation": "I was dreaming vaguely."
+   },
+   {
+    "word": "礫",
+    "phonetic": "ishi",
+    "translation": "pebble, gravel",
+    "example": "川岸には小さな礫が散らばっている。",
+    "exampleTranslation": "Small pebbles are scattered along the riverbank."
+   },
+   {
+    "word": "すきとおる",
+    "phonetic": "sukitooru",
+    "translation": "to be transparent, to be clear",
+    "example": "このガラスはすきとおっていて、中が見える。",
+    "exampleTranslation": "This glass is transparent, so you can see through it."
+   },
+   {
+    "word": "燐光",
+    "phonetic": "rinkō",
+    "translation": "phosphorescence",
+    "example": "海の深みでは、魚たちが燐光を放っている。",
+    "exampleTranslation": "In the depths of the ocean, fish emit phosphorescence."
+   },
+   {
+    "word": "すすき",
+    "phonetic": "susuki",
+    "translation": "silver grass, miscanthus",
+    "example": "秋の風物詩はすすきの穂が揺れる姿だ。",
+    "exampleTranslation": "A symbol of autumn is the sight of silver grass swaying."
+   }
+  ]
+ },
+ "38": {
+  "day": 38,
+  "paragraphs": [
+   "そこに小さな五六人の人かげが、何か掘り出すか埋めるかしているらしく、立ったり屈んだり、時々なにかの道具が、ピカッと光ったりしました。「行ってみよう。」二人は、まるで一度に叫んで、そっちの方へ走りました。",
+   "その白い岩になった処の入口に、〔プリオシン海岸〕という、瀬戸物のつるつるした標札が立って、向うの渚には、ところどころ、細い鉄の欄干も植えられ、木製のきれいなベンチも置いてありました。",
+   "「おや、変なものがあるよ。」カムパネルラが、不思議そうに立ちどまって、岩から黒い細長いさきの尖ったくるみの実のようなものをひろいました。「くるみの実だよ。そら、沢山ある。流れて来たんじゃない。岩の中に入ってるんだ。」「大きいね、このくるみ、倍あるね。こいつはすこしもいたんでない。"
+  ],
+  "furiganaParagraphs": [
+   "そこに小さな[ちいさな]五六人[ごろにん]の人かげが、何か[なにか]掘り出す[ほりだす]か埋める[うめる]かしているらしく、立ったり[たったり]屈んだり[かがんだり]、時々[ときどき]なにかの道具[どうぐ]が、ピカッと光ったり[ひったり]しました。「行ってみよう。」二人[ふたり]は、まるで一度に[いちどに]叫んで[さけんで]、そっちの方へ[ほうへ]走りました[はしりました]。",
+   "その白い[しろい]岩になった処[ところ]の入口[いりぐち]に、〔プリオシン海岸[かいがん〕という、瀬戸物[せともの]のつるつるした標札[ひょうさつ]が立って[たって]、向うの渚[なぎさ]には、ところどころ、細い[ほそい]鉄の鉄[てつ]の欄干[らんかん]も植えられ[うえられ]、木製[もくせい]のきれいなベンチも置いてありました[おいてありました]。",
+   "「おや、変な[へんな]ものがあるよ。」カムパネルラが、不思議そうに[ふしぎそうに]立ちどまって[たちどまって]、岩から[いわから]黒い[くろい]細長い[ほそながい]さきの尖った[とがった]くるみの実[み]のようなものをひろいました。「くるみの実[み]だよ。そら、沢山[たくさん]ある。流れて[ながれて]来たんじゃない[きたんじゃない]。岩の中[なか]に入ってるんだ[はいってるんだ]。「大きい[おおきい]ね、このくるみ、倍[ばい]あるね。こいつはすこしもいたんでない[こいつはすこしもいたんでない]。"
+  ],
+  "grammar": [
+   {
+    "point": "〜ているらしく",
+    "explanation": "This pattern indicates that something appears to be happening based on visual evidence. It's used when making an inference based on what one can see. The 'らしい' adds a nuance of 'it seems' or 'apparently' to the continuous action."
+   },
+   {
+    "point": "〜たり〜たり",
+    "explanation": "This pattern is used to list examples of actions, often implying that there are more actions not mentioned. It's used when describing repeated or various actions. In this case, '立ったり屈んだり' means 'standing and crouching, etc.'"
+   },
+   {
+    "point": "〜てみよう",
+    "explanation": "This is the volitional form of the 〜てみる pattern, suggesting 'let's try to do something.' It's used when making a proposal to try something. In this case, '行ってみよう' means 'let's go and see/check.'"
+   },
+   {
+    "point": "〜てしまう",
+    "explanation": "This pattern indicates completion of an action, often with a nuance that the action is finished, sometimes with a sense of irreversibility or unexpectedness. In this passage, '光ったりしました' is part of the 〜たり pattern, but the 〜しまっている form in the dialogue shows something is completely done."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "人かげ",
+    "phonetic": "hitokage",
+    "translation": "human shadow/silhouette",
+    "example": "人かげが道に映っている。",
+    "exampleTranslation": "A human shadow is reflected on the road."
+   },
+   {
+    "word": "掘り出す",
+    "phonetic": "horidasu",
+    "translation": "to dig up",
+    "example": "庭で宝物を掘り出した。",
+    "exampleTranslation": "I dug up a treasure in the garden."
+   },
+   {
+    "word": "屈んだり",
+    "phonetic": "kagandari",
+    "translation": "to bend down/crouch",
+    "example": "子供たちは公園で走ったり、屈んだりした。",
+    "exampleTranslation": "The children ran and crouched in the park."
+   },
+   {
+    "word": "標札",
+    "phonetic": "hyousatsu",
+    "translation": "signboard/sign",
+    "example": "駅の標札を見て、正しい方向を確認した。",
+    "exampleTranslation": "I looked at the station sign to confirm the right direction."
+   },
+   {
+    "word": "渚",
+    "phonetic": "nagisa",
+    "translation": "shore/beach",
+    "example": "渚で潮風を感じながら散歩するのが好きだ。",
+    "exampleTranslation": "I enjoy walking along the shore, feeling the sea breeze."
+   },
+   {
+    "word": "くるみの実",
+    "phonetic": "kurumi no mi",
+    "translation": "walnut",
+    "example": "くるみの実を割って中の実を取り出した。",
+    "exampleTranslation": "I cracked the walnut and took out the nut inside."
+   }
+  ]
+ },
+ "39": {
+  "day": 39,
+  "paragraphs": [
+   "」早くあすこへ行って見よう。きっと何か掘ってるから。」二人は、ぎざぎざの黒いくるみの実を持ちながら、またさっきの方へ近よって行きました。左手の渚には、波がやさしい稲妻のように燃えて寄せ、右手の崖には、いちめん銀や貝殻でこさえたようなすすきの穂がゆれたのです。",
+   "だんだん近付いて見ると、一人のせいの高い、ひどい近眼鏡をかけ、長靴をはいた学者らしい人が、手帳に何かせわしそうに書きつけながら、鶴嘴をふりあげたり、スコープをつかったりしている、三人の助手らしい人たちに夢中でいろいろ指図をしていました。",
+   "「そこのその突起を壊さないように。スコープを使いたまえ、スコープを。おっと、も少し遠くから掘って。いけない、いけない。なぜそんな乱暴をするんだ。」見ると、その白い柔らかな岩の中から、大きな大きな青じろい獣の骨が、横に倒れて潰れたという風になって、半分以上掘り出されていました。"
+  ],
+  "furiganaParagraphs": [
+   "」早く[はやく]あすこ[あそこ]へ行[い]って見[み]よう。きっと何[なに]か掘[ほ]ってるから。」二人[ふたり]は、ぎざぎざ[ぎざぎざ]の黒[くろ]いくるみ[胡桃]の実[み]を持ちながら、またさっき[先]の方[ほう]へ近[ちか]よって行[い]きました。左手[ひだりて]の渚[なぎさ]には、波[なみ]がやさしい[優しい]稲妻[いなずま]のように燃[も]えて寄[よ]せ、右手[みぎて]の崖[がけ]には、いちめん[一面]銀[しろがね]や貝[かい]殻[から]でこさえた[作った]ようなすすき[薄]の穂[ほ]がゆれた[揺れた]のです。",
+   "だんだん近[ちか]づいて見[み]ると、一人[ひとり]のせい[背]の高い[たかい]、ひどい[酷い]近眼鏡[きんがんきょう]をかけ、長[なが]靴[ぐつ]をはいた[履いた]学者[がくしゃ]らしい[らしい]人が、手帳[てちょう]に何[なに]かせわしそう[せわしそう]に書[か]きつけながら、鶴嘴[つるずち]をふりあげたり、スコープをつかったり[使ったり]している、三人[さんにん]の助手[じょしゅ]らしい[らしい]人[ひと]たちに夢中[むちゅう]でいろいろ[色々]指図[しず]をしていました。",
+   "「そこのその突起[とっき]を壊[こわ]さないように。スコープを使[つか]いたまえ、スコープを。おっと、も少し[すこし]遠[とお]くから掘[ほ]って。いけない[いけない]、いけない。なぜ[何故]そんな[そんな]乱暴[らんぼう]をするんだ。」見[み]ると、その白[しろ]い柔[やわ]らかな[らかな]岩[いわ]の中[なか]から、大き[おお]きな[きな]青[あお]じろい[白っぽい]獣[けだもの]の骨[ほね]が、横[よこ]に倒[たお]れて潰[つぶ]れたという風[ふう]になって、半分[はんぶん]以上[いじょう]掘[ほ]り出[だ]されていました。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates the completion of an action, often with a sense of regret, disappointment, or that something has been done completely or irreversibly. In this passage, it appears in '掘ってるから' (from 掘ってしまう, though the しまう is omitted in casual speech), suggesting that the action of digging is being done completely."
+   },
+   {
+    "point": "〜ながら",
+    "explanation": "This pattern means 'while' or 'during,' indicating that two actions are happening simultaneously. In the passage, it appears in '持ちながら' (holding while) and '書きつけながら' (writing while), showing concurrent actions."
+   },
+   {
+    "point": "〜たり〜たりする",
+    "explanation": "This pattern is used to list examples of actions, often implying that there are more actions not mentioned. In the passage, 'ふりあげたり、スコープをつかったりしている' shows examples of what the assistants were doing."
+   },
+   {
+    "point": "〜という風になって",
+    "explanation": "This pattern means 'in such a way that...' or 'appearing as if...' It describes how something looks or appears. In the passage, it describes how the animal's bone appeared: '横に倒れて潰れたという風になって' (appearing as if it had fallen over and been crushed)."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "渚",
+    "phonetic": "nagisa",
+    "translation": "shore, beach",
+    "example": "夕日が渚に反射してきれいだった。",
+    "exampleTranslation": "The sunset reflecting on the shore was beautiful."
+   },
+   {
+    "word": "稲妻",
+    "phonetic": "inazuma",
+    "translation": "lightning",
+    "example": "稲妻が空を切り裂いた。",
+    "exampleTranslation": "Lightning tore through the sky."
+   },
+   {
+    "word": "鶴嘴",
+    "phonetic": "tsuruzuchi",
+    "translation": "pickaxe",
+    "example": "彼は鶴嘴で岩を掘り続けた。",
+    "exampleTranslation": "He continued digging the rock with a pickaxe."
+   },
+   {
+    "word": "せわしそう",
+    "phonetic": "sewashisou",
+    "translation": "busy, hurried",
+    "example": "彼女はせわしそうに走ってきた。",
+    "exampleTranslation": "She ran over in a hurry."
+   },
+   {
+    "word": "指図",
+    "phonetic": "shizu",
+    "translation": "to order, to instruct",
+    "example": "彼はいつも他人を指図する。",
+    "exampleTranslation": "He always orders people around."
+   },
+   {
+    "word": "突起",
+    "phonetic": "tokki",
+    "translation": "protrusion, bulge",
+    "example": "岩の突起に手をかけた。",
+    "exampleTranslation": "I put my hand on the protrusion of the rock."
+   }
+  ]
+ },
+ "46": {
+  "day": 46,
+  "paragraphs": [
+   "」「鷺を押し葉にするんですか。標本ですか。」「標本じゃありません。みんなたべるじゃありませんか。」「おかしいねえ。」カムパネルラが首をかしげました。「おかしいも不審もありませんや。そら。」その男は立って、網棚から包みをおろして、手ばやくくるくると解きました。",
+   "「さあ、ごらんなさい。いまとって来たばかりです。」「ほんとうに鷺だねえ。」二人は思わず叫びました。まっ白な、あのさっきの北の十字架のように光る鷺のからだが、十ばかり、少しひらべってくなって、黒い脚をちぢめて、浮彫のようにならんでいたのです。",
+   "「眼をつぶってるね。」カムパネルラは、指でそっと、鷺の三日月がたの白い瞑った眼にさわりました。頭の上の槍のような白い毛もちゃんとついていました。「ね、そうでしょう。"
+  ],
+  "furiganaParagraphs": [
+   "」「鷺[さぎ]を押[お]し葉[は]にするんですか。標本[ひょうほん]ですか。」「標本[ひょうほん]じゃありません。みんなた[べ]るじゃありませんか。」「おかしいねえ。」カムパネルラ[かむぱねらら]が首[くび]をかしげました。「おかしいも不審[ふしん]もありませんや。そら。」その男[おとこ]は立[た]って、網棚[あみだな]から包[つつ]みをおろして、手[て]ばやくくるくると解[と]きました。",
+   "「さあ、ごらんなさい。いまとって来[き]たばかりです。」「ほんとうに鷺[さぎ]だねえ。」二人[ふたり]は思[おも]わず叫[さけ]びました。まっ白[しろ]な、あのさっきの北[きた]の十字架[じゅうじか]のように光[ひか]る鷺[さぎ]の体[からだ]が、十[とお]ばかり、少[すこ]しひらべってくなって、黒[くろ]い脚[あし]をちぢめて、浮[うき]彫[ほり]のようにならんでいたのです。",
+   "「眼[め]をつぶってるね。」カムパネルラ[かむぱねらら]は、指[ゆび]でそっと、鷺[さぎ]の三日月[みかづき]がたの白[しろ]い瞑[つぶ]った眼[め]にさわりました。頭[あたま]の上[うえ]の槍[やり]のような白[しろ]い毛[け]もちゃんとついていました。「ね、そうでしょう。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar point indicates the completion of an action, often with a nuance of something being done completely, sometimes unintentionally or to an excessive degree."
+   },
+   {
+    "point": "〜ばかり",
+    "explanation": "This grammar point indicates that something has just been done recently."
+   },
+   {
+    "point": "〜よう",
+    "explanation": "This grammar point can indicate resemblance, similarity, or a manner in which something is done."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "鷺",
+    "phonetic": "sagi",
+    "translation": "egret",
+    "example": "鷺は湿地帯でよく見られる鳥です。",
+    "exampleTranslation": "Egrets are often seen in wetlands."
+   },
+   {
+    "word": "押し葉",
+    "phonetic": "oshiha",
+    "translation": "pressed plant specimen, herbarium sheet",
+    "example": "彼女は植物の押し葉を作るのが好きです。",
+    "exampleTranslation": "She likes making pressed plant specimens."
+   },
+   {
+    "word": "標本",
+    "phonetic": "hyouhon",
+    "translation": "specimen, sample",
+    "example": "博物館には多くの標本が展示されています。",
+    "exampleTranslation": "Many specimens are exhibited in the museum."
+   },
+   {
+    "word": "首をかしげる",
+    "phonetic": "kubi o kashigeru",
+    "translation": "to tilt one's head",
+    "example": "彼は疑問の念を表すために首をかしげた。",
+    "exampleTranslation": "He tilted his head to show his doubt."
+   },
+   {
+    "word": "網棚",
+    "phonetic": "amidana",
+    "translation": "wire shelf, mesh shelf",
+    "example": "食料品は網棚に並べられています。",
+    "exampleTranslation": "Food products are arranged on wire shelves."
+   },
+   {
+    "word": "浮彫",
+    "phonetic": "ukibori",
+    "translation": "relief (sculpture), embossed work",
+    "example": "彼女は浮彫の技術を習得した。",
+    "exampleTranslation": "She mastered the technique of relief sculpture."
+   }
+  ]
+ },
+ "47": {
+  "day": 47,
+  "paragraphs": [
+   "」鳥捕りは風呂敷を重ねて、またくるくると包んで紐でくくりました。誰がいったいここらで鷺なんぞ喰べるだろうとジョバンニは思いながら訊きました。「鷺はおいしいんですか。」",
+   "「ええ、毎日注文があります。しかし雁の方が、もっと売れます。雁の方がずっと柄がいいし、第一手数がありませんからな。そら。」鳥捕りは、また別の方の包みを解きました。すると黄と青じろとまだらになって、なにかのあかりのようにひかる雁が、ちょうどさっきの鷺のように、くちばしを揃えて、少し扁べったくなって、ならんでいました。",
+   "「こっちはすぐ喰べられます。どうです、少しおあがりなさい。」鳥捕りは、黄いろな雁の足を、軽くひっぱりました。するとそれは、チョコレートででもできているように、すっときれいにはなれました。"
+  ],
+  "furiganaParagraphs": [
+   "」鳥捕り[とりとり]は風呂敷[ふろしき]を重ねて[かさねて]、またくるくると包んで[つつんで]紐[ひも]でくくりました[くくりました]。誰がいったい[だれがいったい]ここらで鷺[さぎ]なんぞ喰べる[たべる]だろうとジョバンニは思いながら[おもいながら]訊きました[たずねました]。「鷺[さぎ]はおいしい[おいしい]んですか。」",
+   "「ええ、毎日[まいにち]注文[ちゅうもん]があります。しかし雁[がん]の方が[ほうが]、もっと売れます[うれます]。雁[がん]の方が[ほうが]ずっと柄[がら]がいい[いい]し、第一[だいいち]手数[てすう]がありません[ありません]からな[からな]。そら[そら]。」鳥捕り[とりとり]は、また別[べつ]の方[ほう]の包み[つつみ]を解きました[ときました]。すると黄[き]と青[あお]じろ[じろ]とまだら[まだら]になって、なにかのあかり[あかり]のようにひかる[ひかる]雁[がん]が、ちょうどさっきの鷺[さぎ]のように、くちばし[くちばし]を揃えて[そろえて]、少し[すこし]扁べったく[へったく]なって、ならんでいました[ならんでいました]。",
+   "「こっちはすぐ喰べられます[たべられます]。どうです[どうです]、少しおあがりなさい[すこしおあがりなさい]。」鳥捕り[とりとり]は、黄[き]いろな雁[がん]の足[あし]を、軽く[かるく]ひっぱりました[ひっぱりました]。するとそれは、チョコレートでできているように[できているように]、すっときれいにはなれました[きれいにはなれました]。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates the completion of an action, often with a sense of regret, surprise, or that something has been done completely and cannot be undone. In this passage, it's used in '喰べられてしまう' (ready to be eaten), suggesting the geese are completely prepared for consumption."
+   },
+   {
+    "point": "〜ながら",
+    "explanation": "This pattern means 'while' or 'as' and connects two simultaneous actions. In this passage, '思いながら訊きました' means 'wondered and asked' or 'asked while wondering.'"
+   },
+   {
+    "point": "〜からな",
+    "explanation": "This is a colloquial form of '〜だからな' used by men to give explanations or reasons. It adds emphasis and a casual tone. In this passage, '手数がありませんからな' means 'because they're easier to handle, you know.'"
+   },
+   {
+    "point": "〜ように",
+    "explanation": "This pattern can mean 'as if' or 'like' when used with verbs. In this passage, 'チョコレートでできているように' means 'as if it were made of chocolate,' describing how the goose leg came off cleanly."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "鳥捕り",
+    "phonetic": "toritori",
+    "translation": "bird catcher",
+    "example": "鳥捕りは鳥を捕まえます。",
+    "exampleTranslation": "The bird catcher catches birds."
+   },
+   {
+    "word": "風呂敷",
+    "phonetic": "furoshiki",
+    "translation": "wrapping cloth",
+    "example": "母は風呂敷で贈り物を包みました。",
+    "exampleTranslation": "My mother wrapped the gift in a furoshiki cloth."
+   },
+   {
+    "word": "鷺",
+    "phonetic": "sagi",
+    "translation": "heron",
+    "example": "池には鷺が一羽います。",
+    "exampleTranslation": "There is one heron in the pond."
+   },
+   {
+    "word": "雁",
+    "phonetic": "gan",
+    "translation": "goose",
+    "example": "空を雁が飛んでいます。",
+    "exampleTranslation": "Geese are flying in the sky."
+   },
+   {
+    "word": "柄",
+    "phonetic": "gara",
+    "translation": "pattern, appearance, quality",
+    "example": "この着物の柄はとても素敵です。",
+    "exampleTranslation": "The pattern of this kimono is very beautiful."
+   },
+   {
+    "word": "手数",
+    "phonetic": "tesū",
+    "translation": "trouble, effort, hassle",
+    "example": "この仕事は手数がかかります。",
+    "exampleTranslation": "This job requires a lot of effort."
+   }
+  ]
+ },
+ "50": {
+  "day": 50,
+  "paragraphs": [
+   "「それはね、鷺を喰べるには、」鳥捕りは、こっちに向き直りました。「天の川の水あかりに、十日もつるして置くかね、そうでなけぁ、砂に三四日うずめなけぁいけないんだ。そうすると、水銀がみんな蒸発して、喰べられるようになるよ。」「こいつは鳥じゃない。ただのお菓子でしょう。」やっぱりおなじことを考えていたとみえて、カムパネルラが、思い切ったというように、尋ねました。",
+   "鳥捕りは、何か大へんあわてた風で、「そうそう、ここで降りなけぁ。」と云いながら、立って荷物をとったと思うと、もう見えなくなっていました。「どこへ行ったんだろう。」二人は顔を見合せましたら、燈台守は、にやにや笑って、少し伸びあがるようにしながら、二人の横の窓の外をのぞきました。",
+   "二人もそっちを見ましたら、たったいまの鳥捕りが、黄いろと青じろの、うつくしい燐光を出す、いちめんのかわらはこぐさの上に立って、まじめな顔をして両手をひろげて、じっとそらを見ていました。"
+  ],
+  "furiganaParagraphs": [
+   "「それはね、鷺[さぎ]を喰[く]べるには、」鳥[とり]捕[とら]りは、こっちに向[む]き直[なお]りました。「天[てん]の川[かわ]の水[みず]あかりに、十[とお]日[か]もつるして置[お]くかね、そうでなけぁ、砂[すな]に三[さん]四[よん]日[か]うずめなけぁいけないんだ。そうすると、水[みず]銀[ぎん]がみんな蒸[じょう]発[はつ]して、喰[く]べられるようになるよ。」「こいつは鳥[とり]じゃない。ただのお菓[かし]子[ご]でしょう。」やっぱりおなじことを考えていたとみえて、カムパネルラが、思い切[き]ったというように、尋[たず]ねました。",
+   "鳥[とり]捕[とら]りは、何[なに]か大[だい]へんあわてた風[ふう]で、「そうそう、ここで降[お]りなけぁ。」と云[い]いながら、立[た]って荷[に]物[もの]をとったと思うと、もう見[み]えなくなっていました。「どこへ行[い]ったんだろう。」二人[ふたり]は顔[かお]を合[あ]わせましたら、燈[とう]台[だい]守[もり]は、にやにや笑[わら]って、少し[すこし]伸[の]びあがるようにしながら、二人[ふたり]の横[よこ]の窓[まど]の外[そと]をのぞきました。",
+   "二人[ふたり]もそっちを見[み]ましたら、たったいまの鳥[とり]捕[とら]りが、黄[き]い[ろ]と青[あお]じろの、うつくしい燐[りん]光[こう]を出[だ]す、一[いち]面[めん]の革[かわ]藁[わら]草[くさ]の上[うえ]に立[た]って、まじめな顔[かお]をして両[りょう]手[て]をひろげて、じっとそらを見[み]ていました。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates the completion of an action, often with a sense of regret, disappointment, or that something has been done completely and cannot be undone. In this passage, it appears in '見えなくなっていました' (had disappeared), suggesting the bird catcher had completely vanished."
+   },
+   {
+    "point": "〜てみる",
+    "explanation": "This pattern means 'to try doing something.' It indicates attempting an action to see what happens. In the passage, it appears in '尋ねました' (asked), which is from the verb尋ねる (to ask), suggesting Campanella was trying to ask something."
+   },
+   {
+    "point": "〜なければならない",
+    "explanation": "This pattern means 'must' or 'have to,' indicating obligation or necessity. In the passage, it appears in 'うずめなけぁいけないんだ' (must bury it), showing that burying the heron is necessary."
+   },
+   {
+    "point": "〜というように",
+    "explanation": "This pattern means 'as if' or 'in a way that suggests.' It indicates that something appears or seems to be a certain way. In the passage, it appears in '思い切ったというように' (as if with determination), describing how Campanella asked his question."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "鷺",
+    "phonetic": "sagi",
+    "translation": "heron",
+    "example": "池のほとりで白い鷺が餌を待っています。",
+    "exampleTranslation": "By the pond, a white heron is waiting for food."
+   },
+   {
+    "word": "水銀",
+    "phonetic": "mizugint",
+    "translation": "mercury",
+    "example": "温度計の中には水銀が入っています。",
+    "exampleTranslation": "Mercury is inside the thermometer."
+   },
+   {
+    "word": "蒸発",
+    "phonetic": "jōhatsu",
+    "translation": "evaporation",
+    "example": "水は熱せば蒸発します。",
+    "exampleTranslation": "When heated, water evaporates."
+   },
+   {
+    "word": "燐光",
+    "phonetic": "rinkō",
+    "translation": "phosphorescence",
+    "example": "海の夜、燐光が波間を輝きます。",
+    "exampleTranslation": "At night in the ocean, phosphorescence glitters between the waves."
+   },
+   {
+    "word": "かわらはこぐさ",
+    "phonetic": "kawahakogusa",
+    "translation": "a type of phosphorescent grass",
+    "example": "夜の海岸ではかわらはこぐさが青白く光ります。",
+    "exampleTranslation": "At night on the coast, kawahakogusa glows with a bluish-white light."
+   },
+   {
+    "word": "にやにや",
+    "phonetic": "niyaniya",
+    "translation": "to grin or smirk",
+    "example": "彼は悪戯っぽくにやにや笑いました。",
+    "exampleTranslation": "He grinned mischievously."
+   }
+  ]
+ },
+ "56": {
+  "day": 56,
+  "paragraphs": [
+   "車掌が手を出しているもんですから何でも構わない、やっちまえと思って渡しましたら、車掌はまっすぐに立ち直って叮寧にそれを開いて見ていました。そして読みながら上着のぼたんやなんかしきりに直したりしていましたし燈台看守も下からそれを熱心にのぞいていましたから、ジョバンニはたしかにあれは証明書か何かだったと考えて少し胸が熱くなるような気がしました。",
+   "「これは三次空間の方からお持ちになったのですか。」車掌がたずねました。「何だかわかりません。」もう大丈夫だと安心しながらジョバンニはそっちを見あげてくつくつ笑いました。「よろしゅうございます。南十字へ着きますのは、次の第三時ころになります。」車掌は紙をジョバンニに渡して向うへ行きました。",
+   "カムパネルラは、その紙切れが何だったか待ち兼ねたというように急いでのぞきこみました。"
+  ],
+  "furiganaParagraphs": [
+   "車掌[しゃしょう]が手[て]を出[だ]しているもんですから何[なに]でも構[かま]わない、やっちまえと思[おも]って渡[わた]しましたら、車掌[しゃしょう]はまっすぐに立ち直[たちなお]って叮寧[ていねい]にそれを開[ひら]いて見[み]ていました。そして読[よ]みながら上着[うわぎ]のぼたんやなんかしきりに直[なお]したりしていましたし燈台[とうだい]看守[しゅしゅ]も下[した]からそれを熱心[ねっしん]にのぞいていましたから、ジョバンニはたしかにあれは証明書[しょうめいしょ]か何[なに]かだったと考[かんが]えて少し[すこし]胸[むね]が熱[あつ]くなるような気[き]がしました。",
+   "「これは三次空間[さんじくうかん]の方[ほう]からお持ち[もち]になったのですか。」車掌[しゃしょう]がたずねました。「何[なに]だかわかりません。」もう大丈夫[だいじょうぶ]だと安心[あんしん]しながらジョバンニはそっちを見[み]あげてくつくつ笑[わら]いました。「よろしゅうございます。南十字[なんじゅうじ]へ着[つ]きますのは、次[つぎ]の第三時[だいさんじ]ころになります。」車掌[しゃしょう]は紙[かみ]をジョバンニに渡[わた]して向[む]うへ行[い]きました。",
+   "カムパネルラは、その紙切れ[かみきれ]が何[なに]だったか待[ま]ち兼[かね]たというように急[いそ]いでのぞきこみました。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar indicates completion of an action, often with a sense of regret or that the action is done thoroughly. In this passage, 'やっちまえ' is a colloquial form of 'やってしまえ', meaning 'just do it' or 'go ahead and do it'."
+   },
+   {
+    "point": "〜ながら",
+    "explanation": "This grammar means 'while' and indicates that two actions are happening simultaneously. In this passage, '読みながら' means 'while reading', and '直したりしていましたし' indicates 'while adjusting (buttons)'."
+   },
+   {
+    "point": "〜たり〜たりする",
+    "explanation": "This grammar is used to list examples of actions, often implying that there are more examples not mentioned. In this passage, '直したりしていましたし' means 'things like adjusting (buttons)' and suggests other actions were also being performed."
+   },
+   {
+    "point": "〜というように",
+    "explanation": "This grammar means 'as if' or 'in the way that' and is used to describe how something appears or seems. In this passage, '待ち兼ねたというように' means 'as if he had been eagerly waiting'."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "叮寧",
+    "phonetic": "teinei",
+    "translation": "carefully, politely",
+    "example": "彼は丁寧に手紙を折りました。",
+    "exampleTranslation": "He folded the letter carefully."
+   },
+   {
+    "word": "熱心",
+    "phonetic": "nesshin",
+    "translation": "eagerly, zealously",
+    "example": "彼は熱心に勉強しています。",
+    "exampleTranslation": "He is studying eagerly."
+   },
+   {
+    "word": "証明書",
+    "phonetic": "shoumeisho",
+    "translation": "certificate, proof",
+    "example": "パスポートは身分証明書です。",
+    "exampleTranslation": "A passport is a form of identification."
+   },
+   {
+    "word": "三次空間",
+    "phonetic": "sanjikuukan",
+    "translation": "three-dimensional space",
+    "example": "我々は三次空間に住んでいます。",
+    "exampleTranslation": "We live in three-dimensional space."
+   },
+   {
+    "word": "紙切れ",
+    "phonetic": "kamikire",
+    "translation": "piece of paper, scrap of paper",
+    "example": "彼は紙切れにメモを書きました。",
+    "exampleTranslation": "He wrote a memo on a scrap of paper."
+   },
+   {
+    "word": "待ち兼ねる",
+    "phonetic": "machikaneru",
+    "translation": "to wait eagerly for something to happen",
+    "example": "彼は友達の帰りを待ち兼ねていました。",
+    "exampleTranslation": "He couldn't wait for his friend to return."
+   }
+  ]
+ },
+ "57": {
+  "day": 57,
+  "paragraphs": [
+   "ジョバンニも全く早く見たかったのです。ところがそれはいちめん黒い唐草のような模様の中に、おかしな十ばかりの字を印刷したものでだまって見ていると何だかその中へ吸い込まれてしまうような気がするのでした。",
+   "すると鳥捕りが横からちらっとそれを見てあわたように云いました。「おや、こいつは大したもんですぜ。こいつはもう、ほんとうの天上へさえ行ける切符だ。天上どこじゃない、どこでも勝手に勝手にあるける通行券です。こいつをお持ちになれぁ、なるほど、こんな不完全な幻想第四次の銀河鉄道なんか、どこまででも行ける筈でさあ、あなた方大したもんですね。」",
+   "「何だかわかりません。」ジョバンニが赤くなって答えながらそれを又畳んでかくしに入れました。そしてきまりが悪いのでカムパネルラと二人、また窓の外をながめていましたが、その鳥捕りの時々大したもんだというようにちらちらこっちを見ているのがぼんやりわかりました。"
+  ],
+  "furiganaParagraphs": [
+   "ジョバンニ[ジョバンニ]も全く[まったく]早く[はやく]見たかった[みたかった]のです。ところがそれはいちめん[いちめん]黒い[くろい]唐草[からくさ]のような[ような]模様[もよう]の中[なか]に、おかしな[おかしな]十[じゅう]ばかりの[ばかりの]字[じ]を印刷[いんさつ]したものでだまって[だまって]見ている[みている]と何だか[なんだか]その中[なか]へ吸い込まれて[すいこまれて]しまうような[しまうような]気がする[きがする]のでした。",
+   "すると鳥捕り[とりとり]が横[よこ]からちらっと[ちらっと]それを見て[みて]あわたように[あわたように]云いました[いいました]。「おや、こいつは[こいつは]大した[おおした]もんですぜ[もんですぜ]。こいつは[こいつは]もう[もう]ほんとうの[ほんとうの]天上[てんじょう]へ[へ]さえ[さえ]行ける[いける]切符[きっぷ]だ[だ]。天上[てんじょう]どこじゃない[どこじゃない]、どこでも[どこでも]勝手[かって]に[に]あるける[あるける]通行券[つうこうけん]です[です]。こいつを[こいつを]お持ち[おもち]になれぁ[になれぁ]、なるほど[なるほど]、こんな[こんな]不完全[ふかんぜん]な[な]幻想[げんそう]第四次[だいよんじ]の[の]銀河鉄道[ぎんがてつどう]なんか[なんか]、どこまで[どこまで]でも[でも]行ける[いける]筈[はず]でさあ[でさあ]、あなた方[あなたがた]大した[おおした]もんですね[もんですね]。」",
+   "「何だ[なんだ]かわかりません[かわかりません]。」ジョバンニ[ジョバンニ]が赤[あか]くなって[くなって]答えながら[こたえながら]それを[それを]又[また]畳んで[たたんで]かくし[かくし]に[に]入れました[入れました]。そして[そして]きまり[きまり]が[が]悪い[わるい]ので[ので]カムパネルラ[カムパネルラ]と[と]二人[ふたり]、また[また]窓[まど]の[の]外[そと]を[を]ながめて[ながめて]いました[いました]が[が]、その[その]鳥捕り[とりとり]の[の]時々[ときどき]大した[おおした]もんだ[もんだ]という[という]ように[ように]ちらちら[ちらちら]こっち[こっち]を[を]見ている[みている]の[の]が[が]ぼんやり[ぼんやり]わかりました[わかりました]。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates that an action is completed, often with a sense of regret or that something is done beyond recovery. In this passage, '吸い込まれてしまう' suggests Giovanni feels as if he's being completely drawn into the pattern."
+   },
+   {
+    "point": "〜ながら",
+    "explanation": "This pattern indicates doing two actions simultaneously. In '答えながら', it means Giovanni was answering while blushing and putting the ticket away."
+   },
+   {
+    "point": "〜ばかり",
+    "explanation": "This pattern indicates an approximate number or amount. In '十ばかりの字', it means 'about ten characters'."
+   },
+   {
+    "point": "〜ような気がする",
+    "explanation": "This expression is used to describe a feeling or impression. In '吸い込まれてしまうような気がする', it means 'I feel as if I'm being drawn in'."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "唐草",
+    "phonetic": "karakusa",
+    "translation": "arabesque pattern",
+    "example": "日本の伝統的な唐草模様は非常に美しいです。",
+    "exampleTranslation": "Traditional Japanese arabesque patterns are very beautiful."
+   },
+   {
+    "word": "吸い込む",
+    "phonetic": "suikomu",
+    "translation": "to suck in, to draw in",
+    "example": "彼の言葉に吸い込まれてしまった。",
+    "exampleTranslation": "I was drawn into his words."
+   },
+   {
+    "word": "通行券",
+    "phonetic": "tsūkōken",
+    "translation": "pass, ticket",
+    "example": "この博物館に入るには特別通行券が必要です。",
+    "exampleTranslation": "A special pass is needed to enter this museum."
+   },
+   {
+    "word": "不完全",
+    "phonetic": "fukansen",
+    "translation": "incomplete",
+    "example": "この計画はまだ不完全です。",
+    "exampleTranslation": "This plan is still incomplete."
+   },
+   {
+    "word": "ぼんやり",
+    "phonetic": "bonyari",
+    "translation": "vaguely, indistinctly",
+    "example": "朝起きたばかりで、まだ頭がぼんやりしている。",
+    "exampleTranslation": "I just woke up, so my mind is still groggy."
+   },
+   {
+    "word": "きまりが悪い",
+    "phonetic": "kimari ga warui",
+    "translation": "to feel embarrassed, to feel awkward",
+    "example": "人前で間違えてしまったので、とてもきまりが悪かったです。",
+    "exampleTranslation": "I made a mistake in front of people, so I felt very embarrassed."
+   }
+  ]
+ },
+ "58": {
+  "day": 58,
+  "paragraphs": [
+   "「もうじき鷲の停車場だよ。」カムパネルラが向う岸の、三つならんだ小さな青じろい三角標と地図とを見較べて云いました。ジョバンニはなんだかわけもわからずににわかにとなりの鳥捕りが気の毒でたまらなくなりました。",
+   "鷺をつかまえてせいせいしたとよろこんだり、白いきれでそれをくるくる包んだり、ひとの切符をびっくりしたように横目で見てあわててほめだたり、そんなことを一一考えていると、もうその見ず知らずの鳥捕りのために、ジョバンニの持っているものでも食べるものでもなんでもやってしまいたい、もうこの人のほんとうの幸になるなら自分があの光る天の川の河原に立って百年つづけて立って鳥をとってやってもいいというような気がして、どうしてももう黙っていられなくなりました。",
+   "ほんとうにあなたのほしいものは一体何ですか、と訊こうとして、それではあんまり出し抜けだから、どうしようかと考えて振り返って見ましたら、そこにはもうあの鳥捕りが居ませんでした。"
+  ],
+  "furiganaParagraphs": [
+   "「もうじき鷲[わし]の停車場[ていしゃじょう]だよ。」カムパネルラが向[むか]う岸[きし]の、三つ[みっつ]ならんだ小[ちい]さな青[あお]じろい三角標[さんかくひょう]と地図[ちず]とを見[み]較[くら]べて云[い]いました。ジョバンニはなんだかわけもわからずににわかにとなりの鳥捕[とりとり]が気[き]の毒[どく]でたまらなくなりました。",
+   "鷺[さぎ]をつかまえてせいせいしたとよろこんだり、白[しろ]いきれでそれをくるくる包[つつ]んだり、ひとの切符[きっぷ]をびっくりしたように横[よこ]目[め]で見[み]てあわててほめだたり、そんなことを一一[いちいち]考えていると、もうその見[み]ず知[し]らずの鳥捕[とりとり]のために、ジョバンニの持[も]っているものでも食[た]べるものでもなんでもやってしまいたい、もうこの人のほんとうの幸[しあわ]せになるなら自分[じぶん]があの光[ひか]る天[てん]の川[がわ]の河原[かわはら]に立[た]って百年[ひゃくねん]つづけて立[た]って鳥[とり]をとってやってもいいというような気[き]がして、どうしてももう黙[だま]っていられなくなりました。",
+   "ほんとうにあなたのほしいものは一体[いったい]何[なに]ですか、と訊[き]こうとして、それではあんまり出[だ]し抜[ぬ]けだから、どうしようかと考えて振[ふ]り返[かえ]って見[み]ましたら、そこにはもうあの鳥捕[とりとり]が居[い]ませんでした。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates the completion of an action, often with a sense of regret, disappointment, or that something has been done completely and cannot be undone. In this passage, it appears in 'やってしまいたい' (want to do completely), suggesting Giovanni's desire to give everything he has to the bird catcher."
+   },
+   {
+    "point": "〜てやる",
+    "explanation": "This pattern is used when doing something for someone else, often with a sense of doing a favor or acting on behalf of another. It can sometimes imply a hierarchical relationship (speaker doing for someone of lower status). In this passage, it appears in '鳥をとってやってもいい' (I can catch birds for him), showing Giovanni's willingness to do something for the bird catcher's happiness."
+   },
+   {
+    "point": "〜ていられない",
+    "explanation": "This pattern indicates that someone cannot continue to be in a certain state or continue doing an action. It's the negative potential form of the continuous form. In this passage, '黙っていられなくなりました' means 'could no longer remain silent', showing Giovanni's growing emotional state that compelled him to speak."
+   },
+   {
+    "point": "〜てみる",
+    "explanation": "This pattern means 'to try doing something'. In this passage, it appears in '見較べて' (comparing/trying to see), where Campanella is comparing the markers with the map. It indicates an attempt to do something to see the result."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "気の毒",
+    "phonetic": "ki no doku",
+    "translation": "pitiful,可怜,可怜",
+    "example": "彼の失敗は気の毒だった。",
+    "exampleTranslation": "His failure was pitiful."
+   },
+   {
+    "word": "見較べる",
+    "phonetic": "mikuraberu",
+    "translation": "to compare, to check against",
+    "example": "二人の答案を較べてみた。",
+    "exampleTranslation": "I compared the two test papers."
+   },
+   {
+    "word": "せいせい",
+    "phonetic": "seisei",
+    "translation": "smugly, self-satisfiedly",
+    "example": "彼は成功してせいせいしている。",
+    "exampleTranslation": "He is smug about his success."
+   },
+   {
+    "word": "くるくる",
+    "phonetic": "kurukuru",
+    "translation": "round and round, quickly",
+    "example": "猫が毛糸をくるくる巻いている。",
+    "exampleTranslation": "The cat is rolling the yarn round and round."
+   },
+   {
+    "word": "出し抜け",
+    "phonetic": "dashinuke",
+    "translation": "suddenly, unexpectedly, abruptly",
+    "example": "出し抜けに質問されて困った。",
+    "exampleTranslation": "I was troubled by being asked suddenly."
+   },
+   {
+    "word": "振り返る",
+    "phonetic": "furikaeru",
+    "translation": "to look back, to turn back",
+    "example": "振り返って笑った。",
+    "exampleTranslation": "He looked back and smiled."
+   }
+  ]
+ },
+ "59": {
+  "day": 59,
+  "paragraphs": [
+   "網棚の上には白い荷物も見えなかったのです。また窓の外で足をふんばってそらを見上げて鷺を捕る支度をしているのかと思って、急いでそっちを見ましたが、外はいちめんのうつくしい砂子と白いすすきの波ばかり、あの鳥捕りの広いせなかも尖った帽子も見えませんでした。",
+   "「あの人どこへ行ったろう。」カムパネルラもぼんやりそう云っていました。「どこへ行ったろう。一体どこでまたあうのだろう。僕はどうしても少しあの人に物を言わなかったろう。」「ああ、僕もそう思っているよ。」「僕はあの人が邪魔なような気がしたんだ。だから僕は大へんつらい。」ジョバンニはこんな変てこな気もちは、ほんとうにはじめてだし、こんなこと今まで云ったこともないと思いました。「何だか苹果の匂がする。僕いま苹果のこと考えたためだろうか。"
+  ],
+  "furiganaParagraphs": [
+   "網棚[あんだな]の上[うえ]には白[しろ]い荷物[にもつ]も見[み]えなかったのです。また窓[まど]の外[そと]で足[あし]をふんばってそらを見[み]上げて鷺[さぎ]を捕[と]る支度[したく]をしているのかと思[おも]って、急[いそ]いでそっちを見[み]ましたが、外[そと]は一[いち]面[めん]の美[うつく]しい砂子[すなご]と白[しろ]い薄[すすき]の波[なみ]ばかり、あの鳥捕[とりどり]の広[ひろ]い背[せ]中[なか]も尖[とが]った帽[ぼう]子[し]も見[み]えませんでした。",
+   "「あの人[ひと]どこへ行[い]ったろう。」カムパネルラもぼんやりそう云[い]っていました。「どこへ行[い]ったろう。一体[いったい]どこでまた会[あ]うのだろう。僕[ぼく]はどうしても少[すこ]しあの人[ひと]に物[もの]を言[い]わなかったろう。」「ああ、僕[ぼく]もそう思[おも]っているよ。」「僕[ぼく]はあの人[ひと]が邪魔[じゃま]なような気[き]がしたんだ。だから僕[ぼく]は大[おお]へん辛[つら]い。」ジョバンニはこんな変[へん]てこな気[き]持[も]ち[も]は、本[ほん]当[とう]に初[はじ]めてだし、こんなこと今[いま]まで言[い]ったこともないと思[おも]いました。「何[なに]だか苹果[りんご]の匂[にお]いがする。僕[ぼく]いま苹果[りんご]のこと考[かんが]えたためだろうか。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates the completion of an action, often with a sense of regret, that something has been done completely or irreversibly. It can also imply that something has been done unintentionally or by accident."
+   },
+   {
+    "point": "〜ような気がする",
+    "explanation": "This pattern expresses a feeling or impression that something seems to be the case. It indicates a subjective perception or intuition rather than a fact."
+   },
+   {
+    "point": "〜だろう",
+    "explanation": "This is a sentence ender used to express speculation or uncertainty about something. It's equivalent to 'probably', 'I suppose', or 'I wonder' in English."
+   },
+   {
+    "point": "〜ためだろう",
+    "explanation": "This pattern indicates a reason or cause, often with a sense of speculation. It can be translated as 'probably because' or 'perhaps due to'."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "網棚",
+    "phonetic": "andan",
+    "translation": "luggage rack",
+    "example": "駅の網棚に荷物を置いておきました。",
+    "exampleTranslation": "I left my luggage on the station's luggage rack."
+   },
+   {
+    "word": "ふんばる",
+    "phonetic": "fumbaru",
+    "translation": "to stand on tiptoe, to brace oneself",
+    "example": "高い場所のものを取るために、子供は椅子にふんばっていました。",
+    "exampleTranslation": "To get something from a high place, the child was standing on tiptoe on the chair."
+   },
+   {
+    "word": "いちめん",
+    "phonetic": "ichimen",
+    "translation": "a whole expanse, a vast stretch",
+    "example": "いちめんの砂漠が地平線まで続いています。",
+    "exampleTranslation": "A vast expanse of desert continues to the horizon."
+   },
+   {
+    "word": "邪魔",
+    "phonetic": "jama",
+    "translation": "disturbance, hindrance, nuisance",
+    "example": "静かに勉強したいので、邪魔をしないでください。",
+    "exampleTranslation": "I want to study quietly, so please don't disturb me."
+   },
+   {
+    "word": "変てこな",
+    "phonetic": "hentekona",
+    "translation": "strange, odd, peculiar",
+    "example": "彼の変てこな行動には誰も戸惑いました。",
+    "exampleTranslation": "Everyone was puzzled by his strange behavior."
+   },
+   {
+    "word": "苹果",
+    "phonetic": "ringo",
+    "translation": "apple",
+    "example": "このリンゴはとても甘くて新鮮です。",
+    "exampleTranslation": "This apple is very sweet and fresh."
+   }
+  ]
+ },
+ "61": {
+  "day": 61,
+  "paragraphs": [
+   "「ああ、ここはランカシャイヤだ。いや、コンネクテカット州だ。いや、ああ、ぼくたちはそらへ来たのだ。わたしたちは天へ行くのです。ごらんなさい。あのしるしは天上のしるしです。もうなんにもこわいことありません。わたくしたちは神さまに召されているのです。」黒服の青年はよろこびにかがやいてその女の子に云いました。",
+   "けれどもなぜかまた額に深く皺を刻んで、それに大へんつかれているらしく、無理に笑いながら男の子をジョバンニのとなりに座らせました。それから女の子にやさしくカムパネルラのとなりの席を指さしました。",
+   "女の子はすなおにそこへ座って、きちんと両手を組み合せました。「ぼくおおねえさんのとこへ行くんだよう。」腰掛けたばかりの男の子は顔を変にして燈台看守の向うの席に座ったばかりの青年に云いました。"
+  ],
+  "furiganaParagraphs": [
+   "「ああ、ここはランカシャイヤだ。いや、コンネクテカット州だ。いや、ああ、ぼくたちはそらへ来たのだ。わたしたちは天[てん]へ行[い]くのです。ごらんなさい。あのしるしは天上[てんじょう]のしるしです。もうなんにもこわいことありません。わたくしたちは神[かみ]さまに召[め]されているのです。」黒[くろ]服[ふく]の青年[せいねん]はよろこびにかがやいてその女[おんな]の子[こ]に言[い]いました。",
+   "けれどもなぜかまた額[ひたい]に深[ふか]く皺[しわ]を刻[きざ]んで、それに大[おお]へん疲[つか]れているらしく、無理[むり]に笑[わら]いながら男[おとこ]の子[こ]をジョバンニのとなりに座[すわ]らせました。それから女[おんな]の子[こ]に優[やさ]しくカムパネルラのとなりの席[せき]を指[ゆび]さしました。",
+   "女[おんな]の子[こ]は素[す]直[なお]にそこへ座[すわ]って、きちんと両[りょう]手[て]を組[くみ]合[あ]せました。「ぼくおおねえさんのとこへ行[い]くんだよう。」腰[こし]掛[か]けたばかりの男[おとこ]の子[こ]は顔[かお]を変[か]にして燈[とう]台[だい]守[しゅ]の向[む]うの席[せき]に座[すわ]ったばかりの青年[せいねん]に言[い]いました。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar point indicates the completion of an action, often with a nuance that the action was done completely, sometimes to an excessive or irreversible degree. In this passage, '刻んで' implies that wrinkles were deeply engraved, suggesting a permanent or significant change."
+   },
+   {
+    "point": "〜よう",
+    "explanation": "This grammar point is used to indicate speculation or inference about something. In '行くんだよう', it suggests that the speaker is inferring or guessing that the boy is going to his older sister's place."
+   },
+   {
+    "point": "〜ながら",
+    "explanation": "This grammar point means 'while' and connects two actions happening simultaneously. In '笑いながら', it means 'while laughing', indicating that the young man was forcing a smile while making the boy sit next to Giovanni."
+   },
+   {
+    "point": "〜らしく",
+    "explanation": "This grammar point is used to express that something appears to be a certain way based on observed evidence. In 'つかれているらしく', it means 'apparently seems tired', suggesting that the young man's appearance indicates he is tired."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "皺",
+    "phonetic": "shiwa",
+    "translation": "wrinkles",
+    "example": "年を取ると、顔に皺ができます。",
+    "exampleTranslation": "When you get older, wrinkles appear on your face."
+   },
+   {
+    "word": "召されている",
+    "phonetic": "mesareteiru",
+    "translation": "being summoned (honorific form)",
+    "example": "彼は王様に召されて城へ行きました。",
+    "exampleTranslation": "He was summoned by the king and went to the castle."
+   },
+   {
+    "word": "無理に",
+    "phonetic": "muri ni",
+    "translation": "forcibly, unnaturally",
+    "example": "無理に笑っても、心から喜んでいるわけではありません。",
+    "exampleTranslation": "Even if you force a smile, it doesn't mean you're happy from the heart."
+   },
+   {
+    "word": "すなおに",
+    "phonetic": "sunao ni",
+    "translation": "obediently, honestly",
+    "example": "子供はすなおに先生の言うことを聞きました。",
+    "exampleTranslation": "The child obediently listened to what the teacher said."
+   },
+   {
+    "word": "きちんと",
+    "phonetic": "kichinto",
+    "translation": "neatly, properly",
+    "example": "きちんと部屋を片付けてから出かけましょう。",
+    "exampleTranslation": "Let's tidy up the room properly before going out."
+   },
+   {
+    "word": "腰掛けた",
+    "phonetic": "koshikaketa",
+    "translation": "sat down (on a chair/seat)",
+    "example": "彼は公園のベンチに腰掛けて本を読んでいました。",
+    "exampleTranslation": "He sat on a park bench and was reading a book."
+   }
+  ]
+ },
+ "65": {
+  "day": 65,
+  "paragraphs": [
+   "近くの人たちはすぐみちを開いてそして子供たちのために祈って呉れました。けれどもそこからボートまでのところにはまだまだ小さな子どもたちや親たちやなんか居て、とても押しのける勇気がなかったのです。",
+   "それでもわたくしはどうしてもこの方たちをお助けするのが私の義務だと思いましたから前にいる子供らを押しのけようとしました。けれどもまたそんなにして助けてあげるよりはこのまま神のお前にみんなで行く方がほんとうにこの方たちの幸福だとも思いました。",
+   "それからまたその神にそむく罪はわたくしひとりでしょってぜひとも助けてあげようと思いました。けれどもどうして見ているとそれができないのでした。子どもらばかりボートの中へはなしてやってお母さんが狂気のようにキスを送りお父さんがかなしいのをじっとこらえてまっすぐに立っているなどとてももう腸もちぎれるようでした。"
+  ],
+  "furiganaParagraphs": [
+   "近く[ちかく]の人[ひと]たち[たち]はすぐみち[みち]を開[ひら]いてそして子供[こども]たち[たち]のために祈[いの]って呉[く]れました。けれどもそこからボート[ボート]までのところにはまだまだ小さな子[こ]ども[ども]たち[たち]や親[おや]たち[たち]やなんか居[い]て、とても押[お]しのけ[のけ]る勇[ゆう]気[き]がなかったのです。",
+   "それでもわたくしはどうしてもこの方[かた]たち[たち]をお助[たす]けするのが私[わたし]の義務[ぎむ]だと思[おも]いましたから前[まえ]にいる子[こ]ども[ども]らを押[お]しのけ[のけ]ようとしました。けれどもまたそんなにして助[たす]けてあげるよりはこのまま神[かみ]のお前[おまえ]にみんなで行[い]く方がほんとうにこの方[かた]たち[たち]の幸福[こうふく]だとも思[おも]いました。",
+   "それからまたその神[かみ]にそむ[そむ]く罪[つみ]はわたくしひとりでしょってぜひとも助[たす]けてあげようと思[おも]いました。けれどもどうして見[み]ているとそれができないのでした。子[こ]ども[ども]らばかりボート[ボート]の中[なか]へはなしてやってお母[かあ]さんが狂[きょう]気[き]のようにキスを送[おく]りお父[ちち]さんがかなしいのをじっとこらえてまっすぐに立[た]っているなどとてももう腸[ちょう]もちぎれるようでした。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "The 〜てしまう form indicates that an action is completed, often with a sense of regret, disappointment, or that something is done irreversibly. In this context, it expresses the speaker's feeling that their heart is being torn apart."
+   },
+   {
+    "point": "〜てあげる",
+    "explanation": "The 〜てあげる form is used when doing something for someone else's benefit. It implies a favor or help given to someone. In this case, it means 'to help them.'"
+   },
+   {
+    "point": "〜てこらえる",
+    "explanation": "The 〜てこらえる form means to endure or suppress something (like emotions or pain) with patience. Here, it means the father is enduring his sadness."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "みちを開く",
+    "phonetic": "michi o hiraku",
+    "translation": "to make way, to clear a path",
+    "example": "電車が来たので、人々は道を開けた。",
+    "exampleTranslation": "The train was coming, so people made way."
+   },
+   {
+    "word": "押しのける",
+    "phonetic": "oshinokeru",
+    "translation": "to push aside, to push away",
+    "example": "彼は群衆を押しのけて前へ進んだ。",
+    "exampleTranslation": "He pushed through the crowd and moved forward."
+   },
+   {
+    "word": "義務",
+    "phonetic": "gimu",
+    "translation": "duty, obligation",
+    "example": "彼は学生としての義務を果たしている。",
+    "exampleTranslation": "He is fulfilling his duty as a student."
+   },
+   {
+    "word": "神にそむく",
+    "phonetic": "kami ni somuku",
+    "translation": "to go against God, to defy God",
+    "example": "彼は神にそむくことを恐れなかった。",
+    "exampleTranslation": "He didn't fear going against God."
+   },
+   {
+    "word": "腸もちぎれる",
+    "phonetic": "chou mochigireru",
+    "translation": "to have one's intestines torn, to be heartbroken",
+    "example": "悲しい話を聞いて、腸がもぎれる思いだった。",
+    "exampleTranslation": "Hearing the sad story, I felt as if my heart was being torn apart."
+   },
+   {
+    "word": "じっとこらえる",
+    "phonetic": "jitto koraeru",
+    "translation": "to endure patiently, to suppress",
+    "example": "彼は痛みをじっとこらえて笑顔を保った。",
+    "exampleTranslation": "He endured the pain and kept smiling."
+   }
+  ]
+ },
+ "67": {
+  "day": 67,
+  "paragraphs": [
+   "」そこらから小さないのりの声が聞えジョバンニもカムパネルラもいままで忘れていたいろいろのことをぼんやり思い出して眼が熱くなりました。（ああ、その大きな海はパシフィックというのではなかったろうか。その氷山の流れる北のはての海で、小さな船に乗って、風や凍りつく潮水や、烈しい寒さとたたかって、たれかが一生けんめいはたらいている。ぼくはそのひとにほんとうに気の毒でそしてすまないような気がする。ぼくはそのひとのさいわいのためにいったいどうしたらいいのだろう。）",
+   "ジョバンニは首を垂れて、すっかりふさぎ込んでしまいました。「なにがしあわせかわからないです。ほんとうにどんなつらいことでもそれがただしいみちを進む中でのできごとなら峠の上りも下りもみんなほんとうの幸福に近づく一あしずつですから。"
+  ],
+  "furiganaParagraphs": [
+   "」そこらから小さないのりの声[こえ]が聞[き]えジョバンニもカムパネルラもいままで忘[わす]れていたいろいろのことをぼんやり思い出[おもいだ]して眼[め]が熱[あつ]くなりました。（ああ、その大きな海[うみ]はパシフィックというのではなかったろうか。その氷山[ひょうざん]の流[なが]れる北[きた]のはての海[うみ]で、小さな船[ふね]に乗[の]って、風[かぜ]や凍[こお]りつく潮水[しおみず]や、烈[れつ]しい寒[さむ]さとたたかって、たれかが一生[いっしょう]けんめいはたらいている。ぼくはそのひとにほんとうに気[き]の毒[どく]でそしてすまないような気がする。ぼくはそのひとのさいわいのためにいったいどうしたらいいのだろう。）",
+   "ジョバンニは首[くび]を垂[た]れて、すっかりふさぎ込[こ]んでしまいました。「なにがしあわせかわからないです。ほんとうにどんなつらいことでもそれがただしいみちを進[すす]む中[なか]でのできごとなら峠[とうげ]の上[うえ]りも下[した]りもみんなほんとうの幸福[こうふく]に近[ちか]づく一[いち]あしずつですから。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates completion of an action, often with a sense of regret or that something is done beyond recovery. In the passage, it appears in '思い出して' (remembered) and 'ふさぎ込んでしまいました' (became completely dejected)."
+   },
+   {
+    "point": "〜ながら",
+    "explanation": "This grammar pattern indicates doing two actions simultaneously. In the passage, it appears in 'ぼんやり思い出して' (vaguely remembered), where the action of remembering is done in a vague manner."
+   },
+   {
+    "point": "〜中で",
+    "explanation": "This grammar pattern indicates 'in the middle of' or 'during' something. In the passage, it appears in '進む中で' (while walking/advancing), indicating that the suffering happens during the process of walking the right path."
+   },
+   {
+    "point": "〜だろう",
+    "explanation": "This grammar pattern appears at the end of questions expressing speculation or uncertainty. In the passage, it appears in 'ではなかったろうか' (wasn't it...?), expressing uncertainty about whether the great ocean was called the Pacific."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "ぼんやり",
+    "phonetic": "bonyari",
+    "translation": "vaguely, hazily, indistinctly",
+    "example": "窓からぼんやりと月が見えた。",
+    "exampleTranslation": "A faint moon could be seen through the window."
+   },
+   {
+    "word": "氷山",
+    "phonetic": "hyouzan",
+    "translation": "iceberg",
+    "example": "氷山が海をゆっくり流れていくのを見た。",
+    "exampleTranslation": "I saw icebergs slowly floating across the sea."
+   },
+   {
+    "word": "一生けんめい",
+    "phonetic": "isshoukenmei",
+    "translation": "with all one's might, diligently, earnestly",
+    "example": "彼は一生けんめいに勉強して試験に合格した。",
+    "exampleTranslation": "He studied hard and passed the exam."
+   },
+   {
+    "word": "気の毒",
+    "phonetic": "kinodoku",
+    "translation": "pitiful, sorry for someone, sympathetic",
+    "example": "彼の話を聞いて、とても気の毒に思った。",
+    "exampleTranslation": "After hearing his story, I felt very sorry for him."
+   },
+   {
+    "word": "すまない",
+    "phonetic": "sumanai",
+    "translation": "cannot make amends, unforgivable, sorry",
+    "example": "こんなことをしてしまって、本当にすまない。",
+    "exampleTranslation": "I'm really sorry for doing such a thing."
+   },
+   {
+    "word": "峠",
+    "phonetic": "touge",
+    "translation": "mountain pass",
+    "example": "峠を越えると、美しい景色が広がっていた。",
+    "exampleTranslation": "After crossing the mountain pass, a beautiful view spread out."
+   }
+  ]
+ },
+ "69": {
+  "day": 69,
+  "paragraphs": [
+   "じつにそのすきとおった奇麗な風は、ばらの匂でいっぱいでした。「いかがですか。こういう苹果はおはじめてでしょう。」向うの席の燈台看守がいつか黄金と紅でうつくしくいろどられた大きな苹果を落さないように両手で膝の上にかかえていました。",
+   "「おや、どっから来たのですか。立派ですねえ。ここらではこんな苹果ができるのですか。」青年はほんとうにびっくりしたらしく燈台看守の両手にかかえられた一もりの苹果を眼を細くしたり首をまげたりしながらわれを忘れてながめていました。",
+   "「いや、まあおとり下さい。どうか、まあおとり下さい。」青年は一つとってジョバンニたちの方をちょっと見ました。「さあ、向うの坊ちゃんがた。いかがですか。おとり下さい。」ジョバンニは坊ちゃんといわれたのですこししゃくにさわってだまっていましたがカムパネルラは"
+  ],
+  "furiganaParagraphs": [
+   "じつにそのすき[透]とおったき[奇]麗[れい]な風[かぜ]は、ばらの匂[にお]いでいっぱいでした。「いかがですか。こういうりんご[苹果]はおはじめてでしょう。」むこう[向]の席[せき]のとうだい[燈台]かんしゅ[看守]がいつか黄金[おうごん]と紅[べに]でうつくしくいろどられた大きなりんご[苹果]をお[落]さないように両手[りょうて]で膝[ひざ]の上[うえ]にかかえていました。",
+   "「おや、どっから来たのですか。立派[りっぱ]ですねえ。ここらではこんなりんご[苹果]ができるのですか。」せいねん[青年]はほんとうにびっくりしたらしくとうだいかんしゅ[燈台看守]の両手[りょうて]にかかえられた一もり[一もり]のりんご[苹果]を目[め]を細[細]くしたり首[くび]をまげたりしながらわれを忘[わす]れてながめていました。",
+   "「いや、まあおとり[取]り下[下]さい。どうか、まあおとり[取]り下[下]さい。」せいねん[青年]は一つ[ひとつ]とってジョバンニたちの方[ほう]をちょっと見[み]ました。「さあ、むこう[向]のぼちゃん[坊ちゃん]がた。いかがですか。おとり[取]り下[下]さい。」ジョバンニはぼちゃん[坊ちゃん]といわれたのですこししゃく[少]にさわってだまっていましたかむぱねるら[カムパネルラ]は"
+  ],
+  "grammar": [
+   {
+    "point": "〜ながら",
+    "explanation": "This grammar point indicates doing two actions simultaneously. In the passage, '眼を細くしたり首をまげたりしながらながめていました' means 'while narrowing his eyes and tilting his head, he stared'."
+   },
+   {
+    "point": "〜たり〜たりする",
+    "explanation": "This pattern indicates doing various things or examples of an action. In the passage, '眼を細くしたり首をまげたりしながら' means 'while narrowing his eyes and tilting his head'."
+   },
+   {
+    "point": "〜ように",
+    "explanation": "This pattern indicates purpose or manner. In the passage, '落さないように両手で膝の上にかかえていました' means 'so it wouldn't fall, he was holding it on his lap with both hands'."
+   },
+   {
+    "point": "〜てしまう",
+    "explanation": "The 〜te form + しまう indicates completion or sometimes an unintended result. In the passage, 'われを忘れてながめていました' means 'forgetting himself, he stared'."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "すきとおった",
+    "phonetic": "suki tootta",
+    "translation": "transparent, clear",
+    "example": "空はすきとおった青でした。",
+    "exampleTranslation": "The sky was a clear blue."
+   },
+   {
+    "word": "ばらの匂",
+    "phonetic": "bara no nioi",
+    "translation": "scent of roses",
+    "example": "庭にはばらの匂いが漂っています。",
+    "exampleTranslation": "The scent of roses is drifting in the garden."
+   },
+   {
+    "word": "燈台看守",
+    "phonetic": "tou dai kan shu",
+    "translation": "lighthouse keeper",
+    "example": "燈台看守は毎夜灯りを点けます。",
+    "exampleTranslation": "The lighthouse keeper lights the lamp every night."
+   },
+   {
+    "word": "眼を細く",
+    "phonetic": "me o hosoku",
+    "translation": "to narrow one's eyes",
+    "example": "彼は太陽をみて眼を細くしました。",
+    "exampleTranslation": "He narrowed his eyes when looking at the sun."
+   },
+   {
+    "word": "首をまげ",
+    "phonetic": "kubi o mage",
+    "translation": "to tilt one's head",
+    "example": "猫は首をまげて私を見つめました。",
+    "exampleTranslation": "The cat tilted its head and looked at me."
+   },
+   {
+    "word": "われを忘れて",
+    "phonetic": "wasurete",
+    "translation": "forgetting oneself",
+    "example": "彼は音楽にわれを忘れて聴き入っていました。",
+    "exampleTranslation": "He was so absorbed in the music that he forgot himself."
+   }
+  ]
+ },
+ "72": {
+  "day": 72,
+  "paragraphs": [
+   "二人はりんごを大切にポケットにしまいました。川下の向う岸に青く茂った大きな林が見え、その枝には熟してまっ赤に光る円い実がいっぱい、その林のまん中に高い高い三角標が立って、森の中からはオーケストラベルやジロフォンにまじって何とも云えずきれいな音いろが、とけるように浸みるように風につれて流れて来るのでした。",
+   "青年はぞくっとしてからだをふるうようにしました。だまってその譜を聞いていると、そこらにいちめん黄いろやうすい緑の明るい野原か敷物かがひろがり、またまっ白な蝋のような露が太陽の面を擦めて行くように思われました。",
+   "「まあ、あの烏。」カムパネルラのとなりのかおると呼ばれた女の子が叫びました。「からすでない。みんなかささぎだ。」カムパネルラがまた何気なく叱るように叫びましたので、ジョバンニはまた思わず笑い、女の子はきまり悪そうにしました。"
+  ],
+  "furiganaParagraphs": [
+   "二人[ふたり]はりんごを大切[たいせつ]にポケットにしまいました。川下[かわした]の向[む]う岸[きし]に青[あお]く茂[しげ]った大き[おお]きな林[はやし]が見[み]え、その枝[えだ]には熟[じゅく]してまっ赤[あか]に光[ひか]る円[まる]い実[み]がいっぱい、その林[はやし]のまん中[なか]に高い[たか]い高い[たか]い三角[さんかく]標[ひょう]が立[た]って、森[もり]の中[なか]からはオーケストラベルやジロフォンにまじって何[なに]とも云[い]えずきれいな音[おと]色[いろ]が、とけるように浸[にじ]みるように風[かぜ]につれて流[なが]れて来[き]るのでした。",
+   "青年[せいねん]はぞくっとしてからだをふるうようにしました。だまってその譜[ふ]を聞[き]いていると、そこらに一面[いちめん]黄[き]いろや薄[うす]い緑[みどり]の明[あか]るい野原[のはら]か敷物[しきもの]かが広[ひろ]がり、またまっ白[しろ]な蝋[ろう]のような露[つゆ]が太陽[たいよう]の面[おもて]を擦[す]めて行[い]くように思[おも]われました。",
+   "「まあ、あの烏[からす]。」カムパネルラのとなりのかおると呼[よ]ばれた女[おんな]の子[こ]が叫[さけ]びました。「からすでない。みんなかささぎだ。」カムパネルラがまた何気[なにげ]なく叱[しか]るように叫[さけ]びましたので、ジョバンニはまた思[おも]わず笑[わら]い、女[おんな]の子[こ]はきまり悪[わる]そうにしました。"
+  ],
+  "grammar": [
+   {
+    "point": "〜ように",
+    "explanation": "This versatile pattern can indicate purpose, resemblance, or manner. In this passage, it appears in multiple contexts: 'とけるように浸みるように' (as if dissolving and soaking in), 'からだをふるうようにしました' (as if his body were shaking), and '擦めて行くように思われました' (as if it were polishing)."
+   },
+   {
+    "point": "〜ように思われる",
+    "explanation": "This pattern expresses that something appears or seems to be a certain way from the speaker's perspective. It indicates a subjective impression rather than a fact. In the passage, it appears in '露が太陽の面を擦めて行くように思われました' (it seemed as if dew were polishing the face of the sun)."
+   },
+   {
+    "point": "〜ので",
+    "explanation": "This pattern indicates cause and reason, similar to 'because' or 'since.' In the passage, it appears in 'カムパネルラがまた何気なく叱るように叫びましたので' (because Campanella called out again as if scolding)."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "茂った",
+    "phonetic": "shigetta",
+    "translation": "lush, dense, thick with foliage",
+    "example": "森が茂っている",
+    "exampleTranslation": "The forest is lush and dense."
+   },
+   {
+    "word": "三角標",
+    "phonetic": "sankakuhyō",
+    "translation": "triangular marker or signpost",
+    "example": "山の頂上に三角標が立っている",
+    "exampleTranslation": "A triangular marker stands at the mountaintop."
+   },
+   {
+    "word": "音いろ",
+    "phonetic": "on'iro",
+    "translation": "color of sound, timbre",
+    "example": "その楽器の音色はとても美しい",
+    "exampleTranslation": "The timbre of that instrument is very beautiful."
+   },
+   {
+    "word": "浸みる",
+    "phonetic": "njimiru",
+    "translation": "to soak in, to permeate, to seep",
+    "example": "雨が土に浸みる",
+    "exampleTranslation": "The rain soaks into the soil."
+   },
+   {
+    "word": "譜",
+    "phonetic": "fu",
+    "translation": "score, musical notation",
+    "example": "この楽譜は難しい",
+    "exampleTranslation": "This musical score is difficult."
+   },
+   {
+    "word": "何気なく",
+    "phonetic": "nanigenaku",
+    "translation": "casually, unconsciously, without thinking",
+    "example": "彼は何気なくそのことを話した",
+    "exampleTranslation": "He casually mentioned that matter."
+   }
+  ]
+ },
+ "73": {
+  "day": 73,
+  "paragraphs": [
+   "まったく河原の青じろいあかりの上に、黒い鳥がたくさんたくさんいっぱいに列になってとまってじっと川の微光を受けているのでした。「かささぎですねえ、頭のうしろのとこに毛がぴんと延びてますから。」青年はとりなすように云いました。",
+   "向うの青い森の中の三角標はすっかり汽車の正面に来ました。そのとき汽車のずうっとうしろの方からあの聞きなれた〔約二字分空白〕番の讃美歌のふしが聞えてきました。よほどの人数で合唱しているらしいのでした。",
+   "青年はさっと顔いろが青ざめ、たって一ぺんそっちへ行きそうにしましたが思いかえしてまた座りました。かおる子はハンケチを顔にあててしまいました。ジョバンニまで何だか鼻が変になりました。",
+   "けれどもいつともなく誰ともなくその歌は歌い出されだんだんはっきり強くなりました。"
+  ],
+  "furiganaParagraphs": [
+   "まったく[まったく]河原[かわら]の青[あお]じろい[じろい]あかり[あかり]の上[うえ]に、黒[くろ]い鳥[とり]がたくさん[たくさん]たくさん[たくさん]いっぱい[いっぱい]に列[れつ]に[に]なって[なって]とまって[とまって]じっと[じっと]川[かわ]の微光[びこう]を[を]受けて[うけて]いる[いる]ので[の]し[し]た[た]。「かささぎ[かささぎ]ですねえ[ですねえ]、頭[あたま]の[の]うしろ[うしろ]の[の]とこ[とこ]に[に]毛[け]が[が]ぴんと[ぴんと]延びて[のびて]ます[ます]から[から]。」青年[せいねん]は[は]とりなす[とりなす]ように[ように]云い[いい]まし[まし]た[た]。",
+   "向う[むこう]の[の]青[あお]い[い]森[もり]の[の]中[なか]の[の]三角[さんかく]標[ひょう]は[は]すっかり[すっかり]汽車[きしゃ]の[の]正面[せんめん]に[に]来[き]まし[まし]た[た]。その[その]とき[とき]汽車[きしゃ]の[の]ずうっ[ずうっ]と[と]うしろ[うしろ]の[の]方[ほう]から[から]あの[あの]聞き[きき]なれ[なれ]た[た]〔約[やく]二字分[にじぶん]空白[くうはく〕番[ばん]の[の]讃美[さんび]歌[うた]の[の]ふし[ふし]が[が]聞え[きえ]て[て]き[き]まし[まし]た[た]。よほど[よほど]の[の]人数[にんずう]で[で]合唱[がっしょう]して[して]いる[いる]らしい[らしい]の[の]で[で]し[し]た[た]。",
+   "青年[せいねん]は[は]さっと[さっと]顔[かお]色[いろ]が[が]青[あお]ざめ[ざめ]、立[た]って[って]一[いち]ぺん[ぺん]そっち[そっち]へ[へ]行[い]き[き]そう[そう]に[に]し[し]まし[まし]が[が]思い[おもい]かえ[かえ]して[して]また[また]座[すわ]り[り]まし[まし]た[た]。かおる[かおる]子[こ]は[は]ハンケチ[ハンケチ]を[を]顔[かお]に[に]当[あ]て[て]て[て]し[し]まい[まい]た[た]。ジョバンニ[ジョバンニ]まで[まで]何[なに]だ[だ]か[か]鼻[はな]が[が]変[へん]に[に]な[な]り[り]まし[まし]た[た]。",
+   "けれども[けれども]いつとも[いつとも]なく[なく]誰[だれ]とも[とも]なく[なく]その[その]歌[うた]は[は]歌[うた]い[い]出[だ]され[され]だんだん[だんだん]はっきり[はっきり]強[つよ]く[く]な[な]り[り]まし[まし]た[た]。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates the completion of an action, often with a sense of regret or that the action was done completely or irreversibly."
+   },
+   {
+    "point": "〜そうに",
+    "explanation": "This grammar pattern indicates appearance or likelihood, suggesting that something appears to be about to happen."
+   },
+   {
+    "point": "〜らしい",
+    "explanation": "This grammar pattern indicates that something appears to be a certain way based on observation or hearsay."
+   },
+   {
+    "point": "〜てくる",
+    "explanation": "This grammar pattern indicates the gradual beginning or approach of an action or state."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "微光",
+    "phonetic": "bihkou",
+    "translation": "faint light/glow",
+    "example": "夜の海に微光が見える。",
+    "exampleTranslation": "A faint light can be seen on the sea at night."
+   },
+   {
+    "word": "とりなす",
+    "phonetic": "torinasu",
+    "translation": "to pacify, to mediate, to soothe",
+    "example": "両親の間をとりなす。",
+    "exampleTranslation": "To mediate between parents."
+   },
+   {
+    "word": "ずうっと",
+    "phonetic": "zutto",
+    "translation": "far away, for a long time",
+    "example": "ずうっと昔のことだ。",
+    "exampleTranslation": "It's from a long, long time ago."
+   },
+   {
+    "word": "讃美歌",
+    "phonetic": "sanbiuta",
+    "translation": "hymn",
+    "example": "教会で讃美歌を歌う。",
+    "exampleTranslation": "To sing hymns at church."
+   },
+   {
+    "word": "青ざめ",
+    "phonetic": "aozame",
+    "translation": "to turn pale",
+    "example": "恐ろしい話を聞いて顔が青ざめた。",
+    "exampleTranslation": "His face turned pale after hearing the scary story."
+   },
+   {
+    "word": "思いかえる",
+    "phonetic": "omoikaeru",
+    "translation": "to reconsider, to think again",
+    "example": "その決断を思いかえるべきだ。",
+    "exampleTranslation": "I should reconsider that decision."
+   }
+  ]
+ },
+ "75": {
+  "day": 75,
+  "paragraphs": [
+   "ジョバンニは俄かに何とも云えずかなしい気がして思わず「カムパネルラ、ここからはねおりて遊んで行こうよ。」とこわい顔をして云おうとしたくらいでした。",
+   "川は二つにわかれました。そのまっくらな島のまん中に高い高いやぐらが一つ組まれてその上に一人の寛い服を着て赤い帽子をかぶった男が立っていました。",
+   "そして両手に赤と青の旗をもってそらを見上げて信号しているのでした。ジョバンニが見ている間その人はしきりに赤い旗をふっていましたが俄かに赤旗をおろしてうしろにかくすようにし青い旗を高く高くあげてまるでオーケストラの指揮者のように烈しく振りました。",
+   "すると空中にざあっと雨のような音がして何かまっくらなものがいくかたまりもいくかたまりも鉄砲丸のように川の向うの方へ飛んで行くのでした。"
+  ],
+  "furiganaParagraphs": [
+   "ジョバンニ[じょばんに]は俄かに[にわかに]何とも[なんとも]云えず[いえず]かなしい[かなしい]気がして[きがして]思わず[おもわず]「カムパネルラ[かむぱねるら]、ここからは[ここからは]ねおりて[おりて]遊んで[あそんで]行こう[いこう]よ。」とこわい[こわい]顔を[かおを]して[して]云おう[いおう]とした[とした]くらいでした[くらいでした]。",
+   "川[かわ]は二つ[ふたつ]にわかれ[わかれ]ました[ました]。そのまっくら[まっくら]な島[しま]のまん中[まんなか]に高い[たかい]高い[たかい]やぐら[やぐら]が一つ[ひとつ]組まれて[くまれて]その上[うえ]に一人[ひとり]の寛い[ゆったり]服[ふく]を着て[きて]赤い[あかい]帽子[ぼうし]をかぶった[かぶった]男[おとこ]が立って[たって]いました[いました]。",
+   "そして[そして]両手[りょうて]に赤[あか]と青[あお]の旗[はた]をもって[もって]そら[そら]を見上げて[みあげて]信号[しんごう]している[している]のでした[のでした]。ジョバンニ[じょばんに]が見て[みて]いる[いる]間[あいだ]その人は[その人は]しきりに[しきりに]赤い[あかい]旗[はた]をふって[ふって]いました[いました]が俄かに[にわかに]赤旗[あかはた]をおろして[おろして]うしろ[うしろ]にかくす[かくす]ように[ように]し青い[あおい]旗[はた]を高く[たかく]高く[たかく]あげて[あげて]まるで[まるで]オーケストラ[おーけすとら]の指揮者[しきしゃ]のように[のように]烈しく[はげしく]振りました[ふりました]。",
+   "すると[すると]空中[くうちゅう]にざあっと[ざあっと]雨[あめ]のような[ような]音[おと]がして[がして]何か[なにか]まっくら[まっくら]なもの[もの]がいくかたまり[いくかたまり]もいくかたまり[いくかたまり]も鉄砲丸[てっぽうまる]のように[のように]川[かわ]の向う[むこう]の方[ほう]へ飛んで[んで]行く[いく]のでした[のでした]。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar point indicates the completion of an action, often with a nuance that the action was done completely, sometimes to the point of being irreversible or with a sense of regret. In this passage, it's used in '云おうとしたくらいでした' (almost as if he were about to say), suggesting a nearly completed action."
+   },
+   {
+    "point": "〜ように",
+    "explanation": "This grammar point can indicate resemblance or comparison, meaning 'like' or 'as if.' In this passage, it appears in 'うしろにかくすように' (as if to hide it behind him) and 'オーケストラの指揮者のように' (like an orchestra conductor)."
+   },
+   {
+    "point": "〜ている",
+    "explanation": "This indicates the continuous state of an action. In this passage, it appears in '信号しているのでした' (was signaling) and '見ている間' (while watching)."
+   },
+   {
+    "point": "〜ていく",
+    "explanation": "This indicates the continuation of an action from the present into the future. In this passage, it appears in '飛んで行くのでした' (flew away), suggesting the action of flying continued toward the other side."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "俄かに",
+    "phonetic": "niwaka ni",
+    "translation": "suddenly, abruptly",
+    "example": "天気は俄かに悪くなりました。",
+    "exampleTranslation": "The weather suddenly turned bad."
+   },
+   {
+    "word": "思わず",
+    "phonetic": "omowazu",
+    "translation": "involuntarily, unintentionally",
+    "example": "思わず笑ってしまいました。",
+    "exampleTranslation": "I involuntarily laughed."
+   },
+   {
+    "word": "寛い",
+    "phonetic": "yuttari",
+    "translation": "loose-fitting, relaxed, spacious",
+    "example": "彼は寛い服を着ていました。",
+    "exampleTranslation": "He was wearing loose-fitting clothes."
+   },
+   {
+    "word": "しきりに",
+    "phonetic": "shikiri ni",
+    "translation": "frequently, repeatedly, eagerly",
+    "example": "彼はしきりに質問をしました。",
+    "exampleTranslation": "He asked questions repeatedly."
+   },
+   {
+    "word": "烈しく",
+    "phonetic": "hageshiku",
+    "translation": "violently, intensely, fiercely",
+    "example": "風が烈しく吹いています。",
+    "exampleTranslation": "The wind is blowing violently."
+   },
+   {
+    "word": "鉄砲丸",
+    "phonetic": "teppoumaru",
+    "translation": "cannonball",
+    "example": "鉄砲丸が空を飛んでいきました。",
+    "exampleTranslation": "The cannonball flew through the sky."
+   }
+  ]
+ },
+ "77": {
+  "day": 77,
+  "paragraphs": [
+   "二人の顔を出しているまん中の窓からあの女の子が顔を出して美しい頬をかがやかせながらそらを仰ぎました。「まあ、この鳥、たくさんですわねえ、あらまあそらのきれいなこと。」女の子はジョバンニにはなしかけましたけれどもジョバンニは生意気ないやだいと思いながらだまって口をむすんでそらを見あげていました。",
+   "女の子は小さくほっと息をしてだまって席へ戻りました。カムパネルラが気の毒そうに窓から顔を引っ込めて地図を見ていました。「あの人鳥へ教えてるんでしょうか。」女の子がそっとカムパネルラにたずねました。「わたり鳥へ信号してるんです。きっとどこからかのろしがあがるためでしょう。」カムパネルラが少しおぼつかなそうに答えました。",
+   "そして車の中はしぃんとなりました。ジョバンニはもう頭を引っ込めたかったのですけれども明るいとこへ顔を出すのがつらかったのでだまってこらえてそのまま立って口笛を吹いていました。"
+  ],
+  "furiganaParagraphs": [
+   "二人[ふたり]の顔[かお]を出[だ]しているまん中[まんなか]の窓[まど]からあの女[おんな]の子[こ]が顔[かお]を出[だ]して美[うつく]しい頬[ほお]をかがやかせながらそらを仰[あお]ぎました。「まあ、この鳥[とり]、たくさんですわねえ、あらまあそらのきれいなこと。」女[おんな]の子[こ]はジョバンニにはなしかけましたけれどもジョバンニは生意気[なまいき]ないやだいと思[おも]いながらだまって口[くち]をむすんでそらを見[み]あげていました。",
+   "女[おんな]の子[こ]は小[ちい]さくほっと息[いき]をしてだまって席[せき]へ戻[もど]りました。カムパネルラが気[き]の毒[どく]そうに窓[まど]から顔[かお]を引[ひ]っ込[こ]めて地図[ちず]を見[み]ていました。「あの人[ひと]鳥[とり]へ教[おし]えてるんでしょうか。」女[おんな]の子[こ]がそっとカムパネルラにたずねました。「わたり鳥[とり]へ信号[しんごう]してるんです。きっとどこからかのろしがあ[が]るためでしょう。」カムパネルラが少[すこ]しおぼつかなそうに答[こた]えました。",
+   "そして車[くるま]の中[なか]はしぃんとなりました。ジョバンニはもう頭[あたま]を引[ひ]っ込[こ]めたかったのですけれども明[あか]るいとこへ顔[かお]を出[だ]すのがつらかったのでだまってこらえてそのまま立[た]って口[くち]笛[ふえ]を吹[ふ]いていました。"
+  ],
+  "grammar": [
+   {
+    "point": "〜ながら",
+    "explanation": "This grammar point indicates doing two actions simultaneously. It translates to 'while' or 'as' in English. In the passage, '美しい頬をかがやかせながらそらを仰ぎました' means 'she looked up at the sky while her beautiful cheeks were shining.'"
+   },
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar point indicates the completion of an action, often with a sense of irreversibility or unexpectedness. In the passage, 'だまって口をむすんで' shows that Giovanni kept his mouth closed, implying he completed the action of closing his mouth."
+   },
+   {
+    "point": "〜ていた",
+    "explanation": "This is the past progressive tense, indicating an action that was ongoing in the past. In the passage, 'ジョバンニはだまって口をむすんでそらを見あげていました' means 'Giovanni was silently looking up at the sky with his mouth closed.'"
+   },
+   {
+    "point": "〜そうに",
+    "explanation": "This grammar point indicates appearance or manner, suggesting that something seems to be a certain way. In the passage, 'カムパネルラが少しおぼつかなそうに答えました' means 'Campanella answered somewhat uncertainly.'"
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "頬",
+    "phonetic": "hoo",
+    "translation": "cheek",
+    "example": "彼女は赤い頬で笑っている。",
+    "exampleTranslation": "She is smiling with red cheeks."
+   },
+   {
+    "word": "かがやかせながら",
+    "phonetic": "kagayakase nagara",
+    "translation": "while making shine/sparkle",
+    "example": "星空をかがやかせながら歩く。",
+    "exampleTranslation": "Walking while making the starry sky sparkle."
+   },
+   {
+    "word": "生意気",
+    "phonetic": "namaiki",
+    "translation": "arrogant, conceited, impertinent",
+    "example": "彼は生意気な態度を取る。",
+    "exampleTranslation": "He takes an arrogant attitude."
+   },
+   {
+    "word": "ほっと息",
+    "phonetic": "hotto iki",
+    "translation": "sigh of relief",
+    "example": "彼女はほっと息をついた。",
+    "exampleTranslation": "She let out a sigh of relief."
+   },
+   {
+    "word": "気の毒",
+    "phonetic": "kinodoku",
+    "translation": "pitiful,可怜",
+    "example": "彼の境遇はとても気の毒だ。",
+    "exampleTranslation": "His situation is very pitiful."
+   },
+   {
+    "word": "おぼつかない",
+    "phonetic": "obotokanai",
+    "translation": "uncertain, unreliable, shaky",
+    "example": "彼の答えはおぼつかない。",
+    "exampleTranslation": "His answer is uncertain."
+   }
+  ]
+ },
+ "78": {
+  "day": 78,
+  "paragraphs": [
+   "（どうして僕はこんなにかなしいのだろう。僕はもっとこころもちをきれいに大きくもたなければいけない。あすこの岸のずうっと向うにまるでけむりのような小さな青い火が見える。あれはほんとうにしずかでつめたい。僕はあれをよく見てこころもちをしずめるんだ。）ジョバンニは熱って痛いあたまを両手で押えるようにしてそっちの方を見ました。",
+   "（ああほんとうにどこまでもどこまでも僕といっしょに行くひとはないだろうか。カムパネルラだってあんな女の子とおもしろそうに談しているし僕はほんとうにつらいなあ。）ジョバンニの眼はまた泪でいっぱいになり天の川もまるで遠くへ行ったようにぼんやり白く見えるだけでした。",
+   "そのとき汽車はだんだん川からはなれて崖の上を通るようになりました。向う岸もまた黒いいろの崖が川の岸を下流に下るにしたがってだんだん高くなって行くのでした。"
+  ],
+  "furiganaParagraphs": [
+   "（どうして[どうして]僕[ぼく]はこんなに[こんなに]かなしい[かなしい]のだろう[のだろう]。僕[ぼく]はもっと[もっと]こころもち[こころもち]をきれい[きれい]に[に]大き[おおき]く[く]もたなければ[もたなければ]いけない[いけない]。あすこ[あすこ]の岸[きし]のずうっと[ずうっと]向う[むこう]に[に]まるで[まるで]けむり[けむり]のような[のような]小さ[ちいさ]な[な]青い[あおい]火[ひ]が見える[みえる]。あれ[あれ]はほんとう[ほんとう]に[に]しずか[しずか]で[で]つめたい[つめたい]。僕[ぼく]はあれ[あれ]を[を]よく[よく]見[み]て[て]こころもち[こころもち]を[を]しずめる[しずめる]んだ[んだ]。）ジョバンニ[ジョバンニ]は熱[ねつ]って[って]痛[いた]い[い]あたま[あたま]を[を]両手[りょうて]で[で]押[お]える[える]ように[ように]して[して]そっち[そっち]の[の]方[ほう]を[を]見[み]ました[みました]。",
+   "（ああ[ああ]ほんとう[ほんとう]に[に]どこまでも[どこまでも]どこまでも[どこまでも]僕[ぼく]と[と]いっしょ[いっしょ]に[に]行[い]く[く]ひとは[ひとは]ない[ない]だろう[だろう]か[か]。カムパネルラ[カムパネルラ]だって[だって]あんな[あんな]女[おんな]の子[こ]と[と]おもしろ[おもしろ]そう[そう]に[に]談[だん]している[している]し[し]僕[ぼく]は[は]ほんとう[ほんとう]に[に]つらい[つらい]なあ[なあ]。）ジョバンニ[ジョバンニ]の[の]眼[め]は[は]また[また]泪[なみだ]で[で]いっぱい[いっぱい]に[に]なり[なり]天[てん]の[の]川[かわ]も[も]まるで[まるで]遠[とお]く[く]へ[へ]行[い]った[った]ように[ように]ぼんやり[ぼんやり]白[しろ]く[く]見[み]える[える]だけ[だけ]でした[でした]。",
+   "その[その]とき[とき]汽車[きしゃ]は[は]だんだん[だんだん]川[かわ]から[から]はなれて[はなれて]崖[がけ]の[の]上[うえ]を[を]通[とお]る[る]よう[よう]に[に]なり[なり]ました[ました]。向[む]う[う]岸[きし]も[も]また[また]黒[くろ]い[い]色[いろ]の[の]崖[がけ]が[が]川[かわ]の[の]岸[きし]を[を]下流[かりゅう]に[に]下[くだ]る[る]に[に]したがって[したがって]だんだん[だんだん]高[たか]く[く]な[な]って[って]行[い]く[く]ので[ので]した[しました]。"
+  ],
+  "grammar": [
+   {
+    "point": "〜なければいけない",
+    "explanation": "This grammatical pattern means 'must' or 'have to.' It indicates obligation or necessity. The verb in its dictionary form is followed by なければいけない."
+   },
+   {
+    "point": "〜ようにする",
+    "explanation": "This pattern means 'to try to do something' or 'to make sure something happens.' It indicates an effort to achieve a certain state or action."
+   },
+   {
+    "point": "〜ている",
+    "explanation": "This is the continuous or progressive form, indicating an ongoing action or state. It's formed by adding いる to the て-form of a verb."
+   },
+   {
+    "point": "〜てしまう",
+    "explanation": "This indicates completion of an action, sometimes with a nuance of regret or that something is done irreversibly. It's formed by adding しまう to the て-form of a verb."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "こころもち",
+    "phonetic": "kokoromochi",
+    "translation": "state of mind, feeling, heart",
+    "example": "彼女は優しいこころもちを持っています。",
+    "exampleTranslation": "She has a kind heart."
+   },
+   {
+    "word": "つめたい",
+    "phonetic": "tsumetai",
+    "translation": "cold (temperature)",
+    "example": "この飲み物はとてもつめたいです。",
+    "exampleTranslation": "This drink is very cold."
+   },
+   {
+    "word": "泪",
+    "phonetic": "namida",
+    "translation": "tears",
+    "example": "悲しくて泪が出ました。",
+    "exampleTranslation": "I was sad and tears came out."
+   },
+   {
+    "word": "ぼんやり",
+    "phonetic": "bonyari",
+    "translation": "vaguely, dimly, hazily",
+    "example": "朝起きたとき、まだぼんやりしています。",
+    "exampleTranslation": "When I wake up in the morning, I'm still groggy."
+   },
+   {
+    "word": "崖",
+    "phonetic": "gake",
+    "translation": "cliff",
+    "example": "崖から美しい景色が見えます。",
+    "exampleTranslation": "You can see a beautiful view from the cliff."
+   },
+   {
+    "word": "下流",
+    "phonetic": "karyuu",
+    "translation": "downstream",
+    "example": "川の下流に町があります。",
+    "exampleTranslation": "There is a town downstream on the river."
+   }
+  ]
+ },
+ "80": {
+  "day": 80,
+  "paragraphs": [
+   "と答えました。そのとき汽車はだんだんしずかになっていくつかのシグナルとてんてつ器の灯を過ぎ小さな停車場にとまりました。その正面の青じろい時計はかっきり第二時を示しその振子は風もなくなり汽車もうごかずしずかなしずかな野原のなかにカチッカチッと正しく時を刻んで行くのででした。",
+   "そしてまったくその振子の音のたえまを遠くの遠くの野原のはてから、かすかなかすかな旋律が糸のように流れて来るのでした。「新世界交響楽だわ。」姉がひとりごとのようにこっちを見ながらそっと云いました。",
+   "全くもう車の中ではあの黒服の丈高い青年も誰もみんなやさしい夢を見ているのでした。（こんなしずかないいとこで僕はどうしてもっと愉快になれないだろう。どうしてこんなにひとりさびしいのだろう。けれどもカムパネルラなんかあんまりひどい、僕といっしょに汽車に乗っていながらまるであんな女の子とばかり談しているんだもの。)"
+  ],
+  "furiganaParagraphs": [
+   "と答え[こたえ]ました。そのとき汽車[きしゃ]はだんだんしずかになっていくつかのシグナルとてんてつ器[き]の灯[ともしび]を過ぎ[すぎ]小さな停車場[ていしゃじょう]にとまり[とまり]ました。その正面[せんもん]の青じろい[あおじろい]時計[とけい]はかっきり第二時[だいにじ]を示[しめ]しその振子[ふりこ]は風[かぜ]もなくなり汽車[きしゃ]もうごかずしずかなしずかな野原[のはら]のなかにカチッカチッと正しく時を刻んで[きざんで]行く[いく]のででした。",
+   "そしてまったくその振子[ふりこ]の音[おと]のたえまを遠く[とおく]の遠く[とおく]の野原[のはら]のはてから、かすかなかすかな旋律[せんりつ]が糸[いと]のように流れて[ながれて]来る[くる]のでした。「新世界交響楽[しんせかいこうきょうがく]だわ。」姉[あね]がひとりごと[ひとりごと]のようにこっちを見[み]ながらそっと云[い]いました。",
+   "全く[まったく]もう車[くるま]の中[なか]ではあの黒服[くろふく]の丈高い[たかいたい]青年[せいねん]も誰[だれ]もみんなやさしい夢[ゆめ]を見[み]ているのででした。（こんなしずかないいとこで僕[ぼく]はどうしてもっと愉快[ゆかい]になれないだろう。どうしてこんなにひとりさびしい[さびしい]のだろう。けれどもカムパネルラなんかあんまりひどい、僕[ぼく]といっしょに汽車[きしゃ]に乗って[のって]いながらまるであんな女[おんな]の子[こ]とばかり談[はな]しているんだもの。)"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates the completion of an action, often with a sense of regret, disappointment, or that something has been done completely and cannot be undone."
+   },
+   {
+    "point": "〜ながら",
+    "explanation": "This grammar pattern means 'while' or 'during the time of,' indicating that two actions are happening simultaneously."
+   },
+   {
+    "point": "〜のだ",
+    "explanation": "This pattern is used to explain reasons, give emphasis, or express one's feelings or thoughts."
+   },
+   {
+    "point": "〜だろう",
+    "explanation": "This is a sentence ender used to express speculation or uncertainty, similar to 'I suppose,' 'probably,' or 'I wonder' in English."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "振子",
+    "phonetic": "furiko",
+    "translation": "pendulum",
+    "example": "時計の振子が揺れています。",
+    "exampleTranslation": "The pendulum of the clock is swinging."
+   },
+   {
+    "word": "てんてつ器",
+    "phonetic": "tentetsu ki",
+    "translation": "signal box",
+    "example": "駅のてんてつ器が故障しました。",
+    "exampleTranslation": "The signal box at the station broke down."
+   },
+   {
+    "word": "旋律",
+    "phonetic": "senritsu",
+    "translation": "melody",
+    "example": "この曲の旋律はとても美しいです。",
+    "exampleTranslation": "The melody of this piece is very beautiful."
+   },
+   {
+    "word": "交響楽",
+    "phonetic": "kōkyōgaku",
+    "translation": "symphony",
+    "example": "ベートーヴェンの交響楽を聴きました。",
+    "exampleTranslation": "I listened to Beethoven's symphony."
+   },
+   {
+    "word": "丈高い",
+    "phonetic": "takaitai",
+    "translation": "tall, high-statured",
+    "example": "彼はとても丈高い青年です。",
+    "exampleTranslation": "He is a very tall young man."
+   },
+   {
+    "word": "さびしい",
+    "phonetic": "sabishii",
+    "translation": "lonely",
+    "example": "一人でいるとさびしくなります。",
+    "exampleTranslation": "I feel lonely when I'm alone."
+   }
+  ]
+ },
+ "82": {
+  "day": 82,
+  "paragraphs": [
+   "突然とうもろこしがなくなって巨きな黒い野原がいっぱいにひらけました。新世界交響楽はいよいよはっきり地平線のはてから湧きそのまっ黒な野原のなかを一人のインデアンが白い鳥の羽根を頭につけたくさんの石を腕と胸にかざり小さな弓に矢を番えて一目散に汽車を追って来るのでした。",
+   "「あら、インデアンですよ。インデアンですよ。ごらんなさい。」黒服の青年も眼をさましました。ジョバンニもカムパネルラも立ちあがりました。「走って来るわ、あら、走って来るわ。追いかけているんでしょう。」",
+   "「いいえ、汽車を追ってるんじゃないんですよ。猟をするか踊るかしてるんですよ。」青年はいまどこに居るか忘れたという風にポケットに手を入れて立ちながら云いました。まったくインデアンは半分は踊っているようでした。"
+  ],
+  "furiganaParagraphs": [
+   "突然[とつぜん]とうもろこしがなくなって巨[おお]きな黒[くろ]い野原[のはら]がいっぱいにひらけました。新[しん]世界[せかい]交響楽[こうきょうがく]はいよいよはっきり地平線[ちへいせん]のはてから湧[わ]きそのまっ黒[くろ]な野原[のはら]のなかを一人[ひとり]のインデアンが白[しろ]い鳥[とり]の羽根[はね]を頭[あたま]につけたくさん[たくさん]の石[いし]を腕[うで]と胸[むね]にかざり小[ちい]さな弓[ゆみ]に矢[や]を番[つ]えて一目散[いちもくさん]に汽車[きしゃ]を追[お]って来[き]るのでした。",
+   "「あら、インデアンですよ。インデアンですよ。ごらんなさい。」黒[くろ]服[ふく]の青年[せいねん]も眼[め]をさましました。ジョバンニもカムパネルラも立ち[た]ち上[あ]がりました。「走[はし]って来[き]るわ、あら、走[はし]って来[き]るわ。追[お]いかけているんでしょう。」",
+   "「いいえ、汽車[きしゃ]を追[お]ってるんじゃないんですよ。猟[りょう]をするか踊[おど]るかしてるんですよ。」青年[せいねん]はいまどこに居[い]るか忘[わす]れたという風[ふう]にポケットに手[て]を入[い]れて立ち[た]ながら云[い]いました。まったくインデアンは半分[はんぶん]は踊[おど]っているようでした。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てくる",
+    "explanation": "This grammar pattern indicates movement toward the speaker or a gradual change over time leading up to the present. In this passage, it appears in '追って来る' (chasing after/coming toward) and '走って来る' (running toward)."
+   },
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates that an action has been completed, sometimes with a nuance of regret or that something cannot be undone. In this passage, it appears in '立ち上がりました' (stood up), showing the completion of the action of standing up."
+   },
+   {
+    "point": "〜てみる",
+    "explanation": "This grammar pattern indicates trying to do something. In this passage, it appears in 'ごらんなさい' which is a colloquial form of 'ご覧なさい' (please look/try to see)."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "とうもろこし",
+    "phonetic": "tōmorokoshi",
+    "translation": "corn",
+    "example": "私は朝食にとうもろこしを食べました。",
+    "exampleTranslation": "I ate corn for breakfast."
+   },
+   {
+    "word": "巨きな",
+    "phonetic": "ookina",
+    "translation": "huge, vast",
+    "example": "彼は巨きな声で叫びました。",
+    "exampleTranslation": "He shouted with a huge voice."
+   },
+   {
+    "word": "一目散に",
+    "phonetic": "ichimokusen ni",
+    "translation": "at full speed, headlong",
+    "example": "彼は一目散に家に走って帰りました。",
+    "exampleTranslation": "He ran home at full speed."
+   },
+   {
+    "word": "眼をさます",
+    "phonetic": "me o samasu",
+    "translation": "to wake up, to open one's eyes",
+    "example": "雷の音で眼をさましました。",
+    "exampleTranslation": "I woke up to the sound of thunder."
+   },
+   {
+    "word": "立ち上がる",
+    "phonetic": "tachiagaru",
+    "translation": "to stand up",
+    "example": "先生が入ってきたので、生徒たちは立ち上がりました。",
+    "exampleTranslation": "The teacher came in, so the students stood up."
+   },
+   {
+    "word": "猟をする",
+    "phonetic": "ryō o suru",
+    "translation": "to hunt",
+    "example": "彼は週末に森で猟をします。",
+    "exampleTranslation": "He goes hunting in the forest on weekends."
+   }
+  ]
+ },
+ "84": {
+  "day": 84,
+  "paragraphs": [
+   "「この傾斜があるもんですから汽車は決して向うからこっちへは来ないんです。そら、もうだんだん早くなったでしょう。」さっきの老人らしい声が云いました。どんどんどんどん汽車は降りて行きました。崖のはじに鉄道がかかるときは川が明るく下にのぞけたのです。ジョバンニはだんだんこころもちが明るくなって来ました。",
+   "汽車が小さな小屋の前を通ってその前にしょんぼりひとりの子供が立ってこっちを見ているときなどは思わずほうと叫びました。どんどんどんどん汽車は走って行きました。室中のひとたちは半分うしろの方へ倒れるようになりながら腰掛にしっかりしがみついていました。ジョバンニは思わずカムパネルラとわらいました。",
+   "もうそして天の川は汽車のすぐ横手をいままでよほど激しく流れて来たらしくときどきちらちら光ってながれているのでした。"
+  ],
+  "furiganaParagraphs": [
+   "「この傾斜[けいしゃ]があるもんですから汽車[きしゃ]は決して[けっして]向う[むこう]からこっちへは来[き]ないんです。そら、もうだんだん早[はや]くなったでしょう。」さっきの老人[ろうじん]らしい声[こえ]が云[い]いました。どんどんどんどん汽車[きしゃ]は降[お]りて行[い]きました。崖[がけ]のはじに鉄道[てつどう]がかかるときは川[かわ]が明[あか]るく下[した]にのぞけたのです。ジョバンニはだんだん心持[こころもち]が明[あか]るくなって来[き]ました。",
+   "汽車[きしゃ]が小[ちい]さな小屋[こや]の前[まえ]を通[とお]ってその前[まえ]にしょんぼりひとりの子[こ]供[ども]が立[た]ってこっちを見[み]ているときなどは思[おも]わずほうと叫[さけ]びました。どんどんどんどん汽車[きしゃ]は走[はし]って行[い]きました。室中[しつちゅう]のひとたちは半分[はんぶん]後[うし]ろの方[ほう]へ倒[たお]れるようになりながら腰掛[こしかけ]にしっかりしがみついていました。ジョバンニは思[おも]わずカムパネルラと笑[わら]いました。",
+   "もうそして天の川[あまのがわ]は汽車[きしゃ]のすぐ横[よこ]手[て]を今[いま]までよほど激[はげ]しく流[なが]れて来[き]たらしくときどきちらちら光[ひか]って流[なが]れているのでした。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates the completion of an action, often with a sense of regret, surprise, or that something has been done completely or irreversibly. In this passage, it appears in '思わずほうと叫びました' (couldn't help but cry out)."
+   },
+   {
+    "point": "〜ながら",
+    "explanation": "This pattern means 'while' or 'at the same time' and connects two actions happening simultaneously. In this passage, it appears in '倒れるようになりながら腰掛にしっかりしがみついていました' (while half-leaning backward, they were clinging tightly to their seats)."
+   },
+   {
+    "point": "〜たろう",
+    "explanation": "This is the volitional form of the past tense, often used to make assumptions or inferences about past events. In this passage, it appears in '早くなったでしょう' (it has probably gotten faster)."
+   },
+   {
+    "point": "〜て来る",
+    "explanation": "This pattern indicates movement toward the speaker or a point of reference, often with a sense of development or progression. In this passage, it appears in '明るくなって来ました' (gradually became brighter)."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "傾斜",
+    "phonetic": "keisha",
+    "translation": "slope, incline",
+    "example": "道路には急な傾斜があるので注意してください。",
+    "exampleTranslation": "Be careful because the road has a steep slope."
+   },
+   {
+    "word": "しょんぼり",
+    "phonetic": "shonbori",
+    "translation": "dejectedly, listlessly",
+    "example": "彼は試験に落ちて、しょんぼりと家路についた。",
+    "exampleTranslation": "He failed the exam and walked home dejectedly."
+   },
+   {
+    "word": "こころもち",
+    "phonetic": "kokoromochi",
+    "translation": "mood, feeling, disposition",
+    "example": "今日はいいこころもちで一日を過ごしたいです。",
+    "exampleTranslation": "I want to spend the day with a good mood today."
+   },
+   {
+    "word": "しっかり",
+    "phonetic": "shikkari",
+    "translation": "firmly, tightly, securely",
+    "example": "しっかりと手を握ってください。",
+    "exampleTranslation": "Please hold my hand tightly."
+   },
+   {
+    "word": "ちらちら",
+    "phonetic": "chirachira",
+    "translation": "flickering, glimmering, twinkling",
+    "example": "星がちらちらと夜空に輝いていた。",
+    "exampleTranslation": "Stars were twinkling in the night sky."
+   },
+   {
+    "word": "激しく",
+    "phonetic": "hageshiku",
+    "translation": "violently, intensely, fiercely",
+    "example": "激しく雨が降り始めたので、家に帰った。",
+    "exampleTranslation": "It started raining violently, so I went home."
+   }
+  ]
+ },
+ "85": {
+  "day": 85,
+  "paragraphs": [
+   "うすあかい河原なでしこの花があちこち咲いていました。汽車はようやく落ち着いたようにゆっくりと走っていました。向うとこっちの岸に星のかたちとつるはしを書いた旗がたっていました。「あれ何の旗だろうね。」ジョバンニがやっとものを云いました。「さあ、わからないねえ、地図にもないんだもの。鉄の舟がおいてあるねえ。」「ああ。」「橋を架けるとこじゃないんでしょうか。」女の子が云いました。「あああれ工兵の旗だねえ。架橋演習をしてるんだ。けれど兵隊のかたちが見えないねえ。」",
+   "その時向う岸ちかくの少し下流の方で見えない天の川の水がぎらっと光って柱のように高くはねあがりどぉと烈しい音がしました。「発破だよ、発破だよ。」カムパネルラはこおどりしました。その柱のようになった水は見えなくなり大きな鮭や鱒がきらっきらっと白く腹を光らせて空中に抛り出されて円い輪を描いてまた水に落ちました。"
+  ],
+  "furiganaParagraphs": [
+   "うすあかい河原[かわら]なでしこの花[はな]があちこち咲[さ]いていました。汽車[きしゃ]はようやく落ち着[おちつ]いたようにゆっくりと走[はし]っていました。向[む]うとこっちの岸[きし]に星[ほし]のかたちとつるはしを書[か]いた旗[はた]が立[た]っていました。「あれ何[なに]の旗[はた]だろうね。」ジョバンニがやっとものを云[い]いました。「さあ、わからないねえ、地図[ちず]にもないんだもの。鉄[てつ]の舟[ふね]がおいてあるねえ。」「ああ。」「橋[はし]を架[か]けるとこじゃないんでしょうか。」女[おんな]の子[こ]が云[い]いました。「あああれ工兵[こうへい]の旗[はた]だねえ。架橋[かきょう]演習[えんしゅう]をしてるんだ。けれど兵隊[へいたい]のかたちが見[み]えないねえ。」",
+   "その時[とき]向[む]う岸[きし]ちかくの少し[すこし]下流[かりゅう]の方[ほう]で見[み]えない天[てん]の川[がわ]の水[みず]がぎらっと光[ひ]って柱[はしら]のように高[たか]くはねあがりどぉと烈[れつ]しい音[おと]がしました。「発破[はっぱ]だよ、発破[はっぱ]だよ。」カムパネルラはこおどりしました。その柱[はしら]のようになった水[みず]は見[み]えなくなり大き[おお]きな鮭[さけ]や鱒[ます]がきらっきらっと白[しろ]く腹[はら]を光[ひ]らせて空中[くうちゅう]に抛[な]り出されて円[えん]い輪[わ]を描[えが]いてまた水[みず]に落[お]ちました。"
+  ],
+  "grammar": [
+   {
+    "point": "〜ように",
+    "explanation": "Indicates manner or appearance, showing how something looks or the way something is done. In this passage, it appears in '落ち着いたように' (as if settled) and '柱のように' (like a pillar)."
+   },
+   {
+    "point": "〜んだ",
+    "explanation": "Used for explanation or emphasis, often providing a reason or additional information. It appears in 'わからないねえ、地図にもないんだもの' (I don't know, it's not on the map either) and '架橋演習をしてるんだ' (They're doing bridge-building exercises)."
+   },
+   {
+    "point": "〜てある",
+    "explanation": "Indicates a state resulting from a previous action. In this passage, it appears in '鉄の舟がおいてあるねえ' (There's an iron boat there), showing that the boat has been placed there."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "河原",
+    "phonetic": "kawara",
+    "translation": "riverbank",
+    "example": "子供たちは河原で石を拾っていました。",
+    "exampleTranslation": "The children were picking up stones on the riverbank."
+   },
+   {
+    "word": "なでしこ",
+    "phonetic": "nadeshiko",
+    "translation": "dianthus/pink flower",
+    "example": "庭に咲いているなでしこはとても可愛いです。",
+    "exampleTranslation": "The dianthus flowers blooming in the garden are very cute."
+   },
+   {
+    "word": "つるはし",
+    "phonetic": "turuhashi",
+    "translation": "pickaxe",
+    "example": "鉱山で働く人はつるはしを使って掘ります。",
+    "exampleTranslation": "People working in mines use pickaxes to dig."
+   },
+   {
+    "word": "発破",
+    "phonetic": "happa",
+    "translation": "blasting/explosion",
+    "example": "発破作業は専門家が監督する必要があります。",
+    "exampleTranslation": "Blasting work needs to be supervised by experts."
+   },
+   {
+    "word": "鮭",
+    "phonetic": "sake",
+    "translation": "salmon",
+    "example": "鮭は秋に川を上って産卵します。",
+    "exampleTranslation": "Salmon swim up rivers to spawn in autumn."
+   },
+   {
+    "word": "鱒",
+    "phonetic": "masu",
+    "translation": "trout",
+    "example": "この川では鱒釣りが人気です。",
+    "exampleTranslation": "Trout fishing is popular in this river."
+   }
+  ]
+ },
+ "87": {
+  "day": 87,
+  "paragraphs": [
+   "「双子のお星さまのお宮って何だい。」「あたし前になんべんもお母さんから聴いたわ。ちゃんと小さな水晶のお宮で二つならんでいるからきっとそうだわ。」「はなしてごらん。双子のお星さまが何したっての。」「ぼくも知ってらい。双子のお星さまが野原へ遊びにでてからすと喧嘩したんだろう。」",
+   "「そうじゃないわよ。あのね、天の川の岸にね、おっかさんお話なすったわ、……」「それから彗星がギーギーフーギーギーフーて云って来たねえ。」「いやだわたあちゃんそうじゃないわよ。それはべつの方だわ。」「するとあすこにいま笛を吹いて居るんだろうか。」",
+   "「いま海へ行ってらあ。」「いけないわよ。もう海からあがっていらっしゃったのよ。」「そうそう。ぼく知ってらあ、ぼくおはなししよう。」川の向う岸が俄かに赤くなりました。"
+  ],
+  "furiganaParagraphs": [
+   "「双子[ふたご]のお星[ほし]さまのお宮[みや]って何[なに]だい。」「あたし[わたし]前[まえ]に何[なん]遍[べん]もお母[かあ]さんから聴[き]いたわ。ちゃんと小[ちい]さな水晶[すいしょう]のお宮[みや]で二[ふた]つ並[なら]んでいるからきっとそうだわ。」「離[はな]してごらん。双子[ふたご]のお星[ほし]さまが何[なに]したっての。」「ぼく[わたし]も知[し]ってら[い]。双子[ふたご]のお星[ほし]さまが野[の]原[はら]へ遊[あそ]びにでてからすと喧[けん]嘩[か]したんだろう。」",
+   "「そうじゃないわよ。あのね、天[てん]の川[がわ]の岸[きし]にね、おっか[おばあ]さんお話[はなし]なすったわ、……」「それから彗[すい]星[せい]がギーギーフーギーギーフーて云[い]って来[き]たねえ。」「いやだわたあ[おばあ]ちゃんそうじゃないわよ。それは別[べつ]の方[ほう]だわ。」「するとあすこに今[いま]笛[ふえ]を吹[ふ]いて居[い]るんだろうか。」",
+   "「今[いま]海[うみ]へ行[い]ってらあ。」「いけないわよ。もう海[うみ]から上[あ]がっていらっしゃったのよ。」「そうそう。ぼく[わたし]も知[し]ってら[い]、ぼく[わたし]お話[はなし]しよう。」川[かわ]の向[むこう]岸[きし]が俄[にわ]かに赤[あか]くなりました。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates the completion of an action, often with a sense of regret, disappointment, or that something has been done completely and cannot be undone."
+   },
+   {
+    "point": "〜てくる",
+    "explanation": "This pattern indicates movement toward the speaker or a point of reference."
+   },
+   {
+    "point": "〜ていく",
+    "explanation": "This pattern indicates movement away from the speaker or a point of reference."
+   },
+   {
+    "point": "〜てらっしゃる",
+    "explanation": "This is a respectful form of 〜ている (to be doing something), used to show respect toward someone's action or state of being."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "双子",
+    "phonetic": "futago",
+    "translation": "twins",
+    "example": "双子の子供はよく似ています。",
+    "exampleTranslation": "The twin children look very similar."
+   },
+   {
+    "word": "水晶",
+    "phonetic": "suishō",
+    "translation": "crystal",
+    "example": "彼女は水晶のネックレスを身につけています。",
+    "exampleTranslation": "She is wearing a crystal necklace."
+   },
+   {
+    "word": "彗星",
+    "phonetic": "suisei",
+    "translation": "comet",
+    "example": "彗星は空を美しく横切ります。",
+    "exampleTranslation": "The comet beautifully crosses the sky."
+   },
+   {
+    "word": "喧嘩",
+    "phonetic": "kenka",
+    "translation": "quarrel, fight",
+    "example": "兄弟はよく喧嘩しますが、すぐ仲直りします。",
+    "exampleTranslation": "Brothers often fight but make up quickly."
+   },
+   {
+    "word": "俄かに",
+    "phonetic": "niwaka ni",
+    "translation": "suddenly, abruptly",
+    "example": "空が俄かに暗くなりました。",
+    "exampleTranslation": "The sky suddenly became dark."
+   },
+   {
+    "word": "いらっしゃる",
+    "phonetic": "irassharu",
+    "translation": "to be (honorific), to go (honorific), to come (honorific)",
+    "example": "先生はもういらっしゃいましたか。",
+    "exampleTranslation": "Has the teacher arrived yet?"
+   }
+  ]
+ },
+ "88": {
+  "day": 88,
+  "paragraphs": [
+   "楊の木や何かもまっ黒にすかし出され見えない天の川の波もときどきちらちら針のように赤く光りました。まったく向う岸の野原に大きなまっ赤な火が燃されその黒いけむりは高く桔梗いろのつめたそうな天をも焦がしそうでした。",
+   "ルビーよりも赤くすきとおりリチウムよりもうつくしく酔ったようになってその火は燃えているのでした。「あれは何の火だろう。あんな赤く光る火は何を燃やせばできるんだろう。」ジョバンニが云いました。",
+   "「蝎の火だな。」カムパネルラが又地図と首っ引きして答えました。「あら、蝎の火のことならあたし知ってるわ。」「蝎の火ってなんだい。」ジョバンニがききました。「蝎がやけて死んだのよ。その火がいまでも燃えてるってあたし何べんもお父さんから聴いたわ。」「蝎って、虫だろう。"
+  ],
+  "furiganaParagraphs": [
+   "楊[やなぎ]の木[き]や何[なに]かもまっ黒[くろ]にすかし出[だ]され見[み]えない天[てん]の川[かわ]の波[なみ]もときどきちらちら針[はり]のように赤[あか]く光[ひ]りました。まったく向[む]う岸[きし]の野原[のはら]に大き[おお]きなまっ赤[あか]な火[ひ]が燃[も]されその黒[くろ]いけむりは高[たか]く桔梗[ききょう]いろのつめたそうな天[てん]をも焦[や]がしそうでした。",
+   "ルビーよりも赤[あか]くすきとおりリチウムよりもうつくしく酔[よ]ったようになってその火[ひ]は燃[も]えているのでした。「あれは何[なに]の火[ひ]だろう。あんな赤[あか]く光[ひ]る火[ひ]は何[なに]を燃[も]やせばできるんだろう。」ジョバンニが云[い]いました。",
+   "「蝎[さそり]の火[ひ]だな。」カムパネルラが又[また]地図[ちず]と首[くび]っ引きして答[こた]えました。「あら、蝎[さそり]の火[ひ]のことならあたし知[し]ってるわ。」「蝎[さそり]の火[ひ]ってなんだい。」ジョバンニがききました。「蝎[さそり]がやけて死[し]んだのよ。その火[ひ]がいまでも燃[も]えてるってあたし何[なん]べんもお父[とう]さんから聴[き]いたわ。」「蝎[さそり]って、虫[むし]だろう。"
+  ],
+  "grammar": [
+   {
+    "point": "〜そうだ",
+    "explanation": "This pattern indicates appearance or likelihood. When attached to the stem of a verb or i-adjective, it suggests that something appears to be a certain way. In this passage, 'つめたそうな天' means 'a sky that looks cool/cold.'"
+   },
+   {
+    "point": "〜だろう",
+    "explanation": "This is a sentence ender used to express supposition, conjecture, or seeking confirmation. It's the plain form of 'でしょう'. In the passage, it's used in questions like 'あれは何の火だろう' (What kind of fire is that, I wonder?) and '蝎って、虫だろう' (Scorpions... insects, right?)."
+   },
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates the completion of an action, often with a nuance that the action was done completely or sometimes regretfully. In this passage, it appears in '焦がしそうでした' (seemed about to scorch/burn completely)."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "すかし出す",
+    "phonetic": "sukidashu",
+    "translation": "to silhouette, to outline against a background",
+    "example": "山々が夕日にすかし出された。",
+    "exampleTranslation": "The mountains were silhouetted against the evening sun."
+   },
+   {
+    "word": "ちらちら",
+    "phonetic": "chirachira",
+    "translation": "glimmering, flickering, twinkling",
+    "example": "星空がちらちらと光っている。",
+    "exampleTranslation": "The starry sky is twinkling."
+   },
+   {
+    "word": "桔梗",
+    "phonetic": "kikyou",
+    "translation": "balloon flower (a purple-blue flower)",
+    "example": "桔梗の花は美しい紫色をしています。",
+    "exampleTranslation": "The balloon flower has a beautiful purple color."
+   },
+   {
+    "word": "すきとおる",
+    "phonetic": "sukitooru",
+    "translation": "to be transparent, to be clear",
+    "example": "このガラスはすきとおっていて、外が見える。",
+    "exampleTranslation": "This glass is transparent, so you can see outside."
+   },
+   {
+    "word": "首っ引き",
+    "phonetic": "kubippiki",
+    "translation": "staring intently, with one's neck stretched out",
+    "example": "子供たちはテレビを首っ引きで見ていた。",
+    "exampleTranslation": "The children were staring intently at the television."
+   },
+   {
+    "word": "蝎",
+    "phonetic": "sasori",
+    "translation": "scorpion",
+    "example": "砂漠には蝎が多く生息しています。",
+    "exampleTranslation": "Many scorpions inhabit the desert."
+   }
+  ]
+ },
+ "90": {
+  "day": 90,
+  "paragraphs": [
+   "それでもとうとうこんなになってしまった。ああなんにもあてにならない。どうしてわたしはわたしのからだをだまっていたちに呉れてやらなかったろう。そしたらいたちも一日生きのびたろうに。どうか神さま。私の心をごらん下さい。こんなにむなしく命をすてずどうかこの次にはまことのみんなの幸のために私のからだをおつかい下さい。って云ったというの。",
+   "そしたらいつか蝎はじぶんのからだがまっ赤なうつくしい火になって燃えてよるのやみを照らしているのを見たって。いまでも燃えてるってお父さん仰ったわ。ほんとうにあの火それだわ。」",
+   "「そうだ。見たまえ。そこらの三角標はちょうどさそりの形にならんでいるよ。」ジョバンニはまったくその大きな火の向うに三つの三角標がちょうどさそりの腕のようにこっちに五つの三角標がさそりの尾やかぎのようにならんでいるのを見ました。"
+  ],
+  "furiganaParagraphs": [
+   "それでもとうとうこんなになってしまった。ああなんにもあてにならない。どうしてわたしはわたしのからだをだまっていたちに呉れてやらなかったろう。そしたらいたちも一日生きのびたろうに。どうか神さま[かみさま]。私[わたし]の心[こころ]をごらん[ごらん]下さい。こんなにむなしく命[いのち]をすてずどうかこの次にはまことのみんなの幸[しあわ]せのために私[わたし]のからだをおつかい[おつかい]下さい。って云った[いった]というの。",
+   "そしたらいつか蝎[さそり]はじぶんのからだがまっ赤[あか]なうつくしい火[ひ]になって燃えて[もえて]よるのやみを照らしている[てらしている]のを見た[みた]って。いまでも燃えて[もえて]るってお父さん[お父さん]仰った[おっしゃった]わ。ほんとうにあの火[ひ]それだわ。」",
+   "「そうだ。見たまえ[みたまえ]。そこらの三角標[さんかくひょう]はちょうどさそりの形[かたち]にならんでいる[ならんでいる]よ。」ジョバンニはまったくその大きな火[ひ]の向う[むこう]に三つの三角標[さんかくひょう]がちょうどさそりの腕[うで]のようにこっちに五つの三角標[さんかくひょう]がさそりの尾[お]やかぎ[かぎ]のようにならんでいる[ならんでいる]のを見ました[みました]。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates the completion of an action, often with a sense of regret, disappointment, or that something has been done irreversibly. In this passage, 'こんなになってしまった' shows that the situation has reached an undesirable state that cannot be undone."
+   },
+   {
+    "point": "〜てやる",
+    "explanation": "This pattern is used when doing something for someone else, often with a nuance of doing something willingly or voluntarily. In the passage, '呉れてやらなかったろう' shows regret about not giving one's body to the rabbits, suggesting the speaker wishes they had done this favor for the rabbits."
+   },
+   {
+    "point": "〜てください",
+    "explanation": "This is a polite request form, equivalent to 'please do something'. In the passage, '私のからだをおつかい下さい' is a request to God to use one's body for the sake of everyone's happiness."
+   },
+   {
+    "point": "〜というの",
+    "explanation": "This pattern is used to report what someone has said or what has been told. In the passage, 'って云ったというの' indicates that this is what someone (presumably the speaker or another character) said."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "あてにならない",
+    "phonetic": "ateni naranai",
+    "translation": "unreliable, cannot be counted on",
+    "example": "天気予報はいつもあてにならない。",
+    "exampleTranslation": "Weather forecasts are always unreliable."
+   },
+   {
+    "word": "だまっていたち",
+    "phonetic": "damaite itachi",
+    "translation": "the deceived rabbits",
+    "example": "彼はだまっていたちにエサを与えた。",
+    "exampleTranslation": "He gave food to the deceived rabbits."
+   },
+   {
+    "word": "むなしく",
+    "phonetic": "munashiku",
+    "translation": "vainly, uselessly",
+    "example": "むなしく時間を過ごした。",
+    "exampleTranslation": "I spent my time uselessly."
+   },
+   {
+    "word": "まっ赤な",
+    "phonetic": "makka na",
+    "translation": "bright red, crimson",
+    "example": "まっ赤な夕日が空に沈んだ。",
+    "exampleTranslation": "The bright red sun set in the sky."
+   },
+   {
+    "word": "三角標",
+    "phonetic": "sankakuhyou",
+    "translation": "triangular marker, signpost",
+    "example": "登山道には三角標が設置されている。",
+    "exampleTranslation": "Triangular markers are set up on the hiking trail."
+   },
+   {
+    "word": "仰る",
+    "phonetic": "ossharu",
+    "translation": "honorific term for 'to say'",
+    "example": "先生は明日は休むと仰った。",
+    "exampleTranslation": "The teacher said he will rest tomorrow."
+   }
+  ]
+ },
+ "92": {
+  "day": 92,
+  "paragraphs": [
+   "」カムパネルラがすぐ云いました。〔以下原稿一枚？なし〕「ボール投げなら僕決してはずさない。」男の子が大威張りで云いました。「もうじきサウザンクロスです。おりる支度をして下さい。」青年がみんなに云いました。",
+   "「僕も少し汽車へ乗ってるんだよ。」男の子が云いました。カムパネルラのとなりの女の子はそわそわ立って支度をはじめましたけれどもやっぱりジョバンニたちとわかれたくないようなようすでした。",
+   "「ここでおりなけぁいけないのです。」青年はきちっと口を結んで男の子を見おろしながら云いました。「厭だい。僕もう少し汽車へ乗ってから行くんだい。」ジョバンニがこらえ兼ねて云いました。",
+   "「僕たちと一緒に乗って行こう。僕たちどこまでだって行ける切符持ってるんだ。」「だけどあたしたちもうここで降りなけぁいけないのよ。"
+  ],
+  "furiganaParagraphs": [
+   "」カムパネルラ[かむぱねらら]がすぐ[すぐ]云いました[いいました]。〔以下原稿一枚？なし〕「ボール投げなら[な]僕[ぼく]決して[けってして]はずさない[はずさない]。」男[おとこ]の子[こ]が大威張り[だいばばり]で云いました[いいました]。「もうじき[もうじき]サウザンクロス[さうざんくろす]です。おりる[おりる]支度[したく]をして[して]下さい[ください]。」青年[せいねん]がみんな[みんな]に云いました[いいました]。",
+   "「僕[ぼく]も少し[すこし]汽車[きしゃ]へ乗ってる[のってる]んだ[んだ]よ。」男[おとこ]の子[こ]が云いました[いいました]。カムパネルラ[かむぱねらら]のとなりの女[おんな]の子[こ]はそわそわ[そわそわ]立って[たって]支度[したく]を始めました[はじめました]けれども[けれども]やっぱり[やっぱり]ジョバンニ[じょばんに]たちとわかれたくない[わかれたくない]ようなようす[ようす]でした[でした]。",
+   "「ここで[ここで]降り[おり]なけぁいけない[なけぁいけない]のです[のです]。」青年[せいねん]はきちっと[きちっと]口[くち]を結んで[むんで]男[おとこ]の子[こ]を見おろしながら[みおろしながら]云いました[いいました]。「厭[いや]だい[だい]。僕[ぼく]もう少し[もうすこし]汽車[きしゃ]へ乗って[のって]から[から]行く[いく]んだ[んだ]い[い]。」ジョバンニ[じょばんに]がこらえ兼ねて[こらえかねて]云いました[いいました]。",
+   "「僕[ぼく]たちと一緒[いっしょ]に乗って[のって]行こう[いこう]。僕[ぼく]たちどこまで[どこまで]だって[だって]行ける[いける]切符[きっぷ]持ってる[もってる]んだ[んだ]。」「だけど[だけど]あたしたち[あたしたち]もう[もう]ここで[ここで]降り[おり]なけぁいけない[なけぁいけない]のよ[のよ]。"
+  ],
+  "grammar": [
+   {
+    "point": "〜なけぁいけない",
+    "explanation": "A colloquial form of 〜なければならない, expressing obligation or necessity. It means 'must' or 'have to'."
+   },
+   {
+    "point": "〜んだ",
+    "explanation": "A colloquial form of 〜のだ, used for explanation, emphasis, or to provide new information. It often follows explanations or reasons."
+   },
+   {
+    "point": "〜ながら",
+    "explanation": "Connects two actions, indicating that they are happening simultaneously. It translates to 'while' or 'as' in English."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "サウザンクロス",
+    "phonetic": "sauzankurosu",
+    "translation": "Southern Cross (constellation)",
+    "example": "夜空にサウザンクロスが輝いていました。",
+    "exampleTranslation": "The Southern Cross was shining in the night sky."
+   },
+   {
+    "word": "支度",
+    "phonetic": "shidaku",
+    "translation": "preparation, getting ready",
+    "example": "旅行の支度に一週間かかりました。",
+    "exampleTranslation": "It took me a week to prepare for the trip."
+   },
+   {
+    "word": "そわそわ",
+    "phonetic": "sowasowa",
+    "translation": "fidgety, restless, nervous",
+    "example": "試験前になると、私はそわそわして集中できません。",
+    "exampleTranslation": "Before exams, I get fidgety and can't concentrate."
+   },
+   {
+    "word": "きちっと",
+    "phonetic": "kitchitto",
+    "translation": "properly, neatly, exactly",
+    "example": "きちっとした服装で会議に出席しましょう。",
+    "exampleTranslation": "Let's attend the meeting in proper attire."
+   },
+   {
+    "word": "こらえ兼ねて",
+    "phonetic": "koraekanete",
+    "translation": "unable to hold back/contain",
+    "example": "こらえ兼ねて涙がこぼれました。",
+    "exampleTranslation": "I couldn't hold back my tears and they spilled out."
+   },
+   {
+    "word": "ジョバンニ",
+    "phonetic": "jobanni",
+    "translation": "Giovanni (a name)",
+    "example": "ジョバンニは銀河鉄道に乗って旅をしていました。",
+    "exampleTranslation": "Giovanni was traveling on the Milky Way Railway."
+   }
+  ]
+ },
+ "93": {
+  "day": 93,
+  "paragraphs": [
+   "「ここ天上へ行くとこなんだから。」女の子がさびしそうに云いました。「天上へなんか行かなくたっていいじゃないか。ぼくたちここで天上よりももっといいとこをこさえなけぁいけないって僕の先生が云ったよ。」",
+   "「だっておっ母さんも行ってらっしゃるしそれに神さまが仰っしゃるんだわ。」「そんな神さまうその神さまだい。」「あなたの神さまうその神さまよ。」「そうじゃないよ。」「あなたの神さまってどんな神さまですか。」",
+   "青年は笑いながら云いました。「ぼくほんとうはよく知りません、けれどもそんなんでなしにほんとうのたった一人の神さまです。」「ほんとうの神さまはもちろんたった一人です。」「ああ、そんなんでなしにたったひとりのほんとうのほんとうの神さまです。」「だからそうじゃありませんか。」"
+  ],
+  "furiganaParagraphs": [
+   "「ここ天上[てんじょう]へ行[い]くとこなんだから。」女[おんな]の子[こ]がさびしそうに云[い]いました。「天上[てんじょう]へなんか行[い]かなくたっていいじゃないか。ぼくたちここで天上[てんじょう]よりももっといいとこをこさえなけぁいけないって僕[ぼく]の先生[せんせい]が云[い]ったよ。」",
+   "「だっておっ母[かあ]さんも行[い]ってらっしゃるしそれに神[かみ]さまが仰[おお]しゃるんだわ。」「そんな神[かみ]さまうそ[うそ]の神[かみ]さまだい。」「あなたの神[かみ]さまうそ[うそ]の神[かみ]さまよ。」「そうじゃないよ。」「あなたの神[かみ]さまってどんな神[かみ]さまですか。」",
+   "青年[せいねん]は笑[わら]いながら云[い]いました。「ぼくほんとう[ほんとう]はよく知[し]りません、けれどもそんなんでなしにほんとう[ほんとう]のたった一人[ひとり]の神[かみ]さまです。」「ほんとう[ほんとう]の神[かみ]さまはもちろんたった一人[ひとり]です。」「ああ、そんなんでなしにたったひとりのほんとう[ほんとう]のほんとう[ほんとう]の神[かみ]さまです。」「だからそうじゃありませんか。」"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates the completion of an action, often with a sense of regret or that something has been done completely and cannot be undone. In this passage, it appears in '行かなくたって' which is a colloquial form of '行かなくては' (must go)."
+   },
+   {
+    "point": "〜って",
+    "explanation": "This is a colloquial contraction of 'と' used for quoting or mentioning what someone said. In this passage, it appears in '僕の先生が云ったよ' (my teacher said) and 'あなたの神さまってどんな神さまですか' (what kind of god are you, your god)."
+   },
+   {
+    "point": "〜じゃないか",
+    "explanation": "This is a sentence ender used to seek agreement or make a rhetorical statement. It's similar to 'isn't it?' or 'right?' in English. In this passage, it appears in '天上へなんか行かなくたっていいじゃないか' (There's no need to go to heaven, is there?)."
+   },
+   {
+    "point": "〜なければならない",
+    "explanation": "This pattern means 'must' or 'have to' and indicates obligation or necessity. In this passage, it appears in 'こさえなけぁいけない' which is a colloquial form of 'こさえなければならない' (must create)."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "天上",
+    "phonetic": "tenjō",
+    "translation": "heaven",
+    "example": "彼女は天上の楽園を夢見ています。",
+    "exampleTranslation": "She dreams of a heavenly paradise."
+   },
+   {
+    "word": "さびしそうに",
+    "phonetic": "sabishisō ni",
+    "translation": "sadly, as if lonely",
+    "example": "彼女はさびしそうに一人で座っていました。",
+    "exampleTranslation": "She was sitting alone sadly."
+   },
+   {
+    "word": "云う",
+    "phonetic": "iu",
+    "translation": "to say",
+    "example": "先生は私たちに静かにするようにと云いました。",
+    "exampleTranslation": "The teacher told us to be quiet."
+   },
+   {
+    "word": "仰る",
+    "phonetic": "ossharu",
+    "translation": "to say (honorific)",
+    "example": "先生は試験が難しかったと仰っていました。",
+    "exampleTranslation": "The teacher said that the exam was difficult."
+   },
+   {
+    "word": "神さま",
+    "phonetic": "kamisama",
+    "translation": "god, deity",
+    "example": "多くの文化には神さまがいます。",
+    "exampleTranslation": "Many cultures have gods."
+   },
+   {
+    "word": "ほんとう",
+    "phonetic": "hontō",
+    "translation": "true, real",
+    "example": "ほんとうの友達は困った時に助けてくれます。",
+    "exampleTranslation": "A true friend helps you when you're in trouble."
+   }
+  ]
+ },
+ "95": {
+  "day": 95,
+  "paragraphs": [
+   "あっちにもこっちにも子供が瓜に飛びついたときのようなよろこびの声や何とも云いようない深いつつましいためいきの音ばかりきこえました。そしてだんだん十字架は窓の正面になりあの苹果の肉のような青じろい環の雲もゆるやかにゆるやかに繞っているのが見えました。",
+   "「ハルレヤハルレヤ。」明るくたのしくみんなの声はひびきみんなはそのそらの遠くからつめたいそらの遠くからすきとおった何とも云えずさわやかなラッパの声をききました。",
+   "そしてたくさんのシグナルや電燈の灯のなかを汽車はだんだんゆるやかになりとうとう十字架のちょうどま向いに行ってすっかりとまりました。「さあ、下りるんですよ。」青年は男の子の手をひきだんだん向うの出口の方へ歩き出しました。「じゃさよなら。」女の子がふりかえって二人に云いました。"
+  ],
+  "furiganaParagraphs": [
+   "あっちにもこっちにも子供[こども]が瓜[うり]に飛び[と]ついたときのようなよろこび[喜び]の声[こえ]や何とも云[い]いようない深[ふか]いつつましいためいき[溜め息]の音[おと]ばかりきこ[聞こ]えました。そしてだんだん十字架[じゅうじか]は窓[まど]の正面[しょうめん]になりあの苹果[りんご]の肉[にく]のような青[あお]じろい環[わ]の雲[くも]もゆるやかにゆるやかに繞[めぐ]っているのが見[み]えました。",
+   "「ハルレヤハルレヤ。」明[あか]るくたのしくみんなの声[こえ]はひびきみんなはそのそらの遠[とお]くからつめそらの遠[とお]くからすきとおった何とも云[い]えずさわやかなラッパの声[こえ]をき[聞]きました。",
+   "そしてたくさんのシグナルや電燈[でんとう]の灯[とも]のなかを汽車[きしゃ]はだんだんゆるやかになりとうとう十字架[じゅうじか]のちょうどま向[む]いに行[い]ってすっかりとまりました。「さあ、下[お]りるんですよ。」青年[せいねん]は男[おとこ]の子[こ]の手[て]をひ[引]きだんだん向[む]うの出口[でぐち]の方[ほう]へ歩[ある]き出[だ]しました。「じゃさよなら。」女[おんな]の子[こ]がふりかえって二人[ふたり]に云[い]いました。"
+  ],
+  "grammar": [
+   {
+    "point": "〜ている",
+    "explanation": "This grammar pattern indicates the progressive aspect of an action, showing that an action is ongoing or in a state of completion."
+   },
+   {
+    "point": "〜ながら",
+    "explanation": "This grammar pattern indicates doing two actions simultaneously. It can also mean 'while' or 'as' when connecting two clauses."
+   },
+   {
+    "point": "〜ばかり",
+    "explanation": "This grammar pattern indicates 'only' or 'nothing but'. It emphasizes that something is the only thing happening or present."
+   },
+   {
+    "point": "〜ようだ",
+    "explanation": "This grammar pattern is used to make inferences or observations based on what one sees or experiences. It's similar to 'seems like' or 'looks like' in English."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "瓜",
+    "phonetic": "uri",
+    "translation": "melon",
+    "example": "夏は西瓜[すいか]を食べたくなります。",
+    "exampleTranslation": "In summer, I feel like eating watermelon."
+   },
+   {
+    "word": "つつましい",
+    "phonetic": "tsutsumashii",
+    "translation": "modest, humble",
+    "example": "彼はいつもつつましい態度を取ります。",
+    "exampleTranslation": "He always maintains a modest attitude."
+   },
+   {
+    "word": "環",
+    "phonetic": "wa",
+    "translation": "ring, circle",
+    "example": "指輪[ゆびわ]は金の環です。",
+    "exampleTranslation": "The ring is a circle of gold."
+   },
+   {
+    "word": "繞る",
+    "phonetic": "meguru",
+    "translation": "to circle, to go around",
+    "example": "地球[ちきゅう]は太陽[たいよう]を繞っています。",
+    "exampleTranslation": "The Earth circles the sun."
+   },
+   {
+    "word": "シグナル",
+    "phonetic": "shigunaru",
+    "translation": "signal",
+    "example": "信号[しんごう]は青になったので渡[わた]りました。",
+    "exampleTranslation": "The signal turned green, so I crossed."
+   },
+   {
+    "word": "電燈",
+    "phonetic": "dentou",
+    "translation": "electric light",
+    "example": "部屋には電燈がついています。",
+    "exampleTranslation": "There is an electric light on in the room."
+   }
+  ]
+ },
+ "96": {
+  "day": 96,
+  "paragraphs": [
+   "「さよなら。」ジョバンニはまるで泣き出したいのをこらえて怒ったようにぶっきり棒に云いました。女の子はいかにもつらそうに眼を大きくしても一度こっちをふりかえってそれからあとはもうだまって出て行ってしまいました。",
+   "汽車の中はもう半分以上も空いてしまい俄かにがらんとしてさびしくなり風がいっぱいに吹き込みました。そして見ているとみんなはつつましく列を組んであの十字架の前の天の川のなぎさにひざまずいていました。",
+   "そしてその見えない天の川の水をわたってひとりの神々しい白いきものの人が手をのばしてこっちへ来るのを二人は見ました。けれどもそのときはもう硝子の呼子は鳴らされ汽車はうごき出しと思ううちに銀いろの霧が川下の方からすうっと流れて来てもうそっちは何も見えなくなりました。"
+  ],
+  "furiganaParagraphs": [
+   "「さよなら。」ジョバンニ[ジョバンニ]はまるで泣[な]き出[だ]したいのをこらえて怒[おこ]ったようにぶっきり棒[ぶっきりぼう]に云[い]いました。女[おんな]の子[こ]はいかにもつらそうに眼[め]を大き[おお]きくしても一度[いちど]こっちをふりかえってそれからあとはもうだまって出[で]て行[い]ってしまいました。",
+   "汽車[きしゃ]の中[なか]はもう半分[はんぶん]以上[いじょう]も空[す]いてしまい俄[にわ]かにがらんとしてさびしくなり風[かぜ]がいっぱいに吹[ふ]き込[こ]みました。そして見[み]ているとみんなはつつましく列[れつ]を組[く]んであの十字架[じゅうじか]の前[まえ]の天[てん]の川[がわ]のなぎさにひざまずいていました。",
+   "そしてその見[み]えない天[てん]の川[がわ]の水[みず]をわたってひとりの神々[かみがみ]しい白[しろ]いきものの人が手[て]をのばしてこっちへ来[く]るのを二人[ふたり]は見[み]ました。けれどもそのときはもう硝子[ガラス]の呼子[よびこ]は鳴[な]られ[れ]汽車[きしゃ]はうごき出[だ]しと[と]思[おも]ううちに銀[ぎん]いろの霧[きり]が川[かわ]下[した]の方[ほう]からすうっと流[なが]れて来[き]てもうそっちは何[なに]も見[み]えなくなりました。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates completion of an action, often with a sense of regret, that something is done irreversibly, or that something has been done completely."
+   },
+   {
+    "point": "〜うちに",
+    "explanation": "This pattern indicates doing something within a certain time or before something happens. It can also mean 'while' or 'during the time that'."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "ぶっきり棒",
+    "phonetic": "bukkibou",
+    "translation": "stiffly, formally",
+    "example": "彼はぶっきり棒に挨拶をした。",
+    "exampleTranslation": "He greeted stiffly."
+   },
+   {
+    "word": "つらそう",
+    "phonetic": "tsurasou",
+    "translation": "painfully, sadly",
+    "example": "彼女はつらそうな顔をして話した。",
+    "exampleTranslation": "She spoke with a pained expression."
+   },
+   {
+    "word": "がらんとして",
+    "phonetic": "garanto shite",
+    "translation": "empty, desolate",
+    "example": "部屋はがらんとしていた。",
+    "exampleTranslation": "The room was empty and desolate."
+   },
+   {
+    "word": "つつましく",
+    "phonetic": "tsumumashiku",
+    "translation": "humbly, modestly",
+    "example": "彼はつつましく暮らしている。",
+    "exampleTranslation": "He lives humbly."
+   },
+   {
+    "word": "神々しい",
+    "phonetic": "kamigamishii",
+    "translation": "divine, godlike",
+    "example": "夕日は神々しい光を放っていた。",
+    "exampleTranslation": "The sunset emitted a divine light."
+   },
+   {
+    "word": "すうっと",
+    "phonetic": "suutto",
+    "translation": "quietly, swiftly",
+    "example": "猫がすうっと部屋に入ってきた。",
+    "exampleTranslation": "The cat quietly slipped into the room."
+   }
+  ]
+ },
+ "98": {
+  "day": 98,
+  "paragraphs": [
+   "ジョバンニはああと深く息しました。「カムパネルラ、また僕たち二人きりになったねえ、どこまでもどこまでも一緒に行こう。僕はもうあのさそりのようにほんとうにみんなの幸のためならば僕のからだなんか百ぺん灼いてもかまわない。」「うん。僕だってそうだ。」カムパネルラの眼にはきれいな涙がうかんでいました。",
+   "「けれどもほんとうのさいわいは一体何だろう。」ジョバンニが云いました。「僕わからない。」カムパネルラがぼんやり云いました。「僕たちしっかりやろうねえ。」ジョバンニが胸いっぱい新らしい力が湧くようにふうと息をしながら云いました。",
+   "「あ、あすこ石炭袋だよ。そらの孔だよ。」カムパネルラが少しそっちを避けるようにしながら天の川のひととこを指さしました。ジョバンニはそっちを見てまるでぎくっとしてしまいました。"
+  ],
+  "furiganaParagraphs": [
+   "ジョバンニ[ジョバンニ]はああと深[ふか]く息[いき]しました。「カムパネルラ[カムパネルラ]、また僕[ぼく]たち二人[ふたり]きりにな[なっ]たねえ、どこまでもどこまでも一緒[いっしょ]に行[い]こう。僕[ぼく]はもうあのさそりのようにほんとうにみんなの幸[しあわ]いのためならば僕[ぼく]のからだなんか百[ひゃく]ぺん灼[や]いてもかまわない。」「うん。僕[ぼく]だってそうだ。」カムパネルラ[カムパネルラ]の眼[め]にはきれいな涙[なみだ]がうかんでいました。",
+   "「けれどもほんとうのさいわいは一体[いったい]何[なに]だろう。」ジョバンニ[ジョバンニ]が云[い]いました。「僕[ぼく]わからない。」カムパネルラ[カムパネルラ]がぼんやり云[い]いました。「僕[ぼく]たちしっかりやろうねえ。」ジョバンニ[ジョバンニ]が胸[むね]いっぱい新[あたら]しい力[ちから]が湧[わ]くようにふうと息[いき]をしながら云[い]いました。",
+   "「あ、あすこ石炭袋[せきたんぶくろ]だよ。そらの孔[あな]だよ。」カムパネルラ[カムパネルラ]が少[すこ]しそっちを避[さ]けるようにしながら天[てん]の川[がわ]のひととこを指[ゆび]さしました。ジョバンニ[ジョバンニ]はそっちを見[み]てまるでぎくっとしてしまいました。"
+  ],
+  "grammar": [
+   {
+    "point": "〜てしまう",
+    "explanation": "This grammar pattern indicates that an action has been completed, often with a sense of regret, surprise, or that something has been done completely or irreversibly. In this passage, 'ぎくっとしてしまいました' shows Giovanni was completely stunned."
+   },
+   {
+    "point": "〜ながら",
+    "explanation": "This pattern means 'while doing something' or 'as someone does something.' It connects two actions happening simultaneously. In the passage, '息をしながら云いました' means 'spoke while breathing.'"
+   },
+   {
+    "point": "〜ためならば",
+    "explanation": "This pattern means 'if it's for the sake of' or 'if it's in order to.' It indicates a condition or reason. In the passage, 'みんなの幸のためならば' means 'if it's for everyone's happiness.'"
+   },
+   {
+    "point": "〜よう",
+    "explanation": "This pattern can indicate resemblance or manner. In the passage, '力が湧くように' means 'as if strength were welling up.'"
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "灼く",
+    "phonetic": "yaku",
+    "translation": "to burn, to scorch",
+    "example": "太陽の光で肌が灼けた。",
+    "exampleTranslation": "My skin was burned by the sunlight."
+   },
+   {
+    "word": "ぼんやり",
+    "phonetic": "bonyari",
+    "translation": "vaguely, hazily, indistinctly",
+    "example": "彼はぼんやりと窓の外を見ていた。",
+    "exampleTranslation": "He was staring vaguely out the window."
+   },
+   {
+    "word": "胸いっぱい",
+    "phonetic": "muneippai",
+    "translation": "with one's chest full, filled with (emotion)",
+    "example": "胸いっぱいの愛をあなたに伝えたい。",
+    "exampleTranslation": "I want to convey my full love to you."
+   },
+   {
+    "word": "湧く",
+    "phonetic": "waku",
+    "translation": "to well up, to spring forth",
+    "example": "喜びの涙が目から湧いてきた。",
+    "exampleTranslation": "Tears of joy welled up in my eyes."
+   },
+   {
+    "word": "ぎくっと",
+    "phonetic": "gikutto",
+    "translation": "suddenly, with a start, stiffening",
+    "example": "驚いてぎくっとした。",
+    "exampleTranslation": "I was startled and stiffened."
+   },
+   {
+    "word": "石炭袋",
+    "phonetic": "sekitanbukuro",
+    "translation": "coal sack/bag (referring to a dark nebula in the shape of a sack)",
+    "example": "夜空に石炭袋のような星雲が見えた。",
+    "exampleTranslation": "In the night sky, I could see a nebula that looked like a coal sack."
+   }
+  ]
+ },
+ "99": {
+  "day": 99,
+  "paragraphs": [
+   "天の川の一とこに大きなまっくらな孔がどほんとあいているのです。その底がどれほど深いかその奥に何があるかいくら眼をこすってのぞいてもなんにも見えずただ眼がしんしんと痛むのでした。",
+   "ジョバンニが云いました。「僕もうあんな大きな暗の中だってこわくない。きっとみんなのほんとうのさいわいをさがしに行く。どこまでもどこまでも僕たち一緒に進んで行こう。」「ああきっと行くよ。ああ、あすこの野原はなんてきれいだろう。みんな集ってるねえ。あすこがほんとうの天上なんだ。あっあすこにいるのぼくのお母さんだよ。」",
+   "カムパネルラは俄かに窓の遠くに見えるきれいな野原を指して叫びました。ジョバンニもそっちを見ましたけれどもそこはぼんやり白くけむっているばかりどうしてもカムパネルラが云ったように思われませんでした。"
+  ],
+  "furiganaParagraphs": [
+   "天[てん]の川[かわ]の一[ひと]とこに大き[おおき]なまっくらな孔[あな]がどほんとあいて[い]るのです。その底[そこ]がどれほど深[ふか]いかその奥[おく]に何[なに]があるかいくら眼[め]をこすってのぞいてもなんにも見[み]えずただ眼[め]がしんしんと痛[いた]むのでした。",
+   "ジョバンニが云[い]いました。「僕[ぼく]もうあんな大き[おおき]な暗[くら]の中[なか]だってこわくない。きっとみんなのほんとうのさいわいをさがしに行[い]く。どこまでもどこまでも僕[ぼく]たち一緒[いっしょ]に進[すす]んで行[い]こう。」「ああきっと行[い]くよ。ああ、あすこ[あすこ]の野原[のはら]はなんてきれいだろう。みんな集[あつ]ってるねえ。あすこ[あすこ]がほんとうの天上[てんじょう]なんだ。あっあすこ[あすこ]にいるのぼく[ぼく]のお母[かあ]さんだよ。」",
+   "カムパネルラは俄[にわ]かに窓[まど]の遠[とお]くに見[み]えるきれいな野原[のはら]を指[ゆび]して叫[さけ]びました。ジョバンニもそっちを見[み]ましたけれどもそこはぼんやり白[しろ]くけむっているばかりどうしてもカムパネルラが云[い]ったように思[おも]われませんでした。"
+  ],
+  "grammar": [
+   {
+    "point": "あいているのです",
+    "explanation": "The 〜ている form is used to describe an action that is currently in progress or a state that currently exists. In this case, 'あいているのです' means 'is open,' indicating a continuing state of the hole being open."
+   },
+   {
+    "point": "進んで行こう",
+    "explanation": "The 〜て行く form indicates continuing action in the direction of movement. In this case, '進んで行こう' means 'let's keep going forward,' suggesting continuous progress in a particular direction."
+   },
+   {
+    "point": "痛むのでした",
+    "explanation": "The 〜のでした form is used to provide an explanation or reason in the past tense. In this case, '眼がしんしんと痛むのでした' means 'my eyes were aching painfully,' explaining the result of trying to peer into the darkness."
+   },
+   {
+    "point": "眼をこすってのぞいても",
+    "explanation": "The 〜てみる form indicates attempting to do something. In this case, '眼をこすってのぞいても' means 'even if I rub my eyes and try to peek,' suggesting an attempt to see into the darkness."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "孔",
+    "phonetic": "ana",
+    "translation": "hole, opening",
+    "example": "穴を掘る",
+    "exampleTranslation": "To dig a hole"
+   },
+   {
+    "word": "どほんと",
+    "phonetic": "dohonto",
+    "translation": "wide open, gaping",
+    "example": "空気がどほんと開いている",
+    "exampleTranslation": "The opening is wide open"
+   },
+   {
+    "word": "しんしんと",
+    "phonetic": "shinshinto",
+    "translation": "painfully, keenly, gradually",
+    "example": "痛みがしんしんと伝わる",
+    "exampleTranslation": "Pain spreads gradually"
+   },
+   {
+    "word": "俄かに",
+    "phonetic": "nihikani",
+    "translation": "suddenly, abruptly",
+    "example": "天気が俄かに悪くなった",
+    "exampleTranslation": "The weather suddenly turned bad"
+   },
+   {
+    "word": "ぼんやり",
+    "phonetic": "bonyari",
+    "translation": "vaguely, dimly, indistinctly",
+    "example": "ぼんやりと見える",
+    "exampleTranslation": "To be visible vaguely"
+   },
+   {
+    "word": "けむる",
+    "phonetic": "kemuru",
+    "translation": "to be hazy, to smoke",
+    "example": "空がけむっている",
+    "exampleTranslation": "The sky is hazy"
+   }
+  ]
  }
 }
