@@ -29,7 +29,13 @@ export function useShadowingAudio({ text, lang, novelId, day, vocab }: UseShadow
   const [enginePref, setEnginePrefState] = useState<TtsEnginePref>(
     () => (localStorage.getItem("novel_tts_engine") as TtsEnginePref) || "auto"
   );
-  const [mode, setMode] = useState<Mode>("reference");
+  const [mode, setModeState] = useState<Mode>(
+    () => (localStorage.getItem("novel_tts_mode") as Mode) || "reference"
+  );
+  const setMode = useCallback((m: Mode) => {
+    setModeState(m);
+    localStorage.setItem("novel_tts_mode", m);
+  }, []);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
   const [statusText, setStatusText] = useState<string>("");
@@ -38,6 +44,7 @@ export function useShadowingAudio({ text, lang, novelId, day, vocab }: UseShadow
   const [error, setError] = useState<string | null>(null);
 
   const audioElRef = useRef<HTMLAudioElement | null>(null);
+  const geminiUrlRef = useRef<string | null>(null);
   const browserStopRef = useRef<(() => void) | null>(null);
   const teacherAbortRef = useRef<boolean>(false);
   const geminiKeyRef = useRef<string>("");
@@ -82,14 +89,20 @@ export function useShadowingAudio({ text, lang, novelId, day, vocab }: UseShadow
       el.currentTime = 0;
       el.src = "";
     }
+    if (geminiUrlRef.current) {
+      URL.revokeObjectURL(geminiUrlRef.current);
+      geminiUrlRef.current = null;
+    }
   }, []);
 
   const stop = useCallback(() => {
     teacherAbortRef.current = true;
+    geminiKeyRef.current = ""; // invalidate any in-flight Gemini generation (#2)
     stopBrowser();
     stopAudioEl();
     if (typeof window !== "undefined" && "speechSynthesis" in window) window.speechSynthesis.cancel();
     setIsPlaying(false);
+    setIsGenerating(false);
   }, [stopBrowser, stopAudioEl]);
 
   /** Play using the BROWSER engine.
@@ -171,26 +184,20 @@ export function useShadowingAudio({ text, lang, novelId, day, vocab }: UseShadow
       setIsPlaying(true);
       setStatusText(mode === "teacher" ? "Shadowing coach (Gemini) — echo each phrase" : "Reference audio (Gemini)");
       const url = URL.createObjectURL(blob);
+      geminiUrlRef.current = url;
       await new Promise<void>((resolve) => {
         const el = new Audio(url);
         audioElRef.current = el;
-        el.onended = () => {
+        const finish = () => {
           URL.revokeObjectURL(url);
+          if (geminiUrlRef.current === url) geminiUrlRef.current = null;
           setIsPlaying(false);
           setStatusText("");
           resolve();
         };
-        el.onerror = () => {
-          URL.revokeObjectURL(url);
-          setIsPlaying(false);
-          setStatusText("");
-          resolve();
-        };
-        el.play().catch(() => {
-          URL.revokeObjectURL(url);
-          setIsPlaying(false);
-          resolve();
-        });
+        el.onended = finish;
+        el.onerror = finish;
+        el.play().catch(() => { URL.revokeObjectURL(url); setIsPlaying(false); resolve(); });
       });
     } catch (e) {
       if (geminiKeyRef.current !== cacheKey) return;

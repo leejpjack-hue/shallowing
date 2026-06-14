@@ -51,10 +51,20 @@ const NovelReader: React.FC<Props> = ({ novel, day, completed, onBack, onPrev, o
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const chunksRef = useRef<BlobPart[]>([]);
   const userAudioElRef = useRef<HTMLAudioElement | null>(null);
+  const recordTokenRef = useRef(0); // invalidates in-flight recording analysis on nav/unmount
 
   const audio = useShadowingAudio({
     text: day.text, lang, novelId: novel.id, day: day.day, vocab: vocabulary || [],
   });
+
+  // Stop + invalidate any active recording/voice when leaving this day.
+  const stopActiveRecording = useCallback(() => {
+    recordTokenRef.current++;
+    const rec = mediaRecorderRef.current;
+    if (rec && rec.state === "recording") {
+      try { rec.stream.getTracks().forEach((t) => t.stop()); rec.stop(); } catch { /* noop */ }
+    }
+  }, []);
 
   useEffect(() => {
     setTranslation(day.translation);
@@ -64,11 +74,21 @@ const NovelReader: React.FC<Props> = ({ novel, day, completed, onBack, onPrev, o
     setMetaError(null);
     setAnalysis(null);
     setRecordingState("IDLE");
-    setUserAudioUrl(null);
+    setUserAudioUrl((prev) => { if (prev) URL.revokeObjectURL(prev); return null; });
     if (!day.translation) {
       getCachedMeta(`${lang}_${day.day}`).then((m) => { if (m) { setTranslation(m.translation); setVocabulary(m.vocabulary); } });
     }
   }, [day.day, lang]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Cleanup on unmount: stop recorder/stream, cancel any browser voice.
+  useEffect(() => {
+    return () => {
+      stopActiveRecording();
+      speakStopRef.current?.();
+      if (typeof window !== "undefined" && "speechSynthesis" in window) window.speechSynthesis.cancel();
+      setUserAudioUrl((prev) => { if (prev) URL.revokeObjectURL(prev); return null; });
+    };
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     localStorage.setItem("novel_furigana", furigana ? "1" : "0");
@@ -102,28 +122,32 @@ const NovelReader: React.FC<Props> = ({ novel, day, completed, onBack, onPrev, o
   // --- Recording ---
   const startRecording = async () => {
     setAnalysis(null); chunksRef.current = []; audio.stop();
+    const token = ++recordTokenRef.current;
+    let stream: MediaStream | null = null;
     try {
-      const stream = await navigator.mediaDevices.getUserMedia({
+      stream = await navigator.mediaDevices.getUserMedia({
         audio: { channelCount: 1, sampleRate: 16000, echoCancellation: true, noiseSuppression: true },
       });
-      let options: MediaRecorderOptions = { mimeType: "audio/webm;codecs=opus" };
-      if (!MediaRecorder.isTypeSupported("audio/webm;codecs=opus")) {
-        options = MediaRecorder.isTypeSupported("audio/webm") ? { mimeType: "audio/webm" } : {};
-      }
-      options.audioBitsPerSecond = 24000;
-      const rec = new MediaRecorder(stream, options);
-      mediaRecorderRef.current = rec;
-      rec.ondataavailable = (e) => { if (e.data.size > 0) chunksRef.current.push(e.data); };
-      rec.onstop = async () => {
-        const blob = new Blob(chunksRef.current, { type: rec.mimeType || "audio/webm" });
-        if (userAudioUrl) URL.revokeObjectURL(userAudioUrl);
-        setUserAudioUrl(URL.createObjectURL(blob));
-        setRecordingState("PROCESSING");
-        const result = await analyzePronunciation(blob, day.text, lang);
-        setAnalysis(result); setRecordingState("ANALYZED");
-      };
-      rec.start(); setRecordingState("RECORDING");
-    } catch { setRecordingState("IDLE"); }
+    } catch { setRecordingState("IDLE"); return; }
+    let options: MediaRecorderOptions = { mimeType: "audio/webm;codecs=opus" };
+    if (!MediaRecorder.isTypeSupported("audio/webm;codecs=opus")) {
+      options = MediaRecorder.isTypeSupported("audio/webm") ? { mimeType: "audio/webm" } : {};
+    }
+    options.audioBitsPerSecond = 24000;
+    const rec = new MediaRecorder(stream, options);
+    mediaRecorderRef.current = rec;
+    rec.ondataavailable = (e) => { if (e.data.size > 0) chunksRef.current.push(e.data); };
+    rec.onstop = async () => {
+      rec.stream.getTracks().forEach((t) => t.stop());
+      if (recordTokenRef.current !== token) return; // navigated/unmounted/superseded
+      const blob = new Blob(chunksRef.current, { type: rec.mimeType || "audio/webm" });
+      setUserAudioUrl((prev) => { if (prev) URL.revokeObjectURL(prev); return URL.createObjectURL(blob); });
+      setRecordingState("PROCESSING");
+      const result = await analyzePronunciation(blob, day.text, lang);
+      if (recordTokenRef.current !== token) return; // stale
+      setAnalysis(result); setRecordingState("ANALYZED");
+    };
+    rec.start(); setRecordingState("RECORDING");
   };
   const stopRecording = () => {
     const rec = mediaRecorderRef.current;
@@ -136,16 +160,6 @@ const NovelReader: React.FC<Props> = ({ novel, day, completed, onBack, onPrev, o
   const charCount = day.text.replace(/\s/g, "").length;
   const hasFurigana = !isFr ? false : !!day.furiganaParagraphs;
 
-  const Pill: React.FC<{ active: boolean; onClick: () => void; icon: React.ReactNode; children: React.ReactNode; disabled?: boolean }> =
-    ({ active, onClick, icon, children, disabled }) => (
-      <button
-        onClick={onClick} disabled={disabled}
-        className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border transition-all disabled:opacity-40 disabled:cursor-not-allowed ${
-          active ? `${accentBg} text-white border-transparent shadow-sm` : "bg-white text-slate-600 border-slate-200 hover:bg-slate-50"
-        }`}
-      >{icon}{children}</button>
-    );
-
   return (
     <div className="space-y-6 pb-24">
       {/* Top nav */}
@@ -154,9 +168,9 @@ const NovelReader: React.FC<Props> = ({ novel, day, completed, onBack, onPrev, o
           <ArrowLeft size={16} className="mr-1" /> Calendar
         </button>
         <div className="flex items-center gap-2">
-          <button onClick={onPrev} className="p-2 rounded-lg border border-slate-200 bg-white hover:bg-slate-50 text-slate-600"><ArrowLeft size={16} /></button>
+          <button onClick={onPrev} aria-label="Previous day" title="Previous day" className="p-2 rounded-lg border border-slate-200 bg-white hover:bg-slate-50 text-slate-600"><ArrowLeft size={16} /></button>
           <span className="text-sm font-semibold text-slate-700 tabular-nums">Day {day.day} / 100</span>
-          <button onClick={onNext} className="p-2 rounded-lg border border-slate-200 bg-white hover:bg-slate-50 text-slate-600"><ArrowRight size={16} /></button>
+          <button onClick={onNext} aria-label="Next day" title="Next day" className="p-2 rounded-lg border border-slate-200 bg-white hover:bg-slate-50 text-slate-600"><ArrowRight size={16} /></button>
         </div>
       </div>
 
@@ -176,9 +190,9 @@ const NovelReader: React.FC<Props> = ({ novel, day, completed, onBack, onPrev, o
 
         {/* Toolbar */}
         <div className="px-6 md:px-8 py-3 bg-slate-50/70 border-b border-slate-100 flex flex-wrap items-center gap-2">
-          <Pill active={highlight} onClick={() => setHighlight((v) => !v)} icon={<Highlighter size={13} />}>Highlight</Pill>
-          <Pill active={furigana} onClick={() => setFurigana((v) => !v)} disabled={!hasFurigana} icon={<Type size={13} />}>Furigana</Pill>
-          <Pill active={showTranslation} onClick={ensureTranslation} icon={<Globe size={13} />}>
+          <Pill accent={accentBg} active={highlight} onClick={() => setHighlight((v) => !v)} icon={<Highlighter size={13} />}>Highlight</Pill>
+          <Pill accent={accentBg} active={furigana} onClick={() => setFurigana((v) => !v)} disabled={!hasFurigana} icon={<Type size={13} />}>Furigana</Pill>
+          <Pill accent={accentBg} active={showTranslation} onClick={ensureTranslation} icon={<Globe size={13} />}>
             {metaLoading ? <Loader2 size={13} className="animate-spin" /> : null}
             {translation ? (showTranslation ? "Hide translation" : "Show translation") : "Load translation"}
           </Pill>
@@ -244,9 +258,9 @@ const NovelReader: React.FC<Props> = ({ novel, day, completed, onBack, onPrev, o
         {/* AUDIO */}
         <div className="p-6 bg-slate-50 border-b border-slate-100">
           <div className="flex flex-col sm:flex-row gap-3 mb-4">
-            <div className="flex bg-white rounded-lg p-1 border border-slate-200">
+            <div className={`flex bg-white rounded-lg p-1 border border-slate-200 ${audio.mode === "teacher" ? "opacity-50 pointer-events-none" : ""}`} title={audio.mode === "teacher" ? "Teacher lesson uses the browser voice" : undefined}>
               {(["auto", "gemini", "browser"] as const).map((e) => (
-                <button key={e} onClick={() => audio.setEnginePref(e)}
+                <button key={e} onClick={() => audio.setEnginePref(e)} aria-label={`TTS engine ${e}`}
                   className={`px-3 py-1.5 rounded-md text-xs font-semibold capitalize transition-all ${audio.enginePref === e ? `${accentBg} text-white shadow-sm` : "text-slate-500 hover:text-slate-700"}`}>
                   {e === "auto" ? "Auto" : e === "gemini" ? "Gemini" : "Browser"}
                 </button>
@@ -280,7 +294,7 @@ const NovelReader: React.FC<Props> = ({ novel, day, completed, onBack, onPrev, o
           )}
 
           <div className="flex items-center gap-4">
-            <button onClick={audio.toggle} disabled={audio.isGenerating}
+            <button onClick={audio.toggle} disabled={audio.isGenerating} aria-label={audio.isPlaying ? "Pause" : "Play audio"}
               className={`h-14 w-14 rounded-full flex items-center justify-center transition-all shadow-sm flex-shrink-0 ${audio.isGenerating ? "bg-slate-200 cursor-wait" : `${accentBg} text-white hover:scale-105`}`}>
               {audio.isGenerating ? <Loader2 size={24} className="animate-spin text-slate-500" />
                 : audio.isPlaying ? <Pause size={24} fill="currentColor" />
@@ -384,5 +398,15 @@ const NovelReader: React.FC<Props> = ({ novel, day, completed, onBack, onPrev, o
 const SectionTitle: React.FC<{ icon: React.ReactNode; children: React.ReactNode }> = ({ icon, children }) => (
   <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4 flex items-center gap-2">{icon}<span>{children}</span></h3>
 );
+
+const Pill: React.FC<{ accent: string; active: boolean; onClick: () => void; icon: React.ReactNode; children: React.ReactNode; disabled?: boolean }> =
+  ({ accent, active, onClick, icon, children, disabled }) => (
+    <button
+      onClick={onClick} disabled={disabled}
+      className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border transition-all disabled:opacity-40 disabled:cursor-not-allowed ${
+        active ? `${accent} text-white border-transparent shadow-sm` : "bg-white text-slate-600 border-slate-200 hover:bg-slate-50"
+      }`}
+    >{icon}{children}</button>
+  );
 
 export default NovelReader;
