@@ -107,7 +107,10 @@ async function process(novelFile, metaFile, enrichFile, label) {
   const enrich = loadJSON(`${RAW}/${enrichFile}`, {});
   const chunks = data.chunks;
   const MAX = (() => { try { return parseInt(readFileSync("/tmp/enrich_cap.txt", "utf-8").trim() || "0", 10); } catch { return 0; } })();
-  let pending = chunks.filter((c) => !enrich[String(c.day)]);
+  // A day is pending if it has no entry OR is missing grammar/vocabulary
+  // (gen_furigana may have added paragraphs+furigana without grammar/vocab).
+  const hasGrammarVocab = (e) => Array.isArray(e?.grammar) && e.grammar.length && Array.isArray(e?.vocabulary) && e.vocabulary.length;
+  let pending = chunks.filter((c) => !hasGrammarVocab(enrich[String(c.day)]));
   if (MAX) pending = pending.slice(0, MAX);
   if (!pending.length) { console.log(`[${label}] nothing to enrich (${Object.keys(enrich).length}/${chunks.length})`); return; }
   if (provider === "auto") { provider = (await probeGemini()) ? "gemini" : "glm"; console.log(`[${label}] provider=${provider}`); }
