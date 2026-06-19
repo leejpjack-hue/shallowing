@@ -8,23 +8,28 @@ interface PassageProps {
   highlight: boolean;
 }
 
+const KANJI = /[一-龯]/;
+
 function escapeRegex(s: string): string {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 interface KwTool {
   regex: RegExp | null;
-  isKw: (s: string) => boolean;
+  isKw: (s: string) => boolean;     // exact match (for plain text segments)
+  hitsKw: (s: string) => boolean;   // substring match either way (for ruby bases)
 }
 
 function makeKwTool(keywords: string[], isJp: boolean): KwTool {
   const clean = [...new Set((keywords || []).map((k) => k.trim()).filter(Boolean))];
-  if (!clean.length) return { regex: null, isKw: () => false };
-  const set = new Set(clean.map((k) => (isJp ? k : k.toLowerCase())));
+  if (!clean.length) return { regex: null, isKw: () => false, hitsKw: () => false };
+  const norm = (k: string) => (isJp ? k : k.toLowerCase());
+  const set = new Set(clean.map(norm));
   const alt = clean.sort((a, b) => b.length - a.length).map(escapeRegex).join("|");
   const regex = new RegExp(`(${alt})`, isJp ? "g" : "gi");
-  const isKw = (s: string) => set.has(isJp ? s : s.toLowerCase());
-  return { regex, isKw };
+  const isKw = (s: string) => set.has(norm(s));
+  const hitsKw = (s: string) => clean.some((k) => s.includes(k) || k.includes(s));
+  return { regex, isKw, hitsKw };
 }
 
 /** Split plain text on keyword matches; wrap matches in <mark>. */
@@ -42,9 +47,10 @@ function highlightNodes(text: string, tool: KwTool, keyBase: string): React.Reac
 }
 
 /**
- * Render a paragraph that may contain furigana markup (漢字[かんじ]). Parses the
- * markup into <ruby>, applies keyword highlighting to plain text and to ruby
- * bases, and is plain+highlight when no markup is present.
+ * Render a paragraph that may contain furigana markup (漢字[かんじ]).
+ * The ruby BASE is split at its first kanji: any preceding kana is rendered as
+ * plain text, so the reading sits exactly over the kanji (not the kana before it).
+ * Keyword highlighting: exact on plain text, substring on ruby bases.
  */
 function renderAnnotated(src: string, tool: KwTool, furigana: boolean, keyBase: string): React.ReactNode[] {
   const hasRuby = furigana && src.indexOf("[") !== -1;
@@ -54,13 +60,23 @@ function renderAnnotated(src: string, tool: KwTool, furigana: boolean, keyBase: 
   let last = 0;
   let m: RegExpExecArray | null;
   let k = 0;
+  const pushText = (text: string, kb: string) => {
+    if (text) nodes.push(...highlightNodes(text, tool, kb));
+  };
   while ((m = re.exec(src)) !== null) {
-    if (m.index > last) nodes.push(...highlightNodes(src.slice(last, m.index), tool, `${keyBase}-p${k}`));
-    const base = m[1];
+    pushText(src.slice(last, m.index), `${keyBase}-p${k}`);
+    let base = m[1];
     const reading = m[2];
-    const hl = tool.isKw(base);
+    // split off any leading non-kanji (e.g. the お/ご honorific) so the ruby
+    // base is exactly the kanji token the reading applies to.
+    const km = base.match(KANJI);
+    if (km && km.index && km.index > 0) {
+      pushText(base.slice(0, km.index), `${keyBase}-k${k}`);
+      base = base.slice(km.index);
+    }
+    const hl = tool.hitsKw(base);
     nodes.push(
-      <ruby key={`${keyBase}-r${k}`} className={hl ? "bg-amber-200/80 rounded px-0.5" : undefined}>
+      <ruby key={`${keyBase}-r${k}`} className={hl ? "bg-amber-200/70 rounded px-0.5" : undefined}>
         {base}
         <rt>{reading}</rt>
       </ruby>
@@ -68,7 +84,7 @@ function renderAnnotated(src: string, tool: KwTool, furigana: boolean, keyBase: 
     last = m.index + m[0].length;
     k++;
   }
-  if (last < src.length) nodes.push(...highlightNodes(src.slice(last), tool, `${keyBase}-e`));
+  pushText(src.slice(last), `${keyBase}-e`);
   return nodes;
 }
 

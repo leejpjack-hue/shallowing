@@ -17,8 +17,16 @@ function buildNovel(chunksFile, metaFile, enrichFile) {
     const m = meta[String(c.day)] || {};
     const e = enrich[String(c.day)] || {};
     const isJp = novel.language === "japanese";
-    // vocabulary: prefer enriched (has examples), else meta vocabulary
+    // vocabulary: prefer enriched (has examples), else meta vocabulary.
+    // Sanitize: strip any stray furigana "漢字[かんじ]" brackets the LLM may have
+    // embedded in word/example fields (they belong only in furiganaParagraphs).
+    const stripFuri = (s) => (typeof s === "string" ? s.replace(/\s*\[[^\]]*\]/g, "").trim() : s);
     let vocabulary = Array.isArray(e.vocabulary) && e.vocabulary.length ? e.vocabulary : (Array.isArray(m.vocabulary) ? m.vocabulary : null);
+    if (vocabulary) vocabulary = vocabulary.map((v) => ({
+      ...v,
+      word: stripFuri(v.word),
+      example: stripFuri(v.example),
+    }));
     // furigana (Japanese only) — array aligned 1:1 with paragraphs
     const furiganaParagraphs = isJp && Array.isArray(e.furiganaParagraphs) && e.furiganaParagraphs.length ? e.furiganaParagraphs : null;
     const paragraphs = Array.isArray(e.paragraphs) && e.paragraphs.length ? e.paragraphs : null;

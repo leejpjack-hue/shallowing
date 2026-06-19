@@ -32,9 +32,10 @@
       .animate-slide-up { animation: slideUp .35s ease-out; }
       @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
       @keyframes slideUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-      /* Furigana (ruby) styling */
-      ruby { ruby-position: over; }
-      rt { font-size: 0.42em; font-weight: 500; color: #64748b; letter-spacing: -0.02em; }
+      /* Furigana (ruby) styling — readings render above each kanji */
+      ruby { ruby-position: over; ruby-align: center; }
+      rt { font-size: 0.5em; font-weight: 500; color: #475569; letter-spacing: -0.01em; line-height: 1; }
+      ruby > rt { text-align: center; }
     </style>
     <link rel="stylesheet" href="/index.css">
   </head>
