@@ -14423,65 +14423,80 @@ export const NOVELS: Novel[] = [
       "text": "思わずジョバンニもカムパネルラも一緒にうたい出したのです。そして青い橄欖の森が見えない天の川の向うにさめざめと光りながらだんだんうしろの方へ行ってしまいそこから流れて来るあやしい楽器の音ももう汽車のひびきや風の音にすり耗らされてずうっとかすかになりました。「あ孔雀が居るよ。」「ええたくさん居たわ。」女の子がこたえました。ジョバンニはその小さく小さくなっていまはもう一つの緑いろの貝ぼたんのように見える森の上にさっさっと青じろく時々光ってその孔雀がはねをひろげたりとじたりする光の反射を見ました。「そうだ、孔雀の声だってさっき聞えた。」カムパネルラがかおる子に云いました。「ええ、三十疋ぐらいはたしかに居たわ。ハープのように聞えたのはみんな孔雀よ。」女の子が答えました。",
       "paragraphs": [
         "思わずジョバンニもカムパネルラも一緒にうたい出したのです。そして青い橄欖の森が見えない天の川の向うにさめざめと光りながらだんだんうしろの方へ行ってしまいそこから流れて来るあやしい楽器の音ももう汽車のひびきや風の音にすり耗らされてずうっとかすかになりました。",
-        "「あ孔雀が居るよ。」",
-        "「ええたくさん居たわ。」",
-        "女の子がこたえました。ジョバンニはその小さく小さくなっていまはもう一つの緑いろの貝ぼたんのように見える森の上にさっさっと青じろく時々光ってその孔雀がはねをひろげたりとじたりする光の反射を見ました。",
-        "「そうだ、孔雀の声だってさっき聞えた。」",
-        "カムパネルラがかおる子に云いました。「ええ、三十疋ぐらいはたしかに居たわ。",
-        "ハープのように聞えたのはみんな孔雀よ。」",
-        "女の子が答えました。"
+        "「あ孔雀が居るよ。」「ええたくさん居たわ。」女の子がこたえました。ジョバンニはその小さく小さくなっていまはもう一つの緑いろの貝ぼたんのように見える森の上にさっさっと青じろく時々光ってその孔雀がはねをひろげたりとじたりする光の反射を見ました。",
+        "「そうだ、孔雀の声だってさっき聞えた。」カムパネルラがかおる子に云いました。「ええ、三十疋ぐらいはたしかに居たわ。ハープのように聞えたのはみんな孔雀よ。」女の子が答えました。"
       ],
       "translation": "Giovanni and Campanella couldn't help but sing out together. And on the other side of the Milky Way, where the blue olive forest could not be seen, it gradually faded away behind them, and the strange sound of musical instruments flowing from there also became much fainter, drowned out by the sound of the train and the wind. 'There's a peacock,' Giovanni said. 'Oh, there were lots of them,' the girl replied. Giovanni saw, on top of the forest that had become tiny and now looked like another green shell, the light of peacocks quickly spreading, sometimes shining, as they spread and closed their wings. 'That's right, I could hear the sound of peacocks just now,' Campanella said to the boy. 'Yes, there were definitely about thirty of them. What sounded like harps were all peacocks,' the girl answered.",
       "vocabulary": [
         {
-          "word": "うたい出す",
-          "phonetic": "utaidasu",
-          "translation": "to sing out, to burst into song"
+          "word": "橄欖",
+          "phonetic": "kanran",
+          "translation": "olive",
+          "example": "橄欖の木は地中海地方でよく育ちます。",
+          "exampleTranslation": "Olive trees grow well in Mediterranean regions."
         },
         {
           "word": "さめざめと",
-          "phonetic": "samezato to",
-          "translation": "gradually, little by little"
+          "phonetic": "samezame to",
+          "translation": "gradually, bit by bit",
+          "example": "彼女はさめざめと涙を流しました。",
+          "exampleTranslation": "She shed tears bit by bit."
         },
         {
           "word": "すり耗らす",
-          "phonetic": "surimorasu",
-          "translation": "to wear away, to drown out"
+          "phonetic": "suritsukasu",
+          "translation": "to wear away, to drown out",
+          "example": "風の音が他の音をすり耗らしました。",
+          "exampleTranslation": "The sound of the wind drowned out other sounds."
         },
         {
-          "word": "さっさっと",
-          "phonetic": "sattotto",
-          "translation": "quickly, briskly"
+          "word": "かすか",
+          "phonetic": "kasuka",
+          "translation": "faint, dim, slight",
+          "example": "かすかな光が部屋を照らしていました。",
+          "exampleTranslation": "A faint light was illuminating the room."
         },
         {
           "word": "はねをひろげたり",
           "phonetic": "hane o hirogetari",
-          "translation": "to spread one's wings"
+          "translation": "spreading wings",
+          "example": "鳥は空ではねをひろげて飛びます。",
+          "exampleTranslation": "Birds spread their wings and fly in the sky."
         },
         {
-          "word": "とじたり",
-          "phonetic": "tojitari",
-          "translation": "to close (wings)"
+          "word": "孔雀",
+          "phonetic": "kujaku",
+          "translation": "peacock",
+          "example": "孔雀は美しい尾羽根を持っています。",
+          "exampleTranslation": "Peacocks have beautiful tail feathers."
         }
       ],
-      "grammar": null,
+      "grammar": [
+        {
+          "point": "〜てしまう",
+          "explanation": "This grammar pattern indicates completion of an action, often with a sense of regret or that something has been done completely and cannot be undone. In this passage, it's used in '行ってしまい' to indicate that the forest has completely moved away."
+        },
+        {
+          "point": "〜たり〜たりする",
+          "explanation": "This pattern is used to list examples of actions, indicating that there are multiple actions being performed. In this passage, 'ひろげたりとじたりする' shows the peacocks both spreading and closing their wings."
+        },
+        {
+          "point": "〜ように",
+          "explanation": "This pattern indicates resemblance or comparison, similar to 'like' or 'as' in English. In this passage, '貝ぼたんのように見える' means 'looks like a shell'."
+        }
+      ],
       "furiganaParagraphs": [
         "思[おも]わずジョバンニもカムパネルラも一緒[いっしょ]にうたい出[だ]したのです。そして青[あお]い橄欖[かんらん]の森[もり]が見[み]えない天[あま]の川[がわ]の向[むこ]うにさめざめと光[ひか]りながらだんだんうしろの方[ほう]へ行[い]ってしまいそこから流[なが]れて来[く]るあやしい楽器[がっき]の音[おと]ももう汽車[きしゃ]のひびきや風[かぜ]の音[おと]にすり耗[耗]らされてずうっとかすかになりました。",
-        "「あ孔雀[くじゃく]が居[い]るよ。」",
-        "「ええたくさん居[い]たわ。」",
-        "女[おんな]の子[こ]がこたえました。ジョバンニはその小[ちい]さく小[ちい]さくなっていまはもう一[ひと]つの緑[みどり]いろの貝[かい]ぼたんのように見[み]える森[もり]の上[うえ]にさっさっと青[あお]じろく時々[ときどき]光[ひか]ってその孔雀[くじゃく]がはねをひろげたりとじたりする光[ひかり]の反射[はんしゃ]を見[み]ました。",
-        "「そうだ、孔雀[くじゃく]の声[こえ]だってさっき聞[きこ]えた。」",
-        "カムパネルラがかおる子[こ]に云[い]いました。「ええ、三[さん]十[じゅう]疋[疋]ぐらいはたしかに居[い]たわ。",
-        "ハープのように聞[きこ]えたのはみんな孔雀[くじゃく]よ。」",
-        "女[おんな]の子[こ]が答[こた]えました。"
+        "「あ孔雀が居るよ。」「ええたくさん居たわ。」女の子がこたえました。ジョバンニはその小さく小さくなっていまはもう一つの緑いろの貝ぼたんのように見える森の上にさっさっと青じろく時々光ってその孔雀がはねをひろげたりとじたりする光の反射を見ました。",
+        "「そうだ、孔雀の声だってさっき聞えた。」カムパネルラがかおる子に云いました。「ええ、三十疋ぐらいはたしかに居たわ。ハープのように聞えたのはみんな孔雀よ。」女の子が答えました。"
       ],
       "keywords": [
-        "うたい出す",
+        "橄欖",
         "さめざめと",
         "すり耗らす",
-        "さっさっと",
+        "かすか",
         "はねをひろげたり",
-        "とじたり"
+        "孔雀"
       ]
     },
     {
