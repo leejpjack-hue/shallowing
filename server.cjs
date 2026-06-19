@@ -4,7 +4,15 @@ const app = express();
 const PORT = process.env.PORT || 3002;
 
 app.use(express.json({ limit: "12mb" }));
-app.use(express.static(path.join(__dirname, "dist")));
+// HTML must never be cached (it points at content-hashed bundles); assets can cache.
+app.use(express.static(path.join(__dirname, "dist"), {
+  setHeaders: (res, filepath) => {
+    if (filepath.endsWith(".html")) {
+      res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate");
+      res.setHeader("Pragma", "no-cache");
+    }
+  },
+}));
 
 // Lazily import the ESM server-side Gemini module (key stays on the server).
 let _geminiPromise = null;
