@@ -1,10 +1,16 @@
-// Enrich each day with self-study aids: furigana (JP), grammar points,
-// vocabulary with example sentences, and paragraph segmentation. Reads existing
-// translations from _raw/*_meta.json for context. Provider: Gemini -> GLM backup.
+// Enrich each day with self-study aids: furigana (JP, via deterministic
+// kuroshiro — EVERY kanji annotated), grammar points, vocabulary with example
+// sentences, and paragraph segmentation. Reads existing translations from
+// _raw/*_meta.json for context. Provider: Gemini -> GLM backup.
 // Resumable; writes _raw/{fr,jp}_enrich.json incrementally; self-locks.
 import { GoogleGenAI, Type } from "@google/genai";
 import { readFileSync, writeFileSync, existsSync, unlinkSync } from "fs";
+import { createRequire } from "module";
 import { GEMINI_KEY, GLM_KEY } from "./_keys.mjs";
+
+// kuroshiro is CommonJS; import its helper for deterministic furigana.
+const require = createRequire(import.meta.url);
+const { toFurigana } = require("./kuroshiro_helper.cjs");
 
 const LOCK = "/tmp/enrich_meta.lock";
 if (existsSync(LOCK)) { console.log("Enrich already running. Exiting."); try { process.exit(0); } catch {} }
@@ -28,9 +34,6 @@ function buildPrompt(chunk, novel, translation) {
   const isFr = novel.language === "french";
   const langName = isFr ? "French" : "Japanese";
   const phonRule = isFr ? "IPA notation (e.g. /ʁe.vɛj/)" : "Hepburn romaji";
-  const furiRule = isFr
-    ? 'Set "furiganaParagraphs" to an empty array [] (French does not use furigana).'
-    : 'For "furiganaParagraphs", return an array ALIGNED WITH "paragraphs": for each plain paragraph, the SAME paragraph but with EVERY kanji (or kanji compound) immediately followed by its hiragana reading in square brackets, e.g. 私[わたし]は日本[にほん]語[ご]を勉強[べんきょう]します。Do NOT annotate pure kana, Latin text, or punctuation. furiganaParagraphs must have the SAME length as paragraphs.';
   return `You are an expert ${langName} language teacher preparing a self-study lesson for Day ${chunk.day} of the novel "${novel.title}".
 
 Passage:
@@ -45,12 +48,9 @@ ${translation || "(n/a)"}
 Produce a JSON object with EXACTLY these fields:
 {
   "paragraphs": [the passage split into 2-4 natural paragraphs; joining them in order must reproduce the original passage faithfully],
-  "furiganaParagraphs": [${isFr ? "empty array" : "see furigana rule below; aligned 1:1 with paragraphs"}],
   "grammar": [2 to 4 grammar points that appear in this passage; each {"point": "the pattern as it appears (e.g. ${isFr ? "il faut que + subjonctif" : "〜てしまう"} )", "explanation": "a clear, concise explanation in English for a self-learner"}],
   "vocabulary": [5 to 6 key or difficult words FROM this passage; each {"word": "...", "phonetic": "${phonRule}", "translation": "concise English meaning", "example": "a NEW short ${langName} example sentence that uses this word naturally", "exampleTranslation": "English translation of the example"}]
 }
-
-${furiRule}
 
 Return STRICT JSON only. No markdown, no commentary.`;
 }
@@ -61,7 +61,6 @@ function parseResult(txt) {
   const obj = JSON.parse(m ? m[0] : txt);
   if (!obj || !Array.isArray(obj.paragraphs) || !Array.isArray(obj.grammar) || !Array.isArray(obj.vocabulary))
     throw new Error("bad shape");
-  if (!Array.isArray(obj.furiganaParagraphs)) obj.furiganaParagraphs = [];
   return obj;
 }
 
@@ -69,7 +68,6 @@ const ENRICH_SCHEMA = {
   type: Type.OBJECT,
   properties: {
     paragraphs: { type: Type.ARRAY, items: { type: Type.STRING } },
-    furiganaParagraphs: { type: Type.ARRAY, items: { type: Type.STRING } },
     grammar: { type: Type.ARRAY, items: { type: Type.OBJECT, properties: {
       point: { type: Type.STRING }, explanation: { type: Type.STRING } }, required: ["point", "explanation"] } },
     vocabulary: { type: Type.ARRAY, items: { type: Type.OBJECT, properties: {
@@ -77,7 +75,7 @@ const ENRICH_SCHEMA = {
       example: { type: Type.STRING }, exampleTranslation: { type: Type.STRING } },
       required: ["word", "phonetic", "translation", "example", "exampleTranslation"] } },
   },
-  required: ["paragraphs", "furiganaParagraphs", "grammar", "vocabulary"],
+  required: ["paragraphs", "grammar", "vocabulary"],
 };
 
 async function genGemini(chunk, novel, tr) {
@@ -124,6 +122,15 @@ async function process(novelFile, metaFile, enrichFile, label) {
       for (let a = 0; a < 4; a++) {
         try {
           const r = await dispatch(c, novel, meta[String(c.day)]?.translation);
+          // Furigana is computed deterministically via kuroshiro (every kanji),
+          // not by the LLM. Japanese only; French gets an empty array.
+          if (novel.language === "japanese") {
+            r.furiganaParagraphs = await Promise.all(
+              (r.paragraphs || []).map((p) => toFurigana(p).catch(() => p))
+            );
+          } else {
+            r.furiganaParagraphs = [];
+          }
           enrich[String(c.day)] = { day: c.day, ...r };
           produced++;
           if (produced % 5 === 0) { save(); console.log(`[${label}] +${produced}/${pending.length}`); }

@@ -37,7 +37,7 @@ const NovelReader: React.FC<Props> = ({ novel, day, completed, onBack, onPrev, o
   const [vocabulary, setVocabulary] = useState<VocabItem[] | null>(day.vocabulary);
   const [grammar, setGrammar] = useState(day.grammar);
   const [showTranslation, setShowTranslation] = useState(false);
-  const [furigana, setFurigana] = useState<boolean>(() => localStorage.getItem("novel_furigana") === "1");
+  const [furigana, setFurigana] = useState<boolean>(() => localStorage.getItem("novel_furigana") !== "0");
   const [highlight, setHighlight] = useState<boolean>(() => localStorage.getItem("novel_highlight") !== "0");
   const [metaLoading, setMetaLoading] = useState(false);
   const [metaError, setMetaError] = useState<string | null>(null);
