@@ -5358,48 +5358,81 @@ export const NOVELS: Novel[] = [
       "day": 66,
       "title": "The Virtuous Friend's Help",
       "text": "Mais à quelle alternative me réduisez-vous, s'il faut que je vous refuse le seul secours que vous voulez accepter ou que je blesse mon devoir en vous l'accordant? car n'est-ce, pas prendre part à votre désordre, que de vous y faire persévérer? Cependant, continua-t-il après avoir réfléchi un moment, je m'imagine que c'est peut-être l'état violent où l'indigence vous jette, qui ne vous laisse pas assez de liberté pour choisir le meilleur parti; il faut un esprit tranquille pour goûter la sagesse et la vérité. Je trouverai le moyen de vous faire avoir quelque argent. Permettez-moi, mon cher Chevalier ajouta-t-il en m'embrassant, d'y mettre seulement une condition: c'est que vous m'apprendrez le lieu de votre demeure, et que vous souffrirez que je fasse du moins mes efforts pour vous ramener à la vertu, que je sais que vous aimez, et dont il n'y a que la violence de vos passions qui vous écarte. Je lui accordai sincèrement tout ce qu'il souhaitait, et je le priai de plaindre la malignité de mon sort, qui me faisait profiter si mal des conseils d'un ami si vertueux. Il me mena aussitôt chez un banquier de sa connaissance, qui m'avança cent pistoles sur son billet, car il n'était rien moins qu'en argent comptant. J'ai déjà dit qu'il n'était pas riche. Son bénéfice valait mille écus, mais, comme c'était la première année qu'il le possédait, il n'avait encore rien touché du revenu: c'était sur les fruits futurs qu'il me faisait cette avance.",
-      "paragraphs": null,
+      "paragraphs": [
+        "Mais à quelle alternative me réduisez-vous, s'il faut que je vous refuse le seul secours que vous voulez accepter ou que je blesse mon devoir en vous l'accordant? car n'est-ce, pas prendre part à votre désordre, que de vous y faire persévérer? Cependant, continua-t-il après avoir réfléchi un moment, je m'imagine que c'est peut-être l'état violent où l'indigence vous jette, qui ne vous laisse pas assez de liberté pour choisir le meilleur parti; il faut un esprit tranquille pour goûter la sagesse et la vérité.",
+        "Je trouverai le moyen de vous faire avoir quelque argent. Permettez-moi, mon cher Chevalier ajouta-t-il en m'embrassant, d'y mettre seulement une condition: c'est que vous m'apprendrez le lieu de votre demeure, et que vous souffrirez que je fasse du moins mes efforts pour vous ramener à la vertu, que je sais que vous aimez, et dont il n'y a que la violence de vos passions qui vous écarte.",
+        "Je lui accordai sincèrement tout ce qu'il souhaitait, et je le priai de plaindre la malignité de mon sort, qui me faisait profiter si mal des conseils d'un ami si vertueux. Il me mena aussitôt chez un banquier de sa connaissance, qui m'avança cent pistoles sur son billet, car il n'était rien moins qu'en argent comptant. J'ai déjà dit qu'il n'était pas riche. Son bénéfice valait mille écus, mais, comme c'était la première année qu'il le possédait, il n'avait encore rien touché du revenu: c'était sur les fruits futurs qu'il me faisait cette avance."
+      ],
       "translation": "But to what alternative are you reducing me, if I must refuse the only help you wish to accept or if I must violate my duty by granting it? For is it not taking part in your disorder to make you persist in it? However, he continued after reflecting for a moment, I imagine that it is perhaps the violent state in which poverty throws you that does not leave you enough freedom to choose the best course; one needs a tranquil mind to appreciate wisdom and truth. I will find a way to get you some money. Allow me, my dear Knight, he added, embracing me, to only put one condition to this: that you tell me the place of your residence, and that you allow me at least to make my efforts to bring you back to virtue, which I know you love and from which only the violence of your passions is keeping you away. I sincerely granted him everything he wished, and I asked him to pity the malignity of my fate, which made me so poorly benefit from the advice of such a virtuous friend. He immediately took me to a banker he knew, who advanced me a hundred pistoles on his note, for it was by no means in cash. I have already said that he was not rich. His benefice was worth a thousand écus, but since it was the first year he possessed it, he had not yet touched any of the income: it was on future fruits that he was making this advance to me.",
       "vocabulary": [
         {
           "word": "alternative",
-          "phonetic": "/ɔl.tɛʁ.na.tiv/",
-          "translation": "a choice between two or more possibilities"
+          "phonetic": "/al.tɛʁ.na.tiv/",
+          "translation": "choice between two possibilities",
+          "example": "Il faut faire un choix entre plusieurs alternatives.",
+          "exampleTranslation": "One must make a choice between several alternatives."
         },
         {
           "word": "indigence",
           "phonetic": "/ɛ̃.di.ʒɑ̃s/",
-          "translation": "extreme poverty"
+          "translation": "extreme poverty",
+          "example": "L'indigence force certaines personnes à commettre des actes désespérés.",
+          "exampleTranslation": "Extreme poverty forces some people to commit desperate acts."
         },
         {
-          "word": "tranquille",
-          "phonetic": "/tʁɑ̃.kil/",
-          "translation": "calm, peaceful"
+          "word": "persévérer",
+          "phonetic": "/pɛʁ.se.ve.ʁe/",
+          "translation": "to persist",
+          "example": "Il faut persévérer dans ses efforts pour réussir.",
+          "exampleTranslation": "One must persist in one's efforts to succeed."
         },
         {
           "word": "bénéfice",
           "phonetic": "/be.ne.fis/",
-          "translation": "benefit, income (in this context, a church position with income)"
+          "translation": "benefit, income",
+          "example": "Le bénéfice de ce travail est considérable.",
+          "exampleTranslation": "The income from this work is considerable."
         },
         {
-          "word": "écus",
-          "phonetic": "/e.ky/",
-          "translation": "old French coins (écu)"
+          "word": "malignité",
+          "phonetic": "/ma.li.ʒi.ni.te/",
+          "translation": "malice, malignity",
+          "example": "La malignité de son attitude a surpris tout le monde.",
+          "exampleTranslation": "The malice in his attitude surprised everyone."
         },
         {
           "word": "pistoles",
-          "phonetic": "/pis.tɔl/",
-          "translation": "old French coins (pistole)"
+          "phonetic": "/pis.tol/",
+          "translation": "pistole (an old gold coin)",
+          "example": "Il a trouvé une ancienne pistole dans son grenier.",
+          "exampleTranslation": "He found an old pistole in his attic."
         }
       ],
-      "grammar": null,
+      "grammar": [
+        {
+          "point": "il faut que + subjunctive",
+          "explanation": "This construction expresses necessity or obligation. The subjunctive mood is required after 'il faut que' to indicate that something must be done."
+        },
+        {
+          "point": "relative clauses with 'que'",
+          "explanation": "Relative clauses introduced by 'que' are used to provide additional information about a noun. The verb in the relative clause must agree with the antecedent noun."
+        },
+        {
+          "point": "reflexive verbs",
+          "explanation": "Reflexive verbs are used when the subject and object of the verb are the same. They are formed with a reflexive pronoun (me, te, se, nous, vous, se) that agrees with the subject."
+        },
+        {
+          "point": "conditional and future tenses",
+          "explanation": "The future tense (je trouverai) is used to express actions that will happen in the future. The conditional can express hypothetical situations or future actions in the past."
+        }
+      ],
       "furiganaParagraphs": null,
       "keywords": [
         "alternative",
         "indigence",
-        "tranquille",
+        "persévérer",
         "bénéfice",
-        "écus",
+        "malignité",
         "pistoles"
       ]
     },
@@ -6628,49 +6661,82 @@ export const NOVELS: Novel[] = [
       "day": 82,
       "title": "Manon's Tears and Accusations",
       "text": "Elle, au contraire, paraissait transportée du plaisir de me revoir. Elle me fit des reproches de ma froideur. Je ne pus m'empêcher de laisser échapper les noms de perfide et d'infidèle, que j'accompagnai d'autant de soupirs. Elle me railla d'abord de ma simplicité; mais, lorsqu'elle vit mes regards s'attacher toujours tristement sur elle, et la peine que j'avais à digérer un changement si contraire à mon humeur et à mes désirs, elle passa seule dans son cabinet. Je la suivis un moment après. Je l'y trouvai tout en pleurs; je lui demandai ce qui les causait. Il t'est bien aisé de le voir, me dit-elle, comment veux-tu que je vive, si ma vue n'est plus propre qu'à te causer un air sombre et chagrin? Tu ne m'as pas fait une seule caresse, depuis une heure que tu es ici, et tu as reçu les miennes avec la majesté du Grand Turc au Sérail. Écoutez, Manon, lui répondis-je en l'embrassant, je ne puis vous cacher que j'ai le coeur mortellement affligé. Je ne parle point à présent des alarmes où votre fuite imprévue m'a jeté, ni de la cruauté que vous avez eue de m'abandonner sans un mot de consolation, après avoir passé la nuit dans un autre lit que moi. Le charme de votre présence m'en ferait bien oublier davantage.",
-      "paragraphs": null,
+      "paragraphs": [
+        "Elle, au contraire, paraissait transportée du plaisir de me revoir. Elle me fit des reproches de ma froideur. Je ne pus m'empêcher de laisser échapper les noms de perfide et d'infidèle, que j'accompagnai d'autant de soupirs. Elle me railla d'abord de ma simplicité; mais, lorsqu'elle vit mes regards s'attacher toujours tristement sur elle, et la peine que j'avais à digérer un changement si contraire à mon humeur et à mes désirs, elle passa seule dans son cabinet.",
+        "Je la suivis un moment après. Je l'y trouvai tout en pleurs; je lui demandai ce qui les causait. Il t'est bien aisé de le voir, me dit-elle, comment veux-tu que je vive, si ma vue n'est plus propre qu'à te causer un air sombre et chagrin? Tu ne m'as pas fait une seule caresse, depuis une heure que tu es ici, et tu as reçu les miennes avec la majesté du Grand Turc au Sérail.",
+        "Écoutez, Manon, lui répondis-je en l'embrassant, je ne puis vous cacher que j'ai le coeur mortellement affligé. Je ne parle point à présent des alarmes où votre fuite imprévue m'a jeté, ni de la cruauté que vous avez eue de m'abandonner sans un mot de consolation, après avoir passé la nuit dans un autre lit que moi. Le charme de votre présence m'en ferait bien oublier davantage."
+      ],
       "translation": "She, on the contrary, seemed transported with pleasure at seeing me again. She reproached me for my coldness. I couldn't help but call her perfidious and unfaithful, which I accompanied with as many sighs. At first, she mocked my simplicity; but when she saw my gaze always sadly fixed on her, and the pain I had in digesting such a change contrary to my temperament and desires, she went alone into her study. I followed her a moment later. I found her there in tears; I asked her what caused them. It's very easy for you to see, she said to me, how do you expect me to live, if my sight is only capable of causing you a dark and sorrowful expression? You haven't given me a single caress since you've been here for an hour, and you received mine with the majesty of the Great Turk in the Seraglio. Listen, Manon, I replied to her, embracing her, I cannot hide from you that my heart is mortally afflicted. I am not speaking now of the alarms your unexpected flight threw me into, nor of the cruelty you had in abandoning me without a word of consolation, after having spent the night in a bed other than mine. The charm of your presence would make me forget it all the more.",
       "vocabulary": [
         {
           "word": "transportée",
           "phonetic": "/tʁɑ̃spɔʁte/",
-          "translation": "carried away with emotion"
+          "translation": "transported, carried away (emotionally)",
+          "example": "Elle était transportée de joie.",
+          "exampleTranslation": "She was transported with joy."
+        },
+        {
+          "word": "reproches",
+          "phonetic": "/ʁə.pʁɔʃ/",
+          "translation": "reproaches, complaints",
+          "example": "Il a fait des reproches à son employé.",
+          "exampleTranslation": "He made reproaches to his employee."
         },
         {
           "word": "perfide",
-          "phonetic": "/pɛʁfid/",
-          "translation": "treacherous, faithless"
+          "phonetic": "/pɛʁ.fid/",
+          "translation": "perfidious, treacherous",
+          "example": "Son comportement était perfide.",
+          "exampleTranslation": "His behavior was treacherous."
         },
         {
-          "word": "infidèle",
-          "phonetic": "/ɛ̃fidɛl/",
-          "translation": "unfaithful"
+          "word": "railla",
+          "phonetic": "/ʁa.ja/",
+          "translation": "mocked, made fun of",
+          "example": "Il a raillé ses camarades pour leur manque de courage.",
+          "exampleTranslation": "He mocked his classmates for their lack of courage."
         },
         {
-          "word": "simplicité",
-          "phonetic": "/sɛ̃plisite/",
-          "translation": "simplicity, naivety"
+          "word": "digérer",
+          "phonetic": "/di.ʒe.ʁe/",
+          "translation": "to digest, to come to terms with",
+          "example": "Il a eu du mal à digérer la nouvelle.",
+          "exampleTranslation": "He had difficulty digesting the news."
         },
         {
-          "word": "chagrin",
-          "phonetic": "/ʃaɡʁɛ̃/",
-          "translation": "sorrow, grief"
-        },
-        {
-          "word": "affligé",
-          "phonetic": "/afliʒe/",
-          "translation": "afflicted, distressed"
+          "word": "mortellement",
+          "phonetic": "/mɔʁ.tɛ.lə.mɑ̃/",
+          "translation": "mortally, fatally",
+          "example": "Il était mortellement blessé.",
+          "exampleTranslation": "He was mortally wounded."
         }
       ],
-      "grammar": null,
+      "grammar": [
+        {
+          "point": "ne pas pouvoir s'empêcher de + infinitive",
+          "explanation": "This construction means 'cannot help but do something' or 'cannot resist doing something'. It expresses an involuntary action that the speaker feels compelled to do despite their intentions."
+        },
+        {
+          "point": "voir + object + infinitive",
+          "explanation": "This construction means 'to see someone do something' or 'to witness an action'. The verb 'voir' is followed by a direct object and then an infinitive verb, indicating that the speaker observes the entire action."
+        },
+        {
+          "point": "veux-tu que + subjunctive",
+          "explanation": "This construction is used to express doubt or questioning about a possibility. It translates to 'how can you expect that...' or 'do you really think that...' and is followed by the subjunctive mood."
+        },
+        {
+          "point": "ne pas pouvoir + infinitive + que + indicative",
+          "explanation": "This construction means 'cannot help but [do something] that [result]'. It expresses that despite efforts to avoid something, a certain outcome is inevitable."
+        }
+      ],
       "furiganaParagraphs": null,
       "keywords": [
         "transportée",
+        "reproches",
         "perfide",
-        "infidèle",
-        "simplicité",
-        "chagrin",
-        "affligé"
+        "railla",
+        "digérer",
+        "mortellement"
       ]
     },
     {

@@ -4591,6 +4591,77 @@
    }
   ]
  },
+ "66": {
+  "day": 66,
+  "paragraphs": [
+   "Mais à quelle alternative me réduisez-vous, s'il faut que je vous refuse le seul secours que vous voulez accepter ou que je blesse mon devoir en vous l'accordant? car n'est-ce, pas prendre part à votre désordre, que de vous y faire persévérer? Cependant, continua-t-il après avoir réfléchi un moment, je m'imagine que c'est peut-être l'état violent où l'indigence vous jette, qui ne vous laisse pas assez de liberté pour choisir le meilleur parti; il faut un esprit tranquille pour goûter la sagesse et la vérité.",
+   "Je trouverai le moyen de vous faire avoir quelque argent. Permettez-moi, mon cher Chevalier ajouta-t-il en m'embrassant, d'y mettre seulement une condition: c'est que vous m'apprendrez le lieu de votre demeure, et que vous souffrirez que je fasse du moins mes efforts pour vous ramener à la vertu, que je sais que vous aimez, et dont il n'y a que la violence de vos passions qui vous écarte.",
+   "Je lui accordai sincèrement tout ce qu'il souhaitait, et je le priai de plaindre la malignité de mon sort, qui me faisait profiter si mal des conseils d'un ami si vertueux. Il me mena aussitôt chez un banquier de sa connaissance, qui m'avança cent pistoles sur son billet, car il n'était rien moins qu'en argent comptant. J'ai déjà dit qu'il n'était pas riche. Son bénéfice valait mille écus, mais, comme c'était la première année qu'il le possédait, il n'avait encore rien touché du revenu: c'était sur les fruits futurs qu'il me faisait cette avance."
+  ],
+  "furiganaParagraphs": [],
+  "grammar": [
+   {
+    "point": "il faut que + subjunctive",
+    "explanation": "This construction expresses necessity or obligation. The subjunctive mood is required after 'il faut que' to indicate that something must be done."
+   },
+   {
+    "point": "relative clauses with 'que'",
+    "explanation": "Relative clauses introduced by 'que' are used to provide additional information about a noun. The verb in the relative clause must agree with the antecedent noun."
+   },
+   {
+    "point": "reflexive verbs",
+    "explanation": "Reflexive verbs are used when the subject and object of the verb are the same. They are formed with a reflexive pronoun (me, te, se, nous, vous, se) that agrees with the subject."
+   },
+   {
+    "point": "conditional and future tenses",
+    "explanation": "The future tense (je trouverai) is used to express actions that will happen in the future. The conditional can express hypothetical situations or future actions in the past."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "alternative",
+    "phonetic": "/al.tɛʁ.na.tiv/",
+    "translation": "choice between two possibilities",
+    "example": "Il faut faire un choix entre plusieurs alternatives.",
+    "exampleTranslation": "One must make a choice between several alternatives."
+   },
+   {
+    "word": "indigence",
+    "phonetic": "/ɛ̃.di.ʒɑ̃s/",
+    "translation": "extreme poverty",
+    "example": "L'indigence force certaines personnes à commettre des actes désespérés.",
+    "exampleTranslation": "Extreme poverty forces some people to commit desperate acts."
+   },
+   {
+    "word": "persévérer",
+    "phonetic": "/pɛʁ.se.ve.ʁe/",
+    "translation": "to persist",
+    "example": "Il faut persévérer dans ses efforts pour réussir.",
+    "exampleTranslation": "One must persist in one's efforts to succeed."
+   },
+   {
+    "word": "bénéfice",
+    "phonetic": "/be.ne.fis/",
+    "translation": "benefit, income",
+    "example": "Le bénéfice de ce travail est considérable.",
+    "exampleTranslation": "The income from this work is considerable."
+   },
+   {
+    "word": "malignité",
+    "phonetic": "/ma.li.ʒi.ni.te/",
+    "translation": "malice, malignity",
+    "example": "La malignité de son attitude a surpris tout le monde.",
+    "exampleTranslation": "The malice in his attitude surprised everyone."
+   },
+   {
+    "word": "pistoles",
+    "phonetic": "/pis.tol/",
+    "translation": "pistole (an old gold coin)",
+    "example": "Il a trouvé une ancienne pistole dans son grenier.",
+    "exampleTranslation": "He found an old pistole in his attic."
+   }
+  ]
+ },
  "67": {
   "day": 67,
   "paragraphs": [
@@ -5644,6 +5715,77 @@
     "translation": "languishing, weak",
     "example": "Après la maladie, il restait languissant et fatigué.",
     "exampleTranslation": "After the illness, he remained weak and tired."
+   }
+  ]
+ },
+ "82": {
+  "day": 82,
+  "paragraphs": [
+   "Elle, au contraire, paraissait transportée du plaisir de me revoir. Elle me fit des reproches de ma froideur. Je ne pus m'empêcher de laisser échapper les noms de perfide et d'infidèle, que j'accompagnai d'autant de soupirs. Elle me railla d'abord de ma simplicité; mais, lorsqu'elle vit mes regards s'attacher toujours tristement sur elle, et la peine que j'avais à digérer un changement si contraire à mon humeur et à mes désirs, elle passa seule dans son cabinet.",
+   "Je la suivis un moment après. Je l'y trouvai tout en pleurs; je lui demandai ce qui les causait. Il t'est bien aisé de le voir, me dit-elle, comment veux-tu que je vive, si ma vue n'est plus propre qu'à te causer un air sombre et chagrin? Tu ne m'as pas fait une seule caresse, depuis une heure que tu es ici, et tu as reçu les miennes avec la majesté du Grand Turc au Sérail.",
+   "Écoutez, Manon, lui répondis-je en l'embrassant, je ne puis vous cacher que j'ai le coeur mortellement affligé. Je ne parle point à présent des alarmes où votre fuite imprévue m'a jeté, ni de la cruauté que vous avez eue de m'abandonner sans un mot de consolation, après avoir passé la nuit dans un autre lit que moi. Le charme de votre présence m'en ferait bien oublier davantage."
+  ],
+  "furiganaParagraphs": [],
+  "grammar": [
+   {
+    "point": "ne pas pouvoir s'empêcher de + infinitive",
+    "explanation": "This construction means 'cannot help but do something' or 'cannot resist doing something'. It expresses an involuntary action that the speaker feels compelled to do despite their intentions."
+   },
+   {
+    "point": "voir + object + infinitive",
+    "explanation": "This construction means 'to see someone do something' or 'to witness an action'. The verb 'voir' is followed by a direct object and then an infinitive verb, indicating that the speaker observes the entire action."
+   },
+   {
+    "point": "veux-tu que + subjunctive",
+    "explanation": "This construction is used to express doubt or questioning about a possibility. It translates to 'how can you expect that...' or 'do you really think that...' and is followed by the subjunctive mood."
+   },
+   {
+    "point": "ne pas pouvoir + infinitive + que + indicative",
+    "explanation": "This construction means 'cannot help but [do something] that [result]'. It expresses that despite efforts to avoid something, a certain outcome is inevitable."
+   }
+  ],
+  "vocabulary": [
+   {
+    "word": "transportée",
+    "phonetic": "/tʁɑ̃spɔʁte/",
+    "translation": "transported, carried away (emotionally)",
+    "example": "Elle était transportée de joie.",
+    "exampleTranslation": "She was transported with joy."
+   },
+   {
+    "word": "reproches",
+    "phonetic": "/ʁə.pʁɔʃ/",
+    "translation": "reproaches, complaints",
+    "example": "Il a fait des reproches à son employé.",
+    "exampleTranslation": "He made reproaches to his employee."
+   },
+   {
+    "word": "perfide",
+    "phonetic": "/pɛʁ.fid/",
+    "translation": "perfidious, treacherous",
+    "example": "Son comportement était perfide.",
+    "exampleTranslation": "His behavior was treacherous."
+   },
+   {
+    "word": "railla",
+    "phonetic": "/ʁa.ja/",
+    "translation": "mocked, made fun of",
+    "example": "Il a raillé ses camarades pour leur manque de courage.",
+    "exampleTranslation": "He mocked his classmates for their lack of courage."
+   },
+   {
+    "word": "digérer",
+    "phonetic": "/di.ʒe.ʁe/",
+    "translation": "to digest, to come to terms with",
+    "example": "Il a eu du mal à digérer la nouvelle.",
+    "exampleTranslation": "He had difficulty digesting the news."
+   },
+   {
+    "word": "mortellement",
+    "phonetic": "/mɔʁ.tɛ.lə.mɑ̃/",
+    "translation": "mortally, fatally",
+    "example": "Il était mortellement blessé.",
+    "exampleTranslation": "He was mortally wounded."
    }
   ]
  },
